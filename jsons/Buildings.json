@@ -18,17 +18,6 @@
 		"quote": "'Regard your soldiers as your children, and they will follow you into the deepest valleys; look on them as your own beloved sons, and they will stand by you even unto death.' - Sun Tzu"
 	},
 	{
-		"name": "Alhambra",
-		"culture": 1,
-		"greatPersonPoints": {"Great Artist": 1},
-		"isWonder": true,
-		"percentStatBonus": {"culture": 20},
-		"uniques": ["All newly-trained [{Land} {Melee}] units [in this city] receive the [Drill] promotion",
-			"Gain a free [Castle] [in this city]"],
-		"requiredTech": "Chivalry",
-		"quote": "'Justice is an unassailable fortress, built on the brow of a mountain which cannot be overthrown by the violence of torrents, nor demolished by the force of armies.' - Joseph Addison"
-	},	
-	{
 		"name": "Arsenal",
 		"cost": 300,
 		"cityStrength": 9,
@@ -54,48 +43,5 @@
 		"requiredBuilding": "Theatre",
 		"maintenance": 2,
 		"requiredTech": "Refrigeration"
-	},
-	{
-		"name": "Military Research Bureau",
-		"cost": 125,
-		"science": 4,
-		"isNationalWonder": true,
-		"requiredTech": "Scientific Theory",
-		"uniques": ["Destroyed when the city is captured", "Cost increases by [30] per owned city", "Provides [2] [Secret Project]"]
-	},
-	{
-		"name": "Skunkworks",
-		"isWonder": true,
-		"science": 6,
-		"production": 6,
-		"isNationalWonder": true,
-		"requiredTech": "Computers",
-		"uniques": ["Provides [3] [Secret Project]"]
-	},
-	{
-		"name": "Cloning Facility",
-		"cost": 1000,
-		"food": -6,
-		"science": 4,
-		"isNationalWonder": true,
-		"requiredTech": "Pharmaceuticals",
-		"uniques": ["[+200]% Production when constructing [Infantry] units [in this city]", "Destroyed when the city is captured", "Consumes [1] [Secret Project]", "Will not be displayed in Civilopedia", "Only available <with [Secret Project]>"]
-	},
-	{
-		"name": "ARENA Defense System",
-		"cost": 1500,
-		"isNationalWonder": true,
-		"requiredTech": "Lasers",
-		"cityStrength": 30,
-		"cityHealth": 50,
-		"uniques": ["Consumes [1] [Secret Project]", "Will not be displayed in Civilopedia", "Only available <with [Secret Project]>"]
-	},
-	{
-		"name": "Iron Curtain",
-		"cost": 2000,
-		"isNationalWonder": true,
-		"requiredTech": "Particle Physics",
-		"cityHealth": 200,
-		"uniques": ["Population loss from nuclear attacks [-100]% [in this city]", "Consumes [1] [Secret Project]", "Will not be displayed in Civilopedia", "Only available <with [Secret Project]>", "All newly-trained [Heavy Cavalry] units [in this city] receive the [Iron Curtain Force Field] promotion", "All newly-trained [Light Cavalry] units [in this city] receive the [Iron Curtain Force Field] promotion"]
 	}
 ]
