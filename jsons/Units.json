@@ -1716,7 +1716,7 @@
 		"cost": 56,
 		"requiredTech": "The Wheel",
 		"requiredResource": "Horses",
-		"upgradesTo": "Horse Archer",
+		"upgradesTo": "Bow Rider",
 		"obsoleteTech": "Chivalry",
 		"uniques": ["No defensive terrain bonus", "Rough terrain penalty", "Never appears as a Barbarian unit", "[-10]% Strength <vs [Infantry] units>"],
 		"attackSound": "arrow"
