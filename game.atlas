@@ -62,7 +62,7 @@ TileSets/FantasyHex/Tiles/Fort
   index: -1
 TileSets/FantasyHex/Tiles/Trench
   rotate: false
-  xy: 1268, 1244
+  xy: 1228, 1244
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
@@ -88,238 +88,238 @@ TileSets/FantasyHex/Units/Armed Peasants
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Armed Workers
+TileSets/FantasyHex/Units/Armored Car
   rotate: false
   xy: 44, 4
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Armored Car
+TileSets/FantasyHex/Units/Armored Cruiser
   rotate: false
   xy: 900, 996
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Armored Cruiser
+TileSets/FantasyHex/Units/Armored Horseman
   rotate: false
   xy: 1960, 1285
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Armored Horseman
+TileSets/FantasyHex/Units/Armored Infantry
   rotate: false
   xy: 84, 4
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Armored Infantry
+TileSets/FantasyHex/Units/Arquebusier
   rotate: false
   xy: 124, 4
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Arquebusier
+TileSets/FantasyHex/Units/Arsenal Ship
   rotate: false
   xy: 164, 4
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Arsenal Ship
+TileSets/FantasyHex/Units/Artillery
   rotate: false
   xy: 2008, 1459
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Artillery
+TileSets/FantasyHex/Units/Battering Ram
   rotate: false
   xy: 940, 996
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Battering Ram
+TileSets/FantasyHex/Units/Bazooka
   rotate: false
   xy: 2000, 1285
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Bazooka
+TileSets/FantasyHex/Units/Bombard Cannon
   rotate: false
   xy: 1920, 1249
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Bombard Cannon
+TileSets/FantasyHex/Units/Bow Rider
   rotate: false
   xy: 1960, 1249
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Bow Rider
+TileSets/FantasyHex/Units/Cannon
   rotate: false
   xy: 2000, 1249
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Cannon
+TileSets/FantasyHex/Units/Carrack
   rotate: false
   xy: 868, 960
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Carrack
+TileSets/FantasyHex/Units/Carrier
   rotate: false
   xy: 868, 924
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Carrier
+TileSets/FantasyHex/Units/Cavalry
   rotate: false
   xy: 908, 960
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Cavalry
+TileSets/FantasyHex/Units/Citizen Militia
   rotate: false
   xy: 868, 888
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Citizen Militia
+TileSets/FantasyHex/Units/Cog
   rotate: false
   xy: 908, 924
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Cog
+TileSets/FantasyHex/Units/Commando
   rotate: false
   xy: 868, 852
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Commando
+TileSets/FantasyHex/Units/Commerce Raider
   rotate: false
   xy: 908, 888
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Commerce Raider
+TileSets/FantasyHex/Units/Conscripts
   rotate: false
   xy: 868, 816
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Conscripts
+TileSets/FantasyHex/Units/Courser
   rotate: false
   xy: 908, 852
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Courser
+TileSets/FantasyHex/Units/Cuirasser
   rotate: false
   xy: 868, 780
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Cuirasser
+TileSets/FantasyHex/Units/Demolition Sapper
   rotate: false
   xy: 908, 816
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Demolition Sapper
+TileSets/FantasyHex/Units/Draftee
   rotate: false
   xy: 868, 744
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Draftee
+TileSets/FantasyHex/Units/Dragoon
   rotate: false
   xy: 908, 780
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Dragoon
+TileSets/FantasyHex/Units/Drone Launch Vehicle
   rotate: false
   xy: 868, 708
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Drone Launch Vehicle
+TileSets/FantasyHex/Units/Explorer
   rotate: false
   xy: 908, 744
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Explorer
+TileSets/FantasyHex/Units/Field Artillery
   rotate: false
   xy: 868, 672
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Field Artillery
+TileSets/FantasyHex/Units/Field Cannon
   rotate: false
   xy: 908, 708
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Field Cannon
+TileSets/FantasyHex/Units/Field Commander
   rotate: false
   xy: 868, 636
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Field Commander
+TileSets/FantasyHex/Units/Field Gun
   rotate: false
   xy: 908, 672
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Field Gun
+TileSets/FantasyHex/Units/Field Howitzer
   rotate: false
   xy: 868, 600
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Field Howitzer
+TileSets/FantasyHex/Units/Flamethrower
   rotate: false
   xy: 908, 636
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Flamethrower
+TileSets/FantasyHex/Units/Galley
   rotate: false
   xy: 868, 564
   size: 32, 28
@@ -648,168 +648,168 @@ TileSets/FantasyHex/Units/Pike and Shot
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Pirate Galley
+TileSets/FantasyHex/Units/Ranger
   rotate: false
   xy: 948, 456
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Ranger
+TileSets/FantasyHex/Units/Red Army Tank
   rotate: false
   xy: 948, 420
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Red Army Tank
+TileSets/FantasyHex/Units/SS Booster
   rotate: false
   xy: 948, 384
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/SS Booster
+TileSets/FantasyHex/Units/SS Cockpit
   rotate: false
   xy: 948, 348
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/SS Cockpit
+TileSets/FantasyHex/Units/SS Engine
   rotate: false
   xy: 948, 312
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/SS Engine
+TileSets/FantasyHex/Units/SS Stasis Chamber
   rotate: false
   xy: 948, 276
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/SS Stasis Chamber
+TileSets/FantasyHex/Units/Self Propelled Gun
   rotate: false
   xy: 948, 240
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Self Propelled Gun
+TileSets/FantasyHex/Units/Ship of the Line
   rotate: false
   xy: 948, 204
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Ship of the Line
+TileSets/FantasyHex/Units/Siege Ram
   rotate: false
   xy: 948, 168
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Siege Ram
+TileSets/FantasyHex/Units/Skirmisher
   rotate: false
   xy: 948, 132
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Skirmisher
+TileSets/FantasyHex/Units/Slinger
   rotate: false
   xy: 948, 96
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Slinger
+TileSets/FantasyHex/Units/Spear Thrower
   rotate: false
   xy: 948, 60
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Spear Thrower
+TileSets/FantasyHex/Units/Spearman
   rotate: false
   xy: 948, 24
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Spearman
+TileSets/FantasyHex/Units/Spec Ops
   rotate: false
   xy: 962, 1272
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Spec Ops
+TileSets/FantasyHex/Units/Stealth Tank
   rotate: false
   xy: 1002, 1272
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Stealth Tank
+TileSets/FantasyHex/Units/Stoneslinger
   rotate: false
   xy: 948, 1236
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Stoneslinger
+TileSets/FantasyHex/Units/Superheavy Tank
   rotate: false
   xy: 988, 1236
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Superheavy Tank
+TileSets/FantasyHex/Units/Supply Truck
   rotate: false
   xy: 1028, 1236
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Supply Truck
+TileSets/FantasyHex/Units/Tank Destroyer
   rotate: false
   xy: 1068, 1244
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Tank Destroyer
+TileSets/FantasyHex/Units/Technical
   rotate: false
   xy: 1108, 1244
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Technical
+TileSets/FantasyHex/Units/Theatre Defense System
   rotate: false
   xy: 1148, 1244
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Theatre Defense System
+TileSets/FantasyHex/Units/Treasure Ship
   rotate: false
   xy: 1188, 1244
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Treasure Ship
+TileSets/FantasyHex/Units/Trireme
   rotate: false
-  xy: 1228, 1244
+  xy: 1268, 1244
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Trireme
+TileSets/FantasyHex/Units/Volunteers
   rotate: false
   xy: 1308, 1244
   size: 32, 28
