@@ -142,7 +142,7 @@
 
     {
         "name": "Air Fighter",
-        "uniques": ["Aircraft", "[+4] Sight", "Can see over obstacles"],
+        "uniques": ["Aircraft", "[+4] Sight", "Can see over obstacles", "Can perform Air Sweep"],
         "movementType": "Air"
     },
     {
@@ -152,7 +152,7 @@
     },
     {
         "name": "Air Close Air Support",
-        "uniques": ["Aircraft"],
+        "uniques": ["Aircraft", "Can perform Air Sweep"],
         "movementType": "Air"
     },
     {
@@ -243,7 +243,7 @@
     {
         "name": "Fighter",
         "movementType": "Air",
-        "uniques": ["Aircraft", "[+4] Sight", "Can see over obstacles", "Cannot intercept [Ballistic] units"]
+        "uniques": ["Aircraft", "[+4] Sight", "Can see over obstacles", "Cannot intercept [Ballistic] units", "Can perform Air Sweep"]
     },
     {
         "name": "Bomber",
