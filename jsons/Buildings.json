@@ -29,6 +29,7 @@
 	},
 	{
 		"name": "Theatre",
+                "cost": 150
 		"happiness": 3,
 		"hurryCostModifier": 10,
 		"specialistSlots": {"Entertainer": 1},
