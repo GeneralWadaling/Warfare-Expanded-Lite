@@ -39,6 +39,7 @@
 	},
 	{
 		"name": "Stadium",
+                "cost": 150
 		"happiness": 4,
 		"specialistSlots": {"Entertainer": 1},
 		"requiredBuilding": "Theatre",
