@@ -1339,7 +1339,7 @@
 		"movement": 2,
 		"strength": 70,
 		"cost": 450,
-		"requiredTech": "Radar",
+		"requiredTech": "Mobile Tactics",
 		"uniques": ["May Paradrop up to [10] tiles from inside friendly territory", "All tiles cost 1 movement", "Never appears as a Barbarian unit"],
 		"attackSound": "shot",
 	},
