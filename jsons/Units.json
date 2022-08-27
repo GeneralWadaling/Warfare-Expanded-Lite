@@ -953,7 +953,7 @@
 		"movement": 3,
 		"strength": 20,
 		"cost": 50,
-		"uniques": ["May upgrade to [Light Infantry] through ruins-like effects", "Never appears as a Barbarian unit", "[+100]% Strength <vs [Barbarian] units> <when fighting in [Friendly Land] tiles>", "[-50]% Strength <when fighting in [Foreign Land] tiles>", "[-75]% maintenance costs", "[-2] Movement <in [Foreign Land] tiles>"],
+		"uniques": ["May upgrade to [Rifleman] through ruins-like effects", "Never appears as a Barbarian unit", "[+100]% Strength <vs [Barbarian] units> <when fighting in [Friendly Land] tiles>", "[-50]% Strength <when fighting in [Foreign Land] tiles>", "[-75]% maintenance costs", "[-2] Movement <in [Foreign Land] tiles>"],
 		"upgradesTo": "Draftee",
 		"requiredTech": "Industrialization",
 		"obsoleteTech": "Radio",
