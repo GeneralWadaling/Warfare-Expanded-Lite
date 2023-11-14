@@ -2469,7 +2469,7 @@
 		"unitType": "Ranged Water",
 		"uniqueTo": "China",
 		"replaces": "Man O War",
-		"movement": 2.5,
+		"movement": 2,
 		"strength": 24,
 		"rangedStrength": 30,
 		"cost": 210,
