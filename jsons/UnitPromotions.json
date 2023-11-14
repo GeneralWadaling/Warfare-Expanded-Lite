@@ -19,13 +19,13 @@
 	},
 	{
 		"name": "Battlefield Survival II",
-		"uniques": ["Heals [20] damage if it kills a Unit", "[+20]% Strength <when attacking>"],
+		"uniques": ["Heals [+20] damage if it kills a unit", "[+20]% Strength <when attacking>"],
 		"prerequisites": ["Battlefield Survival I", "Defender I"],
 		"unitTypes": ["Militia"]
 	},
 	{
 		"name": "Defender II",
-		"uniques": ["All adjacent units heal [10] extra HP when healing", "[+30]% Strength <when defending>"],
+		"uniques": ["All adjacent units heal [+10] HP when healing", "[+30]% Strength <when defending>"],
 		"prerequisites": ["Battlefield Survival I", "Defender I"],
 		"unitTypes": ["Militia"]
 	},
