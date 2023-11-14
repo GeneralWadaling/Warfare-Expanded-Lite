@@ -29,7 +29,7 @@
 		"name": "Medic",
 		"unitType": "Civilian",
 		"movement": 2,
-		"uniques": ["All adjacent units heal [10] extra HP when healing"],
+		"uniques": ["All adjacent units heal [+10] HP when healing"],
 		"cost": 275,
 		"requiredTech": "Biology",
 		"upgradesTo": "Supply Truck",
@@ -39,7 +39,7 @@
 		"name": "Supply Truck",
 		"unitType": "Civilian",
 		"movement": 3,
-		"uniques": ["All adjacent units heal [25] extra HP when healing", "Transfer Movement to [Military]"],
+		"uniques": ["All adjacent units heal [+10] HP when healing", "Transfer Movement to [Military]"],
 		"cost": 450,
 		"requiredTech": "Pharmaceuticals"
 	},
@@ -836,7 +836,7 @@
 	//recon
 	{
 		"name": "Scout",
-		"unitType": "Recon",
+		"unitType": "Scout",
 		"movement": 2,
 		"strength": 5,
 		"cost": 25,
@@ -847,7 +847,7 @@
 	},
 	{
 		"name": "Explorer",
-		"unitType": "Recon",
+		"unitType": "Scout",
 		"movement": 2,
 		"strength": 13,
 		"cost": 70,
@@ -859,7 +859,7 @@
 	},
 	{
 		"name": "Ranger",
-		"unitType": "Recon",
+		"unitType": "Scout",
 		"movement": 2,
 		"strength": 20,
 		"rangedStrength": 25,
@@ -873,7 +873,7 @@
 	},
 	{
 		"name": "Spec Ops",
-		"unitType": "Recon",
+		"unitType": "Scout",
 		"movement": 2,
 		"strength": 50,
 		"rangedStrength": 60,
@@ -1490,7 +1490,7 @@
 		"rangedStrength": 50,
 		"cost": 400,
 		"requiredTech": "Mobile Tactics",
-		"uniques": ["Can move after attacking", "Heals [15] damage if it kills a Unit", "No defensive terrain bonus"],
+		"uniques": ["Can move after attacking", "Heals [+15] damage if it kills a unit", "No defensive terrain bonus"],
 		"attackSound": "Machine Gun"
 	},
 
@@ -2207,7 +2207,7 @@
 		"strength": 10,
 		"cost": 45,
 		"requiredTech": "Sailing",
-		"uniques": ["Cannot enter ocean tiles", "Heals [10] damage if it kills a Unit"],
+		"uniques": ["Cannot enter ocean tiles", "Heals [+15] damage if it kills a unit"],
 		"upgradesTo": "Cog",
 		"promotions": ["Coastal Raider I", "Landing Party"],
 		"obsoleteTech": "Astronomy",
@@ -2596,7 +2596,7 @@
 		"cost": 375,
 		"requiredTech": "Combustion",
 		"promotions": ["Coastal Raider I"],
-		"uniques": ["May capture killed [Water] units", "Invisible to non-adjacent units", "Can see invisible [Melee Water] units"],
+		"uniques": ["May capture killed [Water] units", "Invisible to non-adjacent units", "Can see invisible [Melee Water] units", "Heals [+15] damage if it kills a unit"],
 		"attackSound": "shipguns"
 	},
 
