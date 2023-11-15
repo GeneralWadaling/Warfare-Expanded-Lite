@@ -277,7 +277,7 @@
                 "obsoleteTech": "Replaceable Parts",
                 "upgradesTo": "Great War Infantry",
                 "promotions": ["Amphibious"],
-                "uniques": ["Infantry", "[+33]% Strength <on foreign continents>"],
+                "uniques": ["Infantry", "[+25]% Strength <on foreign continents>"],
                 "attackSound": "shot"
         },
 	{
