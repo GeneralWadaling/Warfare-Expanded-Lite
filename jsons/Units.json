@@ -548,7 +548,7 @@
 		"promotions": ["Home Sweet Home","Besiege"],
 		"obsoleteTech": "Ballistics",
 		"upgradesTo": "Anti-Tank Gun",
-		"uniques": ["[+50]% Strength <vs [Mounted] units>", "Never appears as a Barbarian unit", "[-15]% Strength <vs [Infantry] units>"],
+		"uniques": ["[+50]% Strength <vs [Mounted] units>", "Never appears as a Barbarian unit"],
 		"attackSound": "shot"
 	},
 	{
@@ -1328,7 +1328,7 @@
 		"strength": 55,
 		"rangedStrength": 70,
 		"range": 3,
-		"cost": 475,
+		"cost": 500,
 		"requiredTech": "Telecommunications",
 		"requiredResource": "Aluminum",
 		"uniques": ["[+200]% Strength <vs cities> <when attacking>","No defensive terrain bonus", "Must set up to ranged attack", "Can carry [1] [Ballistic] units", "Never appears as a Barbarian unit"],
