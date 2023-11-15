@@ -6,6 +6,27 @@
 		"unitTypes": ["Sword","Gunpowder","Mounted","Scout","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine"]
 	},
 
+	//Modified Scout Promotion
+	{
+		"name": "Scouting III",
+		"prerequisites": ["Scouting II"],
+		"uniques": ["[+1] Movement", "May enter foreign tiles without open borders"],
+		"unitTypes": ["Scout"],
+	},
+	{
+		"name": "Survivalism III",
+		"prerequisites": ["Survivalism II"],
+		"uniques": ["Unit will heal every turn, even if it performs an action", "May withdraw before melee ([75]%)", "Ignores Zone of Control"], // This number is not based on any source
+		"unitTypes": ["Scout"],
+	},
+	{
+		"name": "Camouflage",
+		"prerequisites": ["Scouting II", "Survivalism II"],
+		"uniques": ["Invisible to non-adjacent units"],
+		"unitTypes": ["Scout"],
+	},
+
+
 	//Militia
 	{
 		"name": "Battlefield Survival I",
@@ -32,7 +53,7 @@
 	{
 		"name": "Special Promotion",
 		"uniques": ["This Unit upgrades for free including special upgrades"],
-		"prerequisites": ["Battlefield Survival II", "Defender II"],
+		"prerequisites": ["Battlefield Survival I", "Defender I"],
 		"unitTypes": ["Militia"]
 	},
 
@@ -109,12 +130,12 @@
 	},
 	{
 		"name": "Penetration Bomb",
-		"uniques": ["[+100]% Strength <vs cities>"],
+		"uniques": ["[+130]% Strength <vs cities>"],
 		"unitTypes": ["Missile"]
 	},
 	{
 		"name": "AA Buster",
-		"uniques": ["[+100]% Strength <vs [Anti Air] units>"],
+		"uniques": ["[+130]% Strength <vs [Anti Air] units>"],
 		"unitTypes": ["Missile"]
 	},
 
