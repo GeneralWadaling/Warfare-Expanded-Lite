@@ -1098,7 +1098,7 @@
 		"obsoleteTech": "Chemistry",
 		"upgradesTo": "Medieval Siege Tower",
 		"uniques": ["[+100]% Strength <vs cities> <when attacking>", "No defensive terrain bonus", "[-50]% Strength <when defending>",
-		"Can only attack [City] units", "Never appears as a Barbarian unit", "[-1] Sight"],
+		"Can only attack [City] units", "Never appears as a Barbarian unit", "[-1] Sight", "Ignores Zone of Control"],
 		"attackSound": "throw"
 	},
 	{
@@ -1112,7 +1112,7 @@
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Metal Casting",
 		"upgradesTo": "Medieval Siege Tower",
-		"uniques": ["[+300]% Strength <vs cities> <when attacking>", "No defensive terrain bonus", "[-33]% Strength <when defending>", "Can only attack [City] units", "[-1] Sight"],
+		"uniques": ["[+300]% Strength <vs cities> <when attacking>", "No defensive terrain bonus", "[-33]% Strength <when defending>", "Can only attack [City] units", "[-1] Sight", "Ignores Zone of Control"],
 		"promotions":  ["Cover I"],
 		"attackSound": "throw"
 	},
@@ -1125,7 +1125,7 @@
 		"requiredTech": "Physics",
 		"obsoleteTech": "Chemistry",
 		"upgradesTo": "Grenadier",
-		"uniques": ["[+100]% Strength <vs cities>", "No defensive terrain bonus", "Can only attack [City] units", "Never appears as a Barbarian unit"],
+		"uniques": ["[+100]% Strength <vs cities>", "No defensive terrain bonus", "Can only attack [City] units", "Never appears as a Barbarian unit", "Ignores Zone of Control"],
 		"attackSound": "throw"
 	},
 	{
@@ -1409,7 +1409,7 @@
 		"requiredResource": "Horses",
 		"upgradesTo": "Courser",
 		"obsoleteTech": "Chivalry",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>" ],
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Ignores Zone of Control"],
 		"hurryCostModifier": 20,
 		"attackSound": "horse"
 	},
@@ -1426,7 +1426,7 @@
 		"obsoleteTech": "Chivalry",
 		"promotions": ["Great Generals I"],
 		"requiredResource": "Horses",
-		"uniques": ["Can move after attacking", "No defensive terrain bonus", "[-33]% Strength <vs cities> <when attacking>"],
+		"uniques": ["Can move after attacking", "No defensive terrain bonus", "[-33]% Strength <vs cities> <when attacking>", "Ignores Zone of Control"],
 		"hurryCostModifier": 20,
 		"attackSound": "horse"
 	},
@@ -1440,7 +1440,7 @@
 		"obsoleteTech": "Gunpowder",
 		"upgradesTo": "Dragoon",
 		"requiredResource": "Horses",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Ignores Zone of Control"],
 		"attackSound": "horse"
 	},
 	{
@@ -1453,7 +1453,7 @@
 		"obsoleteTech": "Military Science",
 		"requiredResource": "Horses",
 		"upgradesTo": "Cavalry",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Ignores Zone of Control"],
 		"attackSound": "horse"
 	},
 	{
@@ -1469,7 +1469,7 @@
 		"requiredResource": "Horses",
 		"upgradesTo": "Cavalry",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>",
-			"[+1] Sight"],
+			"[+1] Sight", "Ignores Zone of Control"],
 		"promotions": ["[Hussar] ability"],
 		"attackSound": "horse"
 	},
@@ -1482,7 +1482,7 @@
 		"requiredTech": "Military Science",
 		"requiredResource": "Horses",
 		"upgradesTo": "Armored Car",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit", "Ignores Zone of Control"],
 		"attackSound": "horse"
 	},
 	{
@@ -1496,7 +1496,7 @@
 		"requiredTech": "Military Science",
 		"requiredResource": "Horses",
 		"upgradesTo": "Armored Car",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Ignores Zone of Control"],
 		"promotions": ["[Cossack] ability"],
 		"attackSound": "horse"
 	},
@@ -1509,7 +1509,7 @@
 		"requiredTech": "Railroads",
 		"upgradesTo": "Armored Infantry",
 		"obsoleteTech": "Combined Arms",
-"uniques": ["Can move after attacking", "No defensive terrain bonus", "Never appears as a Barbarian unit"],
+"uniques": ["Can move after attacking", "No defensive terrain bonus", "Never appears as a Barbarian unit", "Ignores Zone of Control"],
 		"attackSound": "Machine Gun"
 	},
 	{
@@ -1519,7 +1519,7 @@
 		"strength": 70,
 		"cost": 450,
 		"requiredTech": "Combined Arms",
-		"uniques": ["Can move after attacking", "Never appears as a Barbarian unit"],
+		"uniques": ["Can move after attacking", "Never appears as a Barbarian unit", "Ignores Zone of Control"],
 		"upgradesTo": "Mechanized Infantry",
 		"obsoleteTech": "Mobile Tactics",
 		"attackSound": "tankshot"
@@ -1531,7 +1531,7 @@
 		"strength": 90,
 		"cost": 475,
 		"requiredTech": "Mobile Tactics",
-		"uniques": ["Can move after attacking", "Never appears as a Barbarian unit"],
+		"uniques": ["Can move after attacking", "Never appears as a Barbarian unit", "Ignores Zone of Control"],
 		"attackSound": "tankshot"
 	},
 	{
@@ -1544,7 +1544,7 @@
 		"rangedStrength": 50,
 		"cost": 400,
 		"requiredTech": "Mobile Tactics",
-		"uniques": ["Can move after attacking", "Heals [+15] damage if it kills a unit", "No defensive terrain bonus"],
+		"uniques": ["Can move after attacking", "Heals [+15] damage if it kills a unit", "No defensive terrain bonus", "Ignores Zone of Control"],
 		"attackSound": "Machine Gun"
 	},
 
@@ -1612,7 +1612,7 @@
 		"name": "Knight",
 		"unitType": "Mounted",
 		"movement": 4,
-		"strength": 24,
+		"strength": 25,
 		"cost": 150,
 		"requiredTech": "Steel",
 		"obsoleteTech": "Metallurgy",
@@ -1627,7 +1627,7 @@
 		"replaces": "Knight",
 		"uniqueTo": "Spain",
 		"movement": 4,
-		"strength": 25,
+		"strength": 26,
 		"cost": 165,
 		"requiredTech": "Chivalry",
 		"requiredResource": "Horses",
@@ -1657,7 +1657,7 @@
 		"name": "Cuirasser",
 		"unitType": "Mounted",
 		"movement": 4,
-		"strength": 25,
+		"strength": 27,
 		"cost": 200,
 		"requiredTech": "Metallurgy",
 		"obsoleteTech": "Military Science",
@@ -1672,7 +1672,7 @@
 		"replaces": "Cuirasser",
 		"uniqueTo": "Sweden",
 		"movement": 4,
-		"strength": 25,
+		"strength": 27,
 		"cost": 200,
 		"requiredTech": "Metallurgy",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>","[+10]% Strength <when attacking>"],
