@@ -240,6 +240,10 @@
 		"uniques": ["[+33]% Strength <vs [Fighter] units>"]
 	},
 	{
+		"name": "[Sturmtruppen] ability",
+		"uniques": ["[+15]% Strength <when attacking>"]
+	},
+	{
 		"name": "UAV",
 		"uniques": ["[-50]% maintenance costs", "Damage taken from interception reduced by [50]%", "[+20]% Strength when stacked with [Siege Carrier]"]
 	},
