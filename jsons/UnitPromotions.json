@@ -229,7 +229,7 @@
 	},
 	{
 		"name": "[Minuteman] ability",
-		"uniques": ["[+20]% Strength <when fighting in [Rough terrain] tiles>"]
+		"uniques": ["[+20]% Strength <when fighting in [Rough terrain] tiles>", "Ignores Zone of Control"]
 	},
 	{
 		"name": "[Hussar] ability",
