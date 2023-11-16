@@ -40,7 +40,7 @@
 		"unitType": "Civilian",
 		"uniqueTo": "Celts",
 		"movement": 2,
-		"uniques": ["All adjacent units heal [+5] HP when healing","Can be purchased with [Faith]"],
+		"uniques": ["All adjacent units heal [+5] HP when healing","Can be purchased with [Faith] [in all cities]"],
 		"cost": 80,
 		"upgradesTo": "Medic",
 		"obsoleteTech": "Biology"
