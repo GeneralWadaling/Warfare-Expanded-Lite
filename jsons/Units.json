@@ -36,9 +36,19 @@
 		"obsoleteTech": "Pharmaceuticals"
 	},
 	{
+		"name": "Druid",
+		"unitType": "Civilian",
+		"uniqueTo": "Celts",
+		"movement": 2,
+		"uniques": ["All adjacent units heal [+5] HP when healing","Can be purchased with [Faith]"],
+		"cost": 80,
+		"upgradesTo": "Medic",
+		"obsoleteTech": "Biology"
+	},
+	{
 		"name": "Supply Truck",
 		"unitType": "Civilian",
-		"movement": 3,
+		"movement": 4,
 		"uniques": ["All adjacent units heal [+10] HP when healing", "Transfer Movement to [Military]"],
 		"cost": 450,
 		"requiredTech": "Pharmaceuticals"
@@ -1509,6 +1519,7 @@
 		"requiredTech": "Railroads",
 		"upgradesTo": "Armored Infantry",
 		"obsoleteTech": "Combined Arms",
+		"requiredResource": "Oil",
 "uniques": ["Can move after attacking", "No defensive terrain bonus", "Never appears as a Barbarian unit", "Ignores Zone of Control"],
 		"attackSound": "Machine Gun"
 	},
@@ -1522,6 +1533,7 @@
 		"uniques": ["Can move after attacking", "Never appears as a Barbarian unit", "Ignores Zone of Control"],
 		"upgradesTo": "Mechanized Infantry",
 		"obsoleteTech": "Mobile Tactics",
+		"requiredResource": "Oil",
 		"attackSound": "tankshot"
 	},
 	{
@@ -1531,6 +1543,7 @@
 		"strength": 90,
 		"cost": 475,
 		"requiredTech": "Mobile Tactics",
+		"requiredResource": "Oil",
 		"uniques": ["Can move after attacking", "Never appears as a Barbarian unit", "Ignores Zone of Control"],
 		"attackSound": "tankshot"
 	},
@@ -1570,9 +1583,8 @@
 		"cost": 90,
 		"requiredTech": "Horseback Riding",
 		"upgradesTo": "Knight",
-		"requiredResource": "Iron",
 		"obsoleteTech": "Steel",
-		"uniques": ["Can move after attacking", "No defensive terrain bonus", "[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit","[+10]% Strength <when attacking>"],
+		"uniques": ["Can move after attacking", "No defensive terrain bonus", "[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit","[+10]% Strength <when attacking>", "Consumes [1] [Horses]", "Consumes [1] [Iron]"],
 		"hurryCostModifier": 20,
 		"attackSound": "horse"
 	},
@@ -1603,8 +1615,7 @@
 		"requiredTech": "Horseback Riding",
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
-		"requiredResource": "Iron",
-		"uniques": ["Can move after attacking", "[-25]% Strength <vs cities> <when attacking>","[+10]% Strength <when attacking>"],
+		"uniques": ["Can move after attacking", "[-25]% Strength <vs cities> <when attacking>","[+10]% Strength <when attacking>", "Consumes [1] [Horses]", "Consumes [1] [Iron]"],
 		"hurryCostModifier": 20,
 		"attackSound": "horse"
 	},
@@ -1617,8 +1628,7 @@
 		"requiredTech": "Steel",
 		"obsoleteTech": "Metallurgy",
 		"upgradesTo": "Cuirasser",
-		"requiredResource": "Iron",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit","[+10]% Strength <when attacking>"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit","[+10]% Strength <when attacking>", "Consumes [1] [Horses]", "Consumes [1] [Iron]"],
 		"attackSound": "horse"
 	},
 	{
@@ -1630,10 +1640,9 @@
 		"strength": 26,
 		"cost": 165,
 		"requiredTech": "Chivalry",
-		"requiredResource": "Horses",
 		"upgradesTo": "Cuirasser",
 		"obsoleteTech": "Metallurgy",
-		"uniques": ["Can move after attacking","No defensive terrain bonus", "Founds a new city <on foreign continents>", "[+2] Sight","[+10]% Strength <when attacking>"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus", "Founds a new city <on foreign continents>", "[+2] Sight","[+10]% Strength <when attacking>", "Consumes [1] [Horses]", "Consumes [1] [Iron]"],
 		"promotions": ["[Conquistador] ability"],
 		"attackSound": "horse"
 		//Conquistador should have no penalty attacking cities
@@ -1662,8 +1671,7 @@
 		"requiredTech": "Metallurgy",
 		"obsoleteTech": "Military Science",
 		"upgradesTo": "Landship",
-		"requiredResource": "Iron",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit","[+10]% Strength <when attacking>"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit","[+10]% Strength <when attacking>", "Consumes [1] [Horses]", "Consumes [1] [Iron]"],
 		"attackSound": "horse"
 	},
 	{
@@ -1675,7 +1683,7 @@
 		"strength": 27,
 		"cost": 200,
 		"requiredTech": "Metallurgy",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>","[+10]% Strength <when attacking>"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>","[+10]% Strength <when attacking>", "Consumes [1] [Horses]", "Consumes [1] [Iron]"],
 		"requiredResource": "Iron",
 		"promotions": ["[Hakkapeliitta] ability"],
 		"upgradesTo": "Landship",
@@ -1691,8 +1699,7 @@
 		"requiredTech": "Combustion",
 		"upgradesTo": "Tank",
 		"obsoleteTech": "Combined Arms",
-		"requiredResource": "Oil",
-		"uniques": ["Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit", "Consumes [1] [Oil]", "Consumes [1] [Iron]"],
 		"attackSound": "tankshot"
 	},
 	{
@@ -1703,8 +1710,7 @@
 		"cost": 400,
 		"requiredTech": "Combined Arms",
 		"upgradesTo": "Modern Armor",
-		"uniques": ["Never appears as a Barbarian unit","No defensive terrain bonus", "Can move after attacking"],
-		"requiredResource": "Oil",
+		"uniques": ["Never appears as a Barbarian unit","No defensive terrain bonus", "Can move after attacking", "Consumes [1] [Oil]", "Consumes [1] [Iron]"],
 		"attackSound": "tankshot"
 	},
 	{
@@ -1717,8 +1723,7 @@
 		"cost": 400,
 		"requiredTech": "Combined Arms",
 		"upgradesTo": "Modern Armor",
-		"requiredResource": "Oil",
-		"uniques": ["Can move after attacking","No defensive terrain bonus"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus", "Consumes [1] [Oil]", "Consumes [1] [Iron]"],
 		"attackSound": "tankshot"
 		//German unique unit, stronger than Tank
 	},
@@ -1732,20 +1737,17 @@
 		"cost": 250,
 		"requiredTech": "Combined Arms",
 		"upgradesTo": "Modern Armor",
-		"requiredResource": "Oil",
-		"uniques": ["Can move after attacking","No defensive terrain bonus", "Can move immediately once bought"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus", "Can move immediately once bought", "Consumes [1] [Oil]", "Consumes [1] [Iron]"],
 		"attackSound": "tankshot"
 	},
 	{
 		"name": "Modern Armor",
 		"unitType": "Armored",
-		"movement": 5,
+		"movement": 6,
 		"strength": 100,
 		"cost": 475,
 		"requiredTech": "Lasers",
-		"upgradesTo": "Giant Death Robot",
-		"requiredResource": "Aluminum",
-		"uniques": ["Can move after attacking", "No defensive terrain bonus", "Never appears as a Barbarian unit"],
+		"uniques": ["Can move after attacking", "No defensive terrain bonus", "Never appears as a Barbarian unit", "Consumes [1] [Oil]", "Consumes [1] [Aluminum]"],
 		"attackSound": "tankshot"
 	},
 	{
@@ -1755,8 +1757,7 @@
 		"strength": 150,
 		"cost": 550,
 		"requiredTech": "Nuclear Fusion",
-		"requiredResource": "Uranium",
-		"uniques": ["Can move after attacking", "No defensive terrain bonus", "Never appears as a Barbarian unit"],
+		"uniques": ["Can move after attacking", "No defensive terrain bonus", "Never appears as a Barbarian unit", "Consumes [1] [Uranium]", "Consumes [1] [Aluminum]"],
 		"attackSound": "gdrAttack"
 	},
 
@@ -2057,6 +2058,7 @@
 		"requiredTech": "Radar",
 		"upgradesTo": "Jet Fighter",
 		"obsoleteTech": "Lasers",
+		"requiredResource": "Oil",
 		"uniques": ["[70]% chance to intercept air attacks", "[+150]% Strength <vs [Air Bomber] units>","[+150]% Strength <vs [Atomic Bomber] units>","[+150]% Strength <vs [Helicopter] units>"],
 		"promotions": ["[Zero] ability"],
 		"attackSound": "machinegun"
@@ -2071,7 +2073,7 @@
 		"interceptRange": 12,
 		"cost": 425,
 		"requiredTech": "Lasers",
-		"requiredResource": "Aluminum",
+		"requiredResource": "Oil",
 		"uniques": ["[80]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>","[+150]% Strength <vs [Atomic Bomber] units>","[+150]% Strength <vs [Helicopter] units>"],
 		"attackSound": "jetgun"
 	},
@@ -2580,6 +2582,24 @@
 		"requiredTech": "Electronics",
 		"uniques": ["Never appears as a Barbarian unit", "[+50]% Strength <vs cities>"],
 		"promotions": ["Indirect Fire"],
+		"obsoleteTech": "Advanced Ballistics",
+		"upgradesTo": "Arsenal Ship",
+		"attackSound": "shipguns"
+	},
+	{
+		"name": "Yamato Battleship",
+		"unitType": "Ranged Water",
+		"replaces": "Battleship",
+		"uniqueTo": "Japan",
+		"movement": 5,
+		"strength": 55,
+		"rangedStrength": 70,
+		"range": 3,
+		"cost": 400,
+		"requiredResource": "Oil",
+		"requiredTech": "Electronics",
+		"uniques": ["Never appears as a Barbarian unit", "[+50]% Strength <vs cities>"],
+		"promotions": ["Indirect Fire","Targeting I"],
 		"obsoleteTech": "Advanced Ballistics",
 		"upgradesTo": "Arsenal Ship",
 		"attackSound": "shipguns"
