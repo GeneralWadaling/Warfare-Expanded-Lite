@@ -139,6 +139,42 @@
 		"unitTypes": ["Missile"]
 	},
 
+	//Air Drone
+	{
+		"name": "Recon UAV",
+		"uniques": ["[+4] Sight"],
+		"unitTypes": ["Air Drone"]
+	},
+	{
+		"name": "Attack UAV",
+		"uniques": ["[+30]% Strength <vs [non-air] units>"],
+		"unitTypes": ["Air Drone"]
+	},
+	{
+		"name": "UAV Support",
+		"uniques": ["[+5]% Strength bonus for [Military] units within [6] tiles"],
+		"prerequisites": ["Recon UAV"],
+		"unitTypes": ["Air Drone"]
+	},
+	{
+		"name": "Extra Hardpoints",
+		"uniques": ["[+50]% Strength <vs [non-air] units>"],
+		"prerequisites": ["Attack UAV"],
+		"unitTypes": ["Air Drone"]
+	},
+	{
+		"name": "Stealth Coating",
+		"uniques": ["Cannot be intercepted"],
+		"prerequisites": ["Extra Hardpoints", "UAV Support"],
+		"unitTypes": ["Air Drone"]
+	},
+	{
+		"name": "Enhanced AI Control",
+		"uniques": ["[+30]% Strength", "[+4] Range"],
+		"prerequisites": ["Extra Hardpoints", "UAV Support"],
+		"unitTypes": ["Air Drone"]
+	},
+
 
 
 
@@ -265,8 +301,12 @@
 		"uniques": ["[+15]% Strength <when attacking>"]
 	},
 	{
+		"name": "[Khillaychuki Cavalry] ability",
+		"uniques": ["[+25]% Strength <in [Hill] tiles>"]
+	},
+	{
 		"name": "UAV",
-		"uniques": ["[-50]% maintenance costs", "Damage taken from interception reduced by [50]%", "[+20]% Strength when stacked with [Siege Carrier]"]
+		"uniques": ["[-50]% maintenance costs", "Damage taken from interception reduced by [50]%"]
 	},
 	{
 		"name": "Drill",

@@ -62,6 +62,22 @@
 		"uniques": ["[+10]% Strength bonus for [Military] units within [1] tiles", "Uncapturable", "Only available <if [Military Academy] is constructed>", "[+1] Movement <after discovering [Combined Arms]>", "[+1] Movement <after discovering [Mobile Tactics]>"]
 	},
 	{
+		"name": "Airfield Ground Unit",
+		"unitType": "Anti Air",
+		"strength": 40,
+		"movement": 3,
+		"interceptRange": 1,
+		"cost": 600,
+		"requiredResource": "Oil",
+		"requiredTech": "Radar",
+		"uniques": ["[60]% chance to intercept air attacks","Can carry [0] [Aircraft] units", "Can build [Airfield] improvements on tiles", "Can carry [2] extra [Aircraft] units <in [Airfield] tiles>"],
+		"civilopediaText": [
+			{
+				"text": "Remarks from mod creator: This is not a moving aircraft carrier on land, but it builds Airfield tiles, and allows Airfield tiles to be loaded with new air units. Moving this unit away from airfield will leave the aircraft onto the airfield tile."
+			}
+		]
+	},
+	{
 		"name": "Great General",
 		"unitType": "Civilian",
 		"uniques": [
@@ -669,6 +685,21 @@
 		"movement": 2,
 		"strength": 30,
 		"rangedStrength": 30,
+		"cost": 225,
+		"requiredTech": "Industrialization",
+		"upgradesTo": "Machine Gun",
+		"obsoleteTech": "Ballistics",
+		"attackSound": "machinegun"
+	},
+	{
+		"name": "Gatling Elephant",
+		"unitType": "Ranged Gunpowder",
+		"replaces": "Gatling Gun",
+		"uniqueTo": "Siam",
+		"range": 1,
+		"movement": 2,
+		"strength": 32,
+		"rangedStrength": 32,
 		"cost": 225,
 		"requiredTech": "Industrialization",
 		"upgradesTo": "Machine Gun",
@@ -1971,6 +2002,22 @@
 		"attackSound": "horse"
 	},
 	{
+		"name": "Khillaychuki Cavalry",
+		"unitType": "Mounted",
+		"replaces": "Lancer",
+		"uniqueTo": "Inca",
+		"movement": 5,
+		"strength": 25,
+		"cost": 185,
+		"requiredTech": "Metallurgy",
+		"requiredResource": "Horses",
+		"uniques": ["No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "[+50]% Strength <vs [Mounted] units>"],
+		"promotions": ["[Khillaychuki Cavalry] ability"],
+		"upgradesTo": "Tank Destroyer",
+		"obsoleteTech": "Combined Arms",
+		"attackSound": "horse"
+	},
+	{
 		"name": "Sipahi",
 		"unitType": "Mounted",
 		"replaces": "Lancer",
@@ -2075,6 +2122,21 @@
 		"requiredTech": "Lasers",
 		"requiredResource": "Oil",
 		"uniques": ["[80]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>","[+150]% Strength <vs [Atomic Bomber] units>","[+150]% Strength <vs [Helicopter] units>"],
+		"attackSound": "jetgun"
+	},
+
+	//UAV
+	{
+		"name": "UAV",
+		"unitType": "Air Drone",
+		"movement": 1,
+		"strength": 60,
+		"rangedStrength": 60,
+		"range": 12,
+		"cost": 400,
+		"requiredTech": "Robotics",
+		"requiredResource": "Aluminum",
+		"promotions": ["UAV"],
 		"attackSound": "jetgun"
 	},
 
