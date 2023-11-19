@@ -94,7 +94,7 @@
 	},
 	{
 		"name": "Early Warning System",
-		"uniques": ["[+1] Sight", "[+1] Range"],
+		"uniques": ["[+1] Sight", "[+1] Air Interception Range"],
 		"prerequisites": ["Continuous AA Protection", "Mobile Battery"],
 		"unitTypes": ["Anti Air"]
 	},
