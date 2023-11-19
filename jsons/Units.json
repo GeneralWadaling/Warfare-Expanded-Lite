@@ -2253,7 +2253,7 @@
 		"range": 8,
 		"cost": 150,
 		"requiredTech": "Advanced Ballistics",
-		"uniques": ["[-100]% maintenance costs", "Ballistic"],
+		"uniques": ["[-100]% maintenance costs", "Ballistic", "Destroys tile improvements when attacking"],
 		"attackSound": "missile"
 	},
 
@@ -2325,7 +2325,7 @@
 		"strength": 10,
 		"cost": 45,
 		"requiredTech": "Sailing",
-		"uniques": ["Cannot enter ocean tiles", "Heals [+15] damage if it kills a unit"],
+		"uniques": ["Cannot enter ocean tiles", "Heals [+15] damage if it kills a unit", "Destroys tile improvements when attacking"],
 		"upgradesTo": "Cog",
 		"promotions": ["Coastal Raider I", "Landing Party"],
 		"obsoleteTech": "Astronomy",
@@ -2732,7 +2732,7 @@
 		"cost": 375,
 		"requiredTech": "Combustion",
 		"promotions": ["Coastal Raider I"],
-		"uniques": ["May capture killed [Water] units", "Invisible to non-adjacent units", "Can see invisible [Melee Water] units", "Heals [+15] damage if it kills a unit"],
+		"uniques": ["May capture killed [Water] units", "Invisible to non-adjacent units", "Can see invisible [Melee Water] units", "Heals [+15] damage if it kills a unit","Destroys tile improvements when attacking"],
 		"attackSound": "shipguns"
 	},
 
