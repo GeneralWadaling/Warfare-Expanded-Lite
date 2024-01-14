@@ -228,6 +228,10 @@
 		"uniques": ["[+33]% Strength <when fighting in [Forest] tiles>", "[+33]% Strength <when fighting in [Jungle] tiles>", "Heals [25] damage if it kills a unit"]
 	},
 	{
+		"name": "[Khopesh Swordsman] ability",
+		"uniques": ["[+33]% Strength <when fighting in [Desert] tiles>"]
+	},
+	{
 		"name": "[Persian Immortal] ability",
 		"uniques": ["[+10] HP when healing"]
 	},

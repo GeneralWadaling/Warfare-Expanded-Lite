@@ -151,9 +151,25 @@
 		"cost": 75,
 		"requiredTech": "Iron Working",
 		"upgradesTo": "Longswordsman",
-		"uniques": ["Infantry", "[+15]% Strength <vs [Anti Cavalry] units>"],
+		"uniques": ["Infantry"],
 		"obsoleteTech": "Steel",
 		"requiredResource": "Iron",
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Eagle Warrior",
+		"unitType": "Sword",
+		"uniqueTo": "Aztec",
+		"replaces": "Swordsman",
+		"movement": 3,
+		"strength": 13,
+		"cost": 40,
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Musketman",
+		"obsoleteTech": "Gunpowder",
+		"promotions": ["[Jaguar] ability","Woodsman"],
+		"uniques": ["Infantry"],
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
 	},
@@ -174,6 +190,22 @@
 		"attackSound": "metalhit"
 	},
 	{
+		"name": "Khopesh Swordsman",
+		"unitType": "Sword",
+		"uniqueTo": "Egypt",
+		"replaces": "Swordsman",
+		"movement": 2,
+		"strength": 14,
+		"cost": 75,
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Longswordsman",
+		"obsoleteTech": "Gunpowder",
+		"uniques": ["Infantry"],
+		"promotions": ["[Khopesh Swordsman] ability"],
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit"
+	},
+	{
 		"name": "Mohawk Warrior",
 		"unitType": "Sword",
 		"uniqueTo": "Iroquois",
@@ -189,7 +221,6 @@
 		"promotions": ["[Mohawk Warrior] ability"],
 		"attackSound": "metalhit"
 	},
-
 	{
 		"name": "Longswordsman",
 		"unitType": "Sword",
@@ -239,6 +270,22 @@
 		//Danish unique unit. Can attack from the sea without any penalty, and moves faster.
 	},
 	{
+		"name": "Ghazi",
+		"unitType": "Sword",
+		"replaces": "Longswordsman",
+		"uniqueTo": "Arabia",
+		"movement": 2,
+		"strength": 21,
+		"cost": 120,
+		"requiredTech": "Metal Casting",
+		"upgradesTo": "Musketman",
+		"obsoleteTech": "Metallurgy",
+		"requiredResource": "Iron",
+		"uniques": ["Infantry","Earn [50]% of killed [All] unit's [Cost] as [Faith]","Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]"],
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit"
+	},
+	{
 		"name": "Musketman",
 		"unitType": "Gunpowder",
 		"movement": 2,
@@ -258,6 +305,20 @@
 		"movement": 2,
 		"strength": 28,
 		"cost": 150,
+		"requiredTech": "Gunpowder",
+		"upgradesTo": "Rifleman",
+		"obsoleteTech": "Rifling",
+		"uniques": ["Infantry"],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Jazayerchi",
+		"unitType": "Gunpowder",
+		"replaces": "Musketman",
+		"uniqueTo": "Persia",
+		"movement": 2,
+		"strength": 31,
+		"cost": 170,
 		"requiredTech": "Gunpowder",
 		"upgradesTo": "Rifleman",
 		"obsoleteTech": "Rifling",
@@ -471,7 +532,7 @@
 	{
 		"name": "Hoplite",
 		"unitType": "Sword",
-		"replaces": "Spearman",
+		"replaces": "Heavy Infantry",
 		"uniqueTo": "Greece",
 		"movement": 2,
 		"strength": 13,
@@ -485,7 +546,7 @@
 	{
 		"name": "Persian Immortal",
 		"unitType": "Sword",
-		"replaces": "Spearman",
+		"replaces": "Heavy Infantry",
 		"uniqueTo": "Persia",
 		"movement": 2,
 		"strength": 12,
@@ -495,6 +556,20 @@
 		"upgradesTo": "Pikeman",
 		"uniques": ["[+35]% Strength <vs [Mounted] units>"],
 		"promotions":["[Persian Immortal] ability"],
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Sabum Kibittum",
+		"unitType": "Sword",
+		"replaces": "Heavy Infantry",
+		"uniqueTo": "Babylon",
+		"movement": 3,
+		"strength": 12,
+		"cost": 70,
+		"requiredTech": "Iron Working",
+		"obsoleteTech": "Civil Service",
+		"upgradesTo": "Pikeman",
+		"uniques": ["[+35]% Strength <vs [Mounted] units>", "[+1] Sight"],
 		"attackSound": "metalhit"
 	},
 	{
@@ -900,7 +975,7 @@
 		"requiredTech": "Ballistics",
 		"obsoleteTech": "Combined Arms",
 		"upgradesTo": "Field Howitzer",
-		"uniques": ["[-10]% Strength <vs [Infantry] units>"]
+		"uniques": ["[-10]% Strength <vs [Infantry] units>"],
 		"attackSound": "artilllery"
 	},
 	{
@@ -913,7 +988,8 @@
 		"requiredTech": "Combined Arms",
 		"obsoleteTech": "Robotics",
 		"upgradesTo": "Field Artillery",
-		"uniques": ["Never appears as a Barbarian unit", "[-15]% Strength <vs [Infantry] units>"],
+		"uniques": ["Never appears as a Barbarian unit", "[-10]% Strength <vs [Infantry] units>"],
+		"promotions": ["Indirect Fire"],
 		"attackSound": "artillery"
 	},
 	{
@@ -924,7 +1000,8 @@
 		"rangedStrength": 90,
 		"cost": 425,
 		"requiredTech": "Robotics",
-		"uniques": ["Never appears as a Barbarian unit", "[-15]% Strength <vs [Infantry] units>"],
+		"uniques": ["Never appears as a Barbarian unit", "[-10]% Strength <vs [Infantry] units>"],
+		"promotions": ["Indirect Fire"],
 		"attackSound": "artillery"
 	},
 
@@ -936,6 +1013,7 @@
 		"strength": 5,
 		"cost": 25,
 		"uniques": ["May upgrade to [Spearman] through ruins-like effects", "Never appears as a Barbarian unit"],
+		"promotions": ["Ignore terrain cost"],
 		"upgradesTo": "Explorer",
 		"obsoleteTech": "Compass",
 		"attackSound": "nonmetalhit"
@@ -947,6 +1025,7 @@
 		"strength": 13,
 		"cost": 70,
 		"uniques": ["Can see over obstacles", "Normal vision when embarked", "Never appears as a Barbarian unit"],
+		"promotions": ["Ignore terrain cost"],
 		"requiredTech": "Compass",
 		"upgradesTo": "Ranger",
 		"obsoleteTech": "Rifling",
@@ -961,6 +1040,7 @@
 		"range": 1,
 		"cost": 185,
 		"uniques": ["Can see over obstacles", "Normal vision when embarked", "Can move after attacking", "Never appears as a Barbarian unit"],
+		"promotions": ["Ignore terrain cost"],
 		"requiredTech": "Rifling",
 		"upgradesTo": "Spec Ops",
 		"obsoleteTech": "Radar",
@@ -975,6 +1055,7 @@
 		"range": 1,
 		"cost": 300,
 		"uniques": ["Can see over obstacles", "Normal vision when embarked", "May Paradrop up to [7] tiles from inside friendly territory", "Can move after attacking", "Never appears as a Barbarian unit"],
+		"promotions": ["Ignore terrain cost"],
 		"requiredTech": "Radar",
 		"attackSound": "machinegun"
 	},
@@ -1318,6 +1399,21 @@
 		"attackSound": "cannon"
 	},
 	{
+		"name": "Gajnal",
+		"unitType": "Siege",
+		"uniqueTo": "India",
+		"replaces": "Bombard Cannon",
+		"movement": 2,
+		"strength": 14,
+		"rangedStrength": 25,
+		"cost": 220,
+		"requiredTech": "Chemistry",
+		"upgradesTo": "Artillery",
+		"obsoleteTech": "Dynamite",
+		"uniques": ["[+75]% Strength <vs cities> <when attacking>","No defensive terrain bonus","[+33]% Strength <vs [Melee] units>", "Can move after attacking"],
+		"attackSound": "cannon"
+	},
+	{
 		"name": "Artillery",
 		"unitType": "Siege",
 		"movement": 2,
@@ -1588,7 +1684,7 @@
 		"rangedStrength": 50,
 		"cost": 400,
 		"requiredTech": "Mobile Tactics",
-		"uniques": ["Can move after attacking", "Heals [+15] damage if it kills a unit", "No defensive terrain bonus", "Ignores Zone of Control"],
+		"uniques": ["Can move after attacking", "Heals [+15] damage if it kills a unit", "No defensive terrain bonus", "Ignores Zone of Control","Destroys tile improvements when attacking"],
 		"attackSound": "Machine Gun"
 	},
 
@@ -1623,8 +1719,8 @@
 		"name": "African Forest Elephant",
 		"unitType": "Mounted",
 		"uniqueTo": "Carthage",
-		"movement": 3,
-		"strength": 14,
+		"movement": 2,
+		"strength": 18,
 		"cost": 100,
 		"requiredTech": "Horseback Riding",
 		"upgradesTo": "Knight",
@@ -1647,6 +1743,22 @@
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
 		"uniques": ["Can move after attacking", "[-25]% Strength <vs cities> <when attacking>","[+10]% Strength <when attacking>", "Consumes [1] [Horses]", "Consumes [1] [Iron]"],
+		"hurryCostModifier": 20,
+		"attackSound": "horse"
+	},
+	{
+		"name": "Aswar",
+		"unitType": "Mounted",
+		"uniqueTo": "Persia",
+		"replaces": "Armored Horseman",
+		"movement": 3,
+		"strength": 15,
+		"cost": 90,
+		"requiredTech": "Horseback Riding",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Chivalry",
+		"uniques": ["Can move after attacking", "[-25]% Strength <vs cities> <when attacking>","[+10]% Strength <when attacking>", "Consumes [1] [Horses]", "Consumes [1] [Iron]","Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]"],
+		"promotions": ["Cover I"],
 		"hurryCostModifier": 20,
 		"attackSound": "horse"
 	},
@@ -1684,8 +1796,8 @@
 		"unitType": "Mounted",
 		"replaces": "Knight",
 		"uniqueTo": "Siam",
-		"movement": 3,
-		"strength": 28,
+		"movement": 2,
+		"strength": 29,
 		"cost": 150,
 		"requiredTech": "Chivalry",
 		"obsoleteTech": "Metallurgy",
@@ -1715,8 +1827,23 @@
 		"cost": 200,
 		"requiredTech": "Metallurgy",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>","[+10]% Strength <when attacking>", "Consumes [1] [Horses]", "Consumes [1] [Iron]"],
-		"requiredResource": "Iron",
 		"promotions": ["[Hakkapeliitta] ability"],
+		"upgradesTo": "Landship",
+		"obsoleteTech": "Military Science",
+		"attackSound": "horse"
+	},
+	{
+		"name": "Qing Banner Cavalry",
+		"unitType": "Mounted",
+		"replaces": "Cuirasser",
+		"uniqueTo": "China",
+		"movement": 4,
+		"strength": 25,
+		"rangedStrength": 27,
+		"range": 1,
+		"cost": 200,
+		"requiredTech": "Metallurgy",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>","[+10]% Strength <when attacking>", "Consumes [1] [Horses]", "Consumes [1] [Iron]"],
 		"upgradesTo": "Landship",
 		"obsoleteTech": "Military Science",
 		"attackSound": "horse"
@@ -1741,7 +1868,7 @@
 		"cost": 400,
 		"requiredTech": "Combined Arms",
 		"upgradesTo": "Modern Armor",
-		"uniques": ["Never appears as a Barbarian unit","No defensive terrain bonus", "Can move after attacking", "Consumes [1] [Oil]", "Consumes [1] [Iron]"],
+		"uniques": ["Never appears as a Barbarian unit","No defensive terrain bonus", "Can move after attacking", "Consumes [1] [Oil]", "Consumes [1] [Iron]", "[+15]% Strength <vs [Infantry] units> <when attacking>"],
 		"attackSound": "tankshot"
 	},
 	{
@@ -1754,7 +1881,7 @@
 		"cost": 400,
 		"requiredTech": "Combined Arms",
 		"upgradesTo": "Modern Armor",
-		"uniques": ["Can move after attacking","No defensive terrain bonus", "Consumes [1] [Oil]", "Consumes [1] [Iron]"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus", "Consumes [1] [Oil]", "Consumes [1] [Iron]", "[+15]% Strength <vs [Infantry] units> <when attacking>"],
 		"attackSound": "tankshot"
 		//German unique unit, stronger than Tank
 	},
@@ -1768,7 +1895,7 @@
 		"cost": 250,
 		"requiredTech": "Combined Arms",
 		"upgradesTo": "Modern Armor",
-		"uniques": ["Can move after attacking","No defensive terrain bonus", "Can move immediately once bought", "Consumes [1] [Oil]", "Consumes [1] [Iron]"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus", "Can move immediately once bought", "Consumes [1] [Oil]", "Consumes [1] [Iron]", "[+15]% Strength <vs [Infantry] units> <when attacking>"],
 		"attackSound": "tankshot"
 	},
 	{
@@ -1778,7 +1905,7 @@
 		"strength": 100,
 		"cost": 475,
 		"requiredTech": "Lasers",
-		"uniques": ["Can move after attacking", "No defensive terrain bonus", "Never appears as a Barbarian unit", "Consumes [1] [Oil]", "Consumes [1] [Aluminum]"],
+		"uniques": ["Can move after attacking", "No defensive terrain bonus", "Never appears as a Barbarian unit", "Consumes [1] [Oil]", "Consumes [1] [Aluminum]", "[+15]% Strength <vs [Infantry] units> <when attacking>"],
 		"attackSound": "tankshot"
 	},
 	{
@@ -1788,7 +1915,7 @@
 		"strength": 150,
 		"cost": 550,
 		"requiredTech": "Nuclear Fusion",
-		"uniques": ["Can move after attacking", "No defensive terrain bonus", "Never appears as a Barbarian unit", "Consumes [1] [Uranium]", "Consumes [1] [Aluminum]"],
+		"uniques": ["Can move after attacking", "No defensive terrain bonus", "Never appears as a Barbarian unit", "Consumes [1] [Uranium]", "Consumes [1] [Aluminum]", "[+15]% Strength <vs [Infantry] units> <when attacking>"],
 		"attackSound": "gdrAttack"
 	},
 
@@ -1827,8 +1954,8 @@
 		"unitType": "Archery",
 		"uniqueTo": "India",
 		"replaces": "Chariot Archer",
-		"movement": 3,
-		"strength": 11,
+		"movement": 2,
+		"strength": 13,
 		"rangedStrength": 11,
 		"cost": 70,
 		"requiredTech": "Trapping",
@@ -1955,7 +2082,8 @@
 		"cost": 425,
 		"requiredTech": "Mobile Tactics",
 		"requiredResource": "Oil",
-		"uniques": ["No defensive terrain bonus", "Never appears as a Barbarian unit", "[-15]% Strength <vs [Infantry] units>"],
+		"uniques": ["No defensive terrain bonus", "Never appears as a Barbarian unit", "[-10]% Strength <vs [Infantry] units>"],
+		"promotions": ["Indirect Fire"],
 		"attackSound": "artilllery"
 	},
 
@@ -2013,6 +2141,21 @@
 		"requiredResource": "Horses",
 		"uniques": ["No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "[+50]% Strength <vs [Mounted] units>"],
 		"promotions": ["[Khillaychuki Cavalry] ability"],
+		"upgradesTo": "Tank Destroyer",
+		"obsoleteTech": "Combined Arms",
+		"attackSound": "horse"
+	},
+	{
+		"name": "Oromo Cavalry",
+		"unitType": "Mounted",
+		"replaces": "Lancer",
+		"uniqueTo": "Ethiopia",
+		"movement": 5,
+		"strength": 25,
+		"cost": 185,
+		"requiredTech": "Metallurgy",
+		"requiredResource": "Horses",
+		"uniques": ["[-33]% Strength <vs cities> <when attacking>", "[+50]% Strength <vs [Mounted] units>","Ignores Zone of Control"],
 		"upgradesTo": "Tank Destroyer",
 		"obsoleteTech": "Combined Arms",
 		"attackSound": "horse"
@@ -2234,7 +2377,8 @@
 		"name": "Helicopter Gunship",
 		"unitType": "Helicopter",
 		"movement": 6,
-		"strength": 65,
+		"strength": 60,
+		"rangedStrength": 65,
 		"cost": 425,
 		"requiredTech": "Computers",
 		"requiredResource": "Aluminum",
@@ -2268,7 +2412,7 @@
 		"cost": 600,
 		"requiredTech": "Nuclear Fission",
 		"requiredResource": "Uranium",
-		"uniques": ["Nuclear weapon of Strength [1]", "Only available <if [Manhattan Project] is constructed>", "Self-destructs when attacking",
+		"uniques": ["Destroys tile improvements when attacking", "Nuclear weapon of Strength [1]", "Only available <if [Manhattan Project] is constructed>", "Self-destructs when attacking",
 			"Blast radius [1]", "Damage taken from interception reduced by [10]%"],
 		"attackSound": "nuke"
 		// Plane rather than a missile - can be based in city or Carrier only.
@@ -2283,7 +2427,7 @@
 		"range": 12,
 		"cost": 1000,
 		"requiredTech": "Advanced Ballistics",
-		"uniques": ["Nuclear weapon of Strength [2]", "Only available <if [Manhattan Project] is constructed>",
+		"uniques": ["Destroys tile improvements when attacking", "Nuclear weapon of Strength [2]", "Only available <if [Manhattan Project] is constructed>",
 			"Blast radius [2]", "Consumes [2] [Uranium]", "Ballistic"],
 		"attackSound": "nuke"
 	},

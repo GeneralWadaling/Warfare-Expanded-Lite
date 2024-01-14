@@ -35,7 +35,7 @@
     },
     {
         "name": "Militia",
-	"uniques": ["[+50]% to Flank Attack bonuses", "Can build [Trench] improvements on tiles", "Can build [Fort] improvements on tiles", "[+50]% Strength when stacked with [Civilian]"],
+	"uniques": ["[+50]% to Flank Attack bonuses", "[+50]% Strength when stacked with [Civilian]"],
         "movementType": "Land"
     },
 
@@ -102,7 +102,7 @@
     },
     {
         "name": "Missile Defense",
-	"uniques": ["Cannot intercept [Aircraft] units", "[+5000]% Strength <vs [Ballistic] units>"],
+	"uniques": ["Cannot intercept [non-[Ballistic]] units", "[+5000]% Strength <vs [Ballistic] units>"],
         "movementType": "Land"
     },
 
