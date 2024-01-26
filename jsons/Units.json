@@ -2292,7 +2292,7 @@
 		"attackSound": "machinegun"
 	},
 	{
-		"name": "Fokker D.XXI",
+		"name": "Fokker D XXI",
 		"unitType": "Fighter",
 		"replaces": "Fighter",
 		"uniqueTo": "Netherlands",
