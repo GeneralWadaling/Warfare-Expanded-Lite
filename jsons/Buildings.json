@@ -18,6 +18,17 @@
 		"quote": "'Regard your soldiers as your children, and they will follow you into the deepest valleys; look on them as your own beloved sons, and they will stand by you even unto death.' - Sun Tzu"
 	},
 	{
+		"name": "Cothon",
+		"uniqueTo": "Carthage",
+		"replaces": "Harbor",
+		"cost": 120,
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"uniques": ["[+15]% Production when constructing [Water] units [in this city]","[+1 Production] from [Water resource] tiles [in this city] <after discovering [Compass]>",
+			"Connects trade routes over water","Must be next to [Coast]"],
+		"requiredTech": "Optics"
+	},
+	{
 		"name": "Arsenal",
 		"cost": 300,
 		"cityStrength": 9,
@@ -26,6 +37,16 @@
 		"requiredBuilding": "Castle",
 		"requiredTech": "Metallurgy",
 		"uniques": ["Destroyed when the city is captured", "[2] free [Militiaman] units appear"]
+	},
+	{
+		"name": "Dojo",
+		"uniqueTo": "Japan",
+		"replaces": "Armory",
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"requiredBuilding": "Barracks",
+		"uniques": ["New [Military] units start with [15] Experience [in this city]","New [{Melee} {non-[Armored]}] units start with [5] Experience [in this city]", "Destroyed when the city is captured"],
+		"requiredTech": "Steel"
 	},
 	{
 		"name": "Theatre",
@@ -45,5 +66,14 @@
 		"requiredBuilding": "Theatre",
 		"maintenance": 2,
 		"requiredTech": "Refrigeration"
+	},
+	{
+		"name": "Missionary Mission",
+		"uniqueTo": "Spain",
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"requiredBuilding": "Courthouse",
+		"uniques": ["[+33]% Natural religion spread [in this city]","Hidden when religion is disabled"],
+		"requiredTech": "Theology"
 	}
 ]
