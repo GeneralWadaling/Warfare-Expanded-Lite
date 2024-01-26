@@ -30,17 +30,17 @@
 	//Militia
 	{
 		"name": "Battlefield Survival I",
-		"uniques": ["Unit will heal every turn, even if it performs an action", "[+10] HP when healing", "[+25]% XP gained from combat"],
+		"uniques": ["Heals [+20] damage if it kills a unit","[+10] HP when healing","[+10]% XP gained from combat"],
 		"unitTypes": ["Militia"]
 	},
 	{
 		"name": "Defender I",
-		"uniques": ["[+20]% Strength <when defending>", "[+25]% XP gained from combat"],
+		"uniques": ["[+20]% Strength <when defending>", "[+10]% XP gained from combat"],
 		"unitTypes": ["Militia"]
 	},
 	{
 		"name": "Battlefield Survival II",
-		"uniques": ["Heals [+20] damage if it kills a unit", "[+20]% Strength <when attacking>"],
+		"uniques": ["Unit will heal every turn, even if it performs an action","[+20]% Strength <when attacking>"],
 		"prerequisites": ["Battlefield Survival I", "Defender I"],
 		"unitTypes": ["Militia"]
 	},
@@ -53,7 +53,7 @@
 	{
 		"name": "Special Promotion",
 		"uniques": ["This Unit upgrades for free including special upgrades"],
-		"prerequisites": ["Battlefield Survival I", "Defender I"],
+		"prerequisites": ["Battlefield Survival II", "Defender II"],
 		"unitTypes": ["Militia"]
 	},
 
