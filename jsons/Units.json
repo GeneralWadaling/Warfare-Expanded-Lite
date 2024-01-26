@@ -2308,8 +2308,7 @@
 		"upgradesTo": "Jet Fighter",
 		"obsoleteTech": "Lasers",
 		"requiredResource": "Oil",
-		"uniques": ["[70]% chance to intercept air attacks", "[+150]% Strength <vs [Air Bomber] units>","[+150]% Strength <vs [Atomic Bomber] units>","[+150]% Strength <vs [Helicopter] units>","This Unit gains the [Air Repair] promotion <during a Golden Age>"],
-		"promotions": ["[Zero] ability"],
+		"uniques": ["[65]% chance to intercept air attacks", "[+100]% Strength <vs [Bomber] units>", "[+150]% Strength <vs [Atomic Bomber] units>", "[+150]% Strength <vs [Helicopter] units>","This Unit gains the [Air Repair] promotion <during a Golden Age>"],
 		"attackSound": "machinegun"
 	},
 	{
