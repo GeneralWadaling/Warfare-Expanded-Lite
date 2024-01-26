@@ -87,6 +87,14 @@
 			"Great Person - [War]", "Unbuildable", "Uncapturable", "[+1] Movement <after discovering [Combined Arms]>", "[+1] Movement <after discovering [Mobile Tactics]>"],
 		"movement": 2
 	},
+	{
+		"name": "Darughachi",
+		"unitType": "Civilian",
+		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [25] Influence",
+            "Can instantly construct a [Customs house] improvement <by consuming this unit>","[1] free [Horseman] units appear <after which this unit is consumed>",
+			"Great Person - [Gold]", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
 
 	//Melee
 	{
@@ -252,10 +260,27 @@
 		//Samurai should also create Fishing Boats (not now, surely)
 	},
 	{
+		"name": "Varangian Guard",
+		"unitType": "Sword",
+		"uniqueTo": "Byzantium",
+		"replaces": "Longswordsman",
+		"movement": 2,
+		"strength": 21,
+		"cost": 120,
+		"requiredTech": "Metal Casting",
+		"upgradesTo": "Musketman",
+		"obsoleteTech": "Metallurgy",
+		"requiredResource": "Iron",
+		"promotions": ["Amphibious"],
+		"uniques": ["Infantry","No movement cost to pillage"],
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit"
+	},
+	{
 		"name": "Berserker",
 		"unitType": "Sword",
-		"replaces": "Longswordsman",
 		"uniqueTo": "Denmark",
+		"replaces": "Longswordsman",
 		"movement": 3,
 		"strength": 21,
 		"cost": 120,
@@ -1838,15 +1863,28 @@
 		"replaces": "Cuirasser",
 		"uniqueTo": "China",
 		"movement": 4,
-		"strength": 25,
-		"rangedStrength": 27,
-		"range": 1,
-		"cost": 200,
+		"strength": 27,
+		"cost": 350,
 		"requiredTech": "Metallurgy",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>","[+10]% Strength <when attacking>", "Consumes [1] [Horses]", "Consumes [1] [Iron]"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>","Consumes [1] [Horses]", "Consumes [1] [Iron]","Can transform to [Qing Banner Cavalry (Ranged)]"],
 		"upgradesTo": "Landship",
-		"obsoleteTech": "Military Science",
+		"obsoleteTech": "Combustion",
 		"attackSound": "horse"
+	},
+	{
+		"name": "Qing Banner Cavalry (Ranged)",
+		"unitType": "Mounted",
+		"uniqueTo": "China",
+		"movement": 4,
+		"strength": 25,
+		"rangedStrength": 18,
+		"range": 1,
+		"cost": 350,
+		"requiredTech": "Metallurgy",
+		"uniques": ["unbuildable","Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>","Consumes [1] [Horses]", "Consumes [1] [Iron]","Can transform to [Qing Banner Cavalry]"],
+		"upgradesTo": "Landship",
+		"obsoleteTech": "Combustion",
+		"attackSound": "arrow"
 	},
 	{
 		"name": "Landship",
@@ -2250,6 +2288,25 @@
 		"obsoleteTech": "Lasers",
 		"requiredResource": "Oil",
 		"uniques": ["[70]% chance to intercept air attacks", "[+150]% Strength <vs [Air Bomber] units>","[+150]% Strength <vs [Atomic Bomber] units>","[+150]% Strength <vs [Helicopter] units>"],
+		"promotions": ["[Zero] ability"],
+		"attackSound": "machinegun"
+	},
+	{
+		"name": "Fokker D.XXI",
+		"unitType": "Fighter",
+		"replaces": "Fighter",
+		"uniqueTo": "Netherlands",
+		"movement": 1,
+		"strength": 45,
+		"rangedStrength": 45,
+		"range": 8,
+		"interceptRange": 8,
+		"cost": 300,
+		"requiredTech": "Radar",
+		"upgradesTo": "Jet Fighter",
+		"obsoleteTech": "Lasers",
+		"requiredResource": "Oil",
+		"uniques": ["[70]% chance to intercept air attacks", "[+150]% Strength <vs [Air Bomber] units>","[+150]% Strength <vs [Atomic Bomber] units>","[+150]% Strength <vs [Helicopter] units>","This Unit gains the [Air Repair] promotion <during a Golden Age>"],
 		"promotions": ["[Zero] ability"],
 		"attackSound": "machinegun"
 	},
