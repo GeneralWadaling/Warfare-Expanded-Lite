@@ -90,6 +90,8 @@
 	{
 		"name": "Darughachi",
 		"unitType": "Civilian",
+		"uniqueTo": "Mongolia",
+		"replaces": "Great Merchant",
 		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [25] Influence",
             "Can instantly construct a [Customs house] improvement <by consuming this unit>","[1] free [Horseman] units appear <after which this unit is consumed>",
 			"Great Person - [Gold]", "Unbuildable", "Uncapturable"],
@@ -2295,7 +2297,7 @@
 		"name": "Fokker D XXI",
 		"unitType": "Fighter",
 		"replaces": "Fighter",
-		"uniqueTo": "Netherlands",
+		"uniqueTo": "The Netherlands",
 		"movement": 1,
 		"strength": 45,
 		"rangedStrength": 45,
