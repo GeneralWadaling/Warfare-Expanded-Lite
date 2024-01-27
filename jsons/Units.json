@@ -170,7 +170,7 @@
 	{
 		"name": "Eagle Warrior",
 		"unitType": "Sword",
-		"uniqueTo": "Aztec",
+		"uniqueTo": "Aztecs",
 		"replaces": "Swordsman",
 		"movement": 3,
 		"strength": 13,
