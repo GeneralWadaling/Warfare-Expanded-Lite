@@ -87,16 +87,6 @@
 			"Great Person - [War]", "Unbuildable", "Uncapturable", "[+1] Movement <after discovering [Combined Arms]>", "[+1] Movement <after discovering [Mobile Tactics]>"],
 		"movement": 2
 	},
-	{
-		"name": "Darughachi",
-		"unitType": "Civilian",
-		"uniqueTo": "Mongolia",
-		"replaces": "Great Merchant",
-		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [25] Influence",
-            "Can instantly construct a [Customs house] improvement <by consuming this unit>","[1] free [Horseman] units appear <after which this unit is consumed>",
-			"Great Person - [Gold]", "Unbuildable", "Uncapturable"],
-		"movement": 2
-	},
 
 	//Melee
 	{
