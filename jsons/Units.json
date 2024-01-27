@@ -87,6 +87,45 @@
 			"Great Person - [War]", "Unbuildable", "Uncapturable", "[+1] Movement <after discovering [Combined Arms]>", "[+1] Movement <after discovering [Mobile Tactics]>"],
 		"movement": 2
 	},
+		{
+		"name": "Darughachi",
+		"unitType": "Civilian",
+		"uniqueTo": "Mongolia",
+		"replaces": "Great Merchant",
+		"uniques": ["Can instantly construct a [Customs house] improvement <by consuming this unit>","[2] free [Mongol Raider] units appear <by consuming this unit>",
+			"Great Person - [Gold]", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+	{
+		"name": "Mongol Raider",
+		"unitType": "Mounted",
+		"uniqueTo": "Mongolia",
+		"movement": 4,
+		"strength": 12,
+		"cost": 100,
+		"upgradesTo": "Mongol Marauder",
+		"requiredBuilding": "Palace",
+		"requiredTech": "Horseback Riding",
+		"obsoleteTech": "Chivalry",
+		"hurryCostModifier": 40,
+		"uniques": ["Can move after attacking","No defensive terrain bonus", "Ignores Zone of Control","No movement cost to pillage","Earn [10]% of the damage done to [All] units as [Gold]","Limited to [8] per Civilization"],
+		"attackSound": "horse"
+	},
+	{
+		"name": "Mongol Marauder",
+		"unitType": "Mounted",
+		"uniqueTo": "Mongolia",
+		"movement": 5,
+		"strength": 18,
+		"cost": 200,
+		"requiredTech": "Chivalry",
+		"obsoleteTech": "Gunpowder",
+		"upgradesTo": "Dragoon",
+		"requiredBuilding": "Palace",
+		"hurryCostModifier": 40,
+		"uniques": ["Can move after attacking","No defensive terrain bonus", "Ignores Zone of Control","No movement cost to pillage","Earn [20]% of the damage done to [All] units as [Gold]","Limited to [8] per Civilization"],
+		"attackSound": "horse"
+	},
 
 	//Melee
 	{
