@@ -108,7 +108,7 @@
 		"requiredTech": "Horseback Riding",
 		"obsoleteTech": "Chivalry",
 		"hurryCostModifier": 40,
-		"uniques": ["Can move after attacking","No defensive terrain bonus", "Ignores Zone of Control","No movement cost to pillage","Earn [10]% of the damage done to [All] units as [Gold]","Limited to [8] per Civilization"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus", "Ignores Zone of Control","No movement cost to pillage","Earn [10]% of the damage done to [All] units as [Gold]","Limited to [4] per Civilization","Only available <in cities with a [Palace]>"],
 		"attackSound": "horse"
 	},
 	{
@@ -123,7 +123,7 @@
 		"upgradesTo": "Dragoon",
 		"requiredBuilding": "Palace",
 		"hurryCostModifier": 40,
-		"uniques": ["Can move after attacking","No defensive terrain bonus", "Ignores Zone of Control","No movement cost to pillage","Earn [20]% of the damage done to [All] units as [Gold]","Limited to [8] per Civilization"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus", "Ignores Zone of Control","No movement cost to pillage","Earn [20]% of the damage done to [All] units as [Gold]","Limited to [4] per Civilization","Only available <in cities with a [Palace]>"],
 		"attackSound": "horse"
 	},
 
