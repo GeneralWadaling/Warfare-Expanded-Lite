@@ -1080,7 +1080,7 @@
 		"movement": 2,
 		"strength": 13,
 		"cost": 70,
-		"uniques": ["Can see over obstacles", "Normal vision when embarked", "Never appears as a Barbarian unit"],
+		"uniques": ["Can see over obstacles", "[+1] Sight <when [Embarked]>", "Never appears as a Barbarian unit"],
 		"promotions": ["Ignore terrain cost"],
 		"requiredTech": "Compass",
 		"upgradesTo": "Ranger",
@@ -1095,7 +1095,7 @@
 		"rangedStrength": 25,
 		"range": 1,
 		"cost": 185,
-		"uniques": ["Can see over obstacles", "Normal vision when embarked", "Can move after attacking", "Never appears as a Barbarian unit"],
+		"uniques": ["Can see over obstacles", "[+1] Sight <when [Embarked]>", "Can move after attacking", "Never appears as a Barbarian unit"],
 		"promotions": ["Ignore terrain cost"],
 		"requiredTech": "Rifling",
 		"upgradesTo": "Spec Ops",
@@ -1110,7 +1110,7 @@
 		"rangedStrength": 60,
 		"range": 1,
 		"cost": 300,
-		"uniques": ["Can see over obstacles", "Normal vision when embarked", "May Paradrop up to [7] tiles from inside friendly territory", "Can move after attacking", "Never appears as a Barbarian unit"],
+		"uniques": ["Can see over obstacles", "[+1] Sight <when [Embarked]>", "May Paradrop up to [7] tiles from inside friendly territory", "Can move after attacking", "Never appears as a Barbarian unit"],
 		"promotions": ["Ignore terrain cost"],
 		"requiredTech": "Radar",
 		"attackSound": "machinegun"
@@ -1250,7 +1250,7 @@
 		"upgradesTo": "Modern Marine",
 		"obsoleteTech": "Mobile Tactics",
 		"promotions": ["Amphibious"],
-		"uniques": ["Normal vision when embarked", "Defense bonus when embarked"],
+		"uniques": ["[+1] Sight <when [Embarked]>", "Defense bonus when embarked"],
 		"attackSound": "shot"
 	},
 	{
@@ -1261,7 +1261,7 @@
 		"cost": 450,
 		"requiredTech": "Mobile Tactics",
 		"promotions": ["Amphibious"],
-		"uniques": ["Normal vision when embarked", "Defense bonus when embarked"],
+		"uniques": ["[+1] Sight <when [Embarked]>", "Defense bonus when embarked"],
 		"attackSound": "machinegun"
 	},
 
@@ -1564,7 +1564,7 @@
 		"strength": 65,
 		"cost": 425,
 		"requiredTech": "Advanced Ballistics",
-		"uniques": ["[70]% chance to intercept air attacks", "No defensive terrain bonus", "Never appears as a Barbarian unit", "Only intercepts missiles", "Consumes [2] [Aluminum]"],
+		"uniques": ["[70]% chance to intercept air attacks", "No defensive terrain bonus", "Never appears as a Barbarian unit", "Comment [Only intercepts missiles]", "Consumes [2] [Aluminum]"],
 		"attackSound": "missile"
 	},
 
@@ -1912,7 +1912,7 @@
 		"range": 1,
 		"cost": 350,
 		"requiredTech": "Metallurgy",
-		"uniques": ["unbuildable","Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>","Consumes [1] [Horses]", "Consumes [1] [Iron]","Can transform to [Qing Banner Cavalry]"],
+		"uniques": ["Unbuildable","Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>","Consumes [1] [Horses]", "Consumes [1] [Iron]","Can transform to [Qing Banner Cavalry]"],
 		"upgradesTo": "Landship",
 		"obsoleteTech": "Combustion",
 		"attackSound": "arrow"
@@ -2596,7 +2596,7 @@
 		"requiredTech": "Astronomy",
 		"upgradesTo": "Ironclad",
 		"obsoleteTech": "Combustion",
-		"uniques": ["[+1] Sight", "May withdraw before melee ([80]%)", "Can see invisible [Water] units"],
+		"uniques": ["[+1] Sight", "Withdraws before melee combat <with [80]% chance>", "Can see invisible [Water] units"],
 		"hurryCostModifier": 30,
 		"attackSound": "cannon"
 	},
@@ -2637,7 +2637,7 @@
 		"requiredTech": "Combustion",
 		"upgradesTo": "Missile Frigate",
 		"uniques": ["Can see invisible [Water] units", "[60]% chance to intercept air attacks",
-			"May withdraw before melee ([70]%)", "[+100]% Strength <vs [Submarine] units>"],
+			"Withdraws before melee combat <with [70]% chance>", "[+100]% Strength <vs [Submarine] units>"],
 		"attackSound": "shipguns"
 	},
 	{
