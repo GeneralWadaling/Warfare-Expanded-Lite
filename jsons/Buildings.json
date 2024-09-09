@@ -6,7 +6,7 @@
 		"specialistSlots": {"Entertainer": 2},
 		"culture": 1,
 		"isNationalWonder": true,
-		"uniques": ["Requires a [Colosseum] in all cities", "Cost increases by [30] per owned city"],
+		"uniques": ["Only available <if [Colosseum] is constructed in all [non-[Puppeted]] cities>", "Cost increases by [30] per owned city"],
 		"requiredTech": "Horseback Riding"
 	},
 	{

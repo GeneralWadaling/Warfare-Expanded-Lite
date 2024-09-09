@@ -81,7 +81,7 @@
 		"name": "Great General",
 		"unitType": "Civilian",
 		"uniques": [
-            "Empire enters a [8]-turn Golden Age <by consuming this unit>",
+            "Empire enters a [8]-turn Golden Age <by consuming this unit>","Can be earned through combat",
             "[+15]% Strength bonus for [Military] units within [2] tiles",
             "Can instantly construct a [Citadel] improvement <by consuming this unit>",
 			"Great Person - [War]", "Unbuildable", "Uncapturable", "[+1] Movement <after discovering [Combined Arms]>", "[+1] Movement <after discovering [Mobile Tactics]>"],
@@ -92,7 +92,10 @@
 		"unitType": "Civilian",
 		"uniqueTo": "Mongolia",
 		"replaces": "Great Merchant",
-		"uniques": ["Can instantly construct a [Customs house] improvement <by consuming this unit> <after discovering [Guilds]>","[2] free [Mongol Raider] units appear <by consuming this unit>","Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence <after discovering [Currency]>"
+		"uniques": ["Can instantly construct a [Customs house] improvement <by consuming this unit> <after discovering [Guilds]>","[2] free [Mongol Raider] units appear <by consuming this unit>",
+		/*
+		"Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence <after discovering [Currency]>",
+		*/
 			"Great Person - [Gold]", "Unbuildable", "Uncapturable"],
 		"movement": 2
 	},
@@ -1080,7 +1083,7 @@
 		"movement": 2,
 		"strength": 13,
 		"cost": 70,
-		"uniques": ["Can see over obstacles", "Normal vision when embarked", "Never appears as a Barbarian unit"],
+		"uniques": ["Can see over obstacles", "[+1] Sight <when [Embarked]>", "Never appears as a Barbarian unit"],
 		"promotions": ["Ignore terrain cost"],
 		"requiredTech": "Compass",
 		"upgradesTo": "Ranger",
@@ -1095,7 +1098,7 @@
 		"rangedStrength": 25,
 		"range": 1,
 		"cost": 185,
-		"uniques": ["Can see over obstacles", "Normal vision when embarked", "Can move after attacking", "Never appears as a Barbarian unit"],
+		"uniques": ["Can see over obstacles", "[+1] Sight <when [Embarked]>", "Can move after attacking", "Never appears as a Barbarian unit"],
 		"promotions": ["Ignore terrain cost"],
 		"requiredTech": "Rifling",
 		"upgradesTo": "Spec Ops",
@@ -1110,7 +1113,7 @@
 		"rangedStrength": 60,
 		"range": 1,
 		"cost": 300,
-		"uniques": ["Can see over obstacles", "Normal vision when embarked", "May Paradrop up to [7] tiles from inside friendly territory", "Can move after attacking", "Never appears as a Barbarian unit"],
+		"uniques": ["Can see over obstacles", "[+1] Sight <when [Embarked]>", "May Paradrop up to [7] tiles from inside friendly territory", "Can move after attacking", "Never appears as a Barbarian unit"],
 		"promotions": ["Ignore terrain cost"],
 		"requiredTech": "Radar",
 		"attackSound": "machinegun"
@@ -1250,7 +1253,7 @@
 		"upgradesTo": "Modern Marine",
 		"obsoleteTech": "Mobile Tactics",
 		"promotions": ["Amphibious"],
-		"uniques": ["Normal vision when embarked", "Defense bonus when embarked"],
+		"uniques": ["[+1] Sight <when [Embarked]>", "Defense bonus when embarked"],
 		"attackSound": "shot"
 	},
 	{
@@ -1261,7 +1264,7 @@
 		"cost": 450,
 		"requiredTech": "Mobile Tactics",
 		"promotions": ["Amphibious"],
-		"uniques": ["Normal vision when embarked", "Defense bonus when embarked"],
+		"uniques": ["[+1] Sight <when [Embarked]>", "Defense bonus when embarked"],
 		"attackSound": "machinegun"
 	},
 
@@ -2337,7 +2340,7 @@
 		"upgradesTo": "Jet Fighter",
 		"obsoleteTech": "Lasers",
 		"requiredResource": "Oil",
-		"uniques": ["[65]% chance to intercept air attacks", "[+100]% Strength <vs [Bomber] units>", "[+150]% Strength <vs [Atomic Bomber] units>", "[+150]% Strength <vs [Helicopter] units>","This Unit gains the [Air Repair] promotion <during a Golden Age>"],
+		"uniques": ["[65]% chance to intercept air attacks", "[+100]% Strength <vs [Bomber] units>", "[+150]% Strength <vs [Atomic Bomber] units>", "[+150]% Strength <vs [Helicopter] units>","[This Unit] gains the [Air Repair] promotion <during a Golden Age>"],
 		"attackSound": "machinegun"
 	},
 	{
