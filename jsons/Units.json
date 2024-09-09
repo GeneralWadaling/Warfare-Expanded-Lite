@@ -14,7 +14,7 @@
 		"movement": 2,
 		"cost": 106,
 		"uniques": ["Founds a new city", "Excess Food converted to Production when under construction",
-			"Requires at least [2] population"],
+			"Requires at least [2] population", "[+1] Movement <after discovering [Combustion]>"],
 		"hurryCostModifier": 20
 	},
 	{
@@ -70,7 +70,7 @@
 		"cost": 600,
 		"requiredResource": "Oil",
 		"requiredTech": "Radar",
-		"uniques": ["[60]% chance to intercept air attacks","Can carry [0] [Aircraft] units", "Can build [Airfield] improvements on tiles", "Can carry [2] extra [Aircraft] units <in [Airfield] tiles>"],
+		"uniques": ["[60]% chance to intercept air attacks","Can carry [0] [Aircraft] units", "Can build [Airfield] improvements on tiles", "Can carry [2] extra [Aircraft] units <in [Airfield] tiles> <hidden from users>", "Comment [Allows an airfield to be loaded with aircrafts when standing on one]"],
 		"civilopediaText": [
 			{
 				"text": "Remarks from mod creator: This is not a moving aircraft carrier on land, but it builds Airfield tiles, and allows Airfield tiles to be loaded with new air units. Moving this unit away from airfield will leave the aircraft onto the airfield tile."
@@ -81,18 +81,18 @@
 		"name": "Great General",
 		"unitType": "Civilian",
 		"uniques": [
-            "Empire enters a [8]-turn Golden Age <by consuming this unit>","Can be earned through combat",
+            "Empire enters a [8]-turn Golden Age <by consuming this unit>",
             "[+15]% Strength bonus for [Military] units within [2] tiles",
             "Can instantly construct a [Citadel] improvement <by consuming this unit>",
 			"Great Person - [War]", "Unbuildable", "Uncapturable", "[+1] Movement <after discovering [Combined Arms]>", "[+1] Movement <after discovering [Mobile Tactics]>"],
 		"movement": 2
 	},
-		{
+	{
 		"name": "Darughachi",
 		"unitType": "Civilian",
 		"uniqueTo": "Mongolia",
 		"replaces": "Great Merchant",
-		"uniques": ["Can instantly construct a [Customs house] improvement <by consuming this unit>","[2] free [Mongol Raider] units appear <by consuming this unit>",
+		"uniques": ["Can instantly construct a [Customs house] improvement <by consuming this unit> <after discovering [Guilds]>","[2] free [Mongol Raider] units appear <by consuming this unit>","Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence <after discovering [Currency]>"
 			"Great Person - [Gold]", "Unbuildable", "Uncapturable"],
 		"movement": 2
 	},
@@ -203,7 +203,7 @@
 		"replaces": "Swordsman",
 		"movement": 3,
 		"strength": 13,
-		"cost": 40,
+		"cost": 50,
 		"requiredTech": "Iron Working",
 		"upgradesTo": "Musketman",
 		"obsoleteTech": "Gunpowder",
@@ -805,7 +805,7 @@
 		"range": 1,
 		"cost": 185,
 		"requiredTech": "Gunpowder",
-		"upgradesTo": "Gatling Gun",
+		"upgradesTo": "Rifleman",
 		"obsoleteTech": "Industrialization",
 		"attackSound": "arrow"
 	},
@@ -829,8 +829,8 @@
 		"uniqueTo": "Siam",
 		"range": 1,
 		"movement": 2,
-		"strength": 32,
-		"rangedStrength": 32,
+		"strength": 35,
+		"rangedStrength": 35,
 		"cost": 225,
 		"requiredTech": "Industrialization",
 		"upgradesTo": "Machine Gun",
@@ -1080,7 +1080,7 @@
 		"movement": 2,
 		"strength": 13,
 		"cost": 70,
-		"uniques": ["Can see over obstacles", "[+1] Sight <when [Embarked]>", "Never appears as a Barbarian unit"],
+		"uniques": ["Can see over obstacles", "Normal vision when embarked", "Never appears as a Barbarian unit"],
 		"promotions": ["Ignore terrain cost"],
 		"requiredTech": "Compass",
 		"upgradesTo": "Ranger",
@@ -1095,7 +1095,7 @@
 		"rangedStrength": 25,
 		"range": 1,
 		"cost": 185,
-		"uniques": ["Can see over obstacles", "[+1] Sight <when [Embarked]>", "Can move after attacking", "Never appears as a Barbarian unit"],
+		"uniques": ["Can see over obstacles", "Normal vision when embarked", "Can move after attacking", "Never appears as a Barbarian unit"],
 		"promotions": ["Ignore terrain cost"],
 		"requiredTech": "Rifling",
 		"upgradesTo": "Spec Ops",
@@ -1110,7 +1110,7 @@
 		"rangedStrength": 60,
 		"range": 1,
 		"cost": 300,
-		"uniques": ["Can see over obstacles", "[+1] Sight <when [Embarked]>", "May Paradrop up to [7] tiles from inside friendly territory", "Can move after attacking", "Never appears as a Barbarian unit"],
+		"uniques": ["Can see over obstacles", "Normal vision when embarked", "May Paradrop up to [7] tiles from inside friendly territory", "Can move after attacking", "Never appears as a Barbarian unit"],
 		"promotions": ["Ignore terrain cost"],
 		"requiredTech": "Radar",
 		"attackSound": "machinegun"
@@ -1250,7 +1250,7 @@
 		"upgradesTo": "Modern Marine",
 		"obsoleteTech": "Mobile Tactics",
 		"promotions": ["Amphibious"],
-		"uniques": ["[+1] Sight <when [Embarked]>", "Defense bonus when embarked"],
+		"uniques": ["Normal vision when embarked", "Defense bonus when embarked"],
 		"attackSound": "shot"
 	},
 	{
@@ -1261,7 +1261,7 @@
 		"cost": 450,
 		"requiredTech": "Mobile Tactics",
 		"promotions": ["Amphibious"],
-		"uniques": ["[+1] Sight <when [Embarked]>", "Defense bonus when embarked"],
+		"uniques": ["Normal vision when embarked", "Defense bonus when embarked"],
 		"attackSound": "machinegun"
 	},
 
@@ -2777,7 +2777,7 @@
 		"interceptRange": 2,
 		"cost": 425,
 		"requiredTech": "Advanced Ballistics",
-		"uniques": ["[100]% chance to intercept air attacks", "Can see invisible [Submarine] units", "Can see invisible [Melee Water] units",
+		"uniques": ["[100]% chance to intercept air attacks", "Can see invisible [Water] units",
 			"Can carry [3] [Ballistic] units","Never appears as a Barbarian unit"],
 		"promotions": ["Indirect Fire"],
 		"attackSound": "missile"
@@ -3001,6 +3001,7 @@
 		"strength": 40,
 		"cost": 375,
 		"requiredTech": "Electronics",
+		"requiredResource": "Oil",
 		"upgradesTo": "Nuclear Carrier",
 		"uniques": ["Cannot attack", "Can carry [2] [Aircraft] units", "Never appears as a Barbarian unit"]
 	},
@@ -3013,6 +3014,6 @@
 		"cost": 500,
 		"requiredTech": "Nuclear Fission",
 		"requiredResource": "Uranium",
-		"uniques": ["Cannot attack", "Can carry [3] [Aircraft] units", "Can carry [2] [Ballistic] units", "[70]% chance to intercept air attacks", "Never appears as a Barbarian unit"]
+		"uniques": ["Cannot attack", "Can carry [3] [Aircraft] units", "Can carry [1] [Ballistic] units", "[70]% chance to intercept air attacks", "Never appears as a Barbarian unit"]
 	}
 ]

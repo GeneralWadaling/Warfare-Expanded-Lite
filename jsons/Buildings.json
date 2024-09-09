@@ -6,7 +6,7 @@
 		"specialistSlots": {"Entertainer": 2},
 		"culture": 1,
 		"isNationalWonder": true,
-		"uniques": ["Only available <if [Colosseum] is constructed in all [non-[Puppeted]] cities>", "Cost increases by [30] per owned city"],
+		"uniques": ["Requires a [Colosseum] in all cities", "Cost increases by [30] per owned city"],
 		"requiredTech": "Horseback Riding"
 	},
 	{
@@ -36,7 +36,14 @@
 		"hurryCostModifier": 25,
 		"requiredBuilding": "Castle",
 		"requiredTech": "Metallurgy",
-		"uniques": ["Destroyed when the city is captured", "[2] free [Militiaman] units appear"]
+		"uniques": ["Destroyed when the city is captured",
+			"Comment [2 free Milita units appear depending on the current era]" 
+			"[2] free [Militiaman] units appear <during the [Renaissance era]> <hidden from users>",
+			"[2] free [Volunteers] units appear <during the [Industrial era]> <hidden from users>",
+			"[2] free [Draftee] units appear <during the [Modern era]> <hidden from users>",
+			"[2] free [Conscripts] units appear <during the [Atomic era]> <hidden from users>",
+			"[2] free [Irregulars] units appear <during the [Information era]> <hidden from users>",
+			]
 	},
 	{
 		"name": "Dojo",

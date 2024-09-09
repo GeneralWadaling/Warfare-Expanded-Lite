@@ -1,1 +1,13 @@
-{"modUrl":"https://github.com/GeneralWadaling/Warfare-Expanded-Lite","defaultBranch":"main","author":"GeneralWadaling","lastUpdated":"2024-07-22T04:38:34Z","modSize":7981,"topics":["unciv-mod","unciv-mod-expansions"],"uniques":["Cannot be used as permanent audiovisual mod","Mod is incompatible with [Civ V - Vanilla]","Can trade civilization introductions for [200] Gold","Mod requires [Civ V - Gods & Kings]"]}
+{
+    "isBaseRuleset": false,
+    "uniques": [
+	"Cannot be used as permanent audiovisual mod",
+	"Mod is incompatible with [Civ V - Vanilla]",
+	"Can trade civilization introductions for [200] Gold",
+	"Mod requires [Civ V - Gods & Kings]",
+	"Suppress warning [is supposed to automatically upgrade]",
+	],
+    "constants": {
+        "unitUpgradeCost": {}
+		}
+}
