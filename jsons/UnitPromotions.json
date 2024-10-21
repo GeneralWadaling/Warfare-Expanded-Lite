@@ -65,7 +65,7 @@
 	},
 	{
 		"name": "Anti Air Barrage",
-		"uniques": ["[+50]% Strength <vs [Air Helicopter] units>", "[+50]% Damage when intercepting"],
+		"uniques": ["[+50]% Strength <vs [Helicopter] units>", "[+50]% Damage when intercepting"],
 		"unitTypes": ["Anti Air"]
 	},
 	{
@@ -76,7 +76,7 @@
 	},
 	{
 		"name": "Proximity Air Defense",
-		"uniques": ["[+50]% Strength <vs [Air Helicopter] units>", "[+50]% Strength <vs [Air] units> <when defending>"],
+		"uniques": ["[+50]% Strength <vs [Helicopter] units>", "[+50]% Strength <vs [Air] units> <when defending>"],
 		"prerequisites": ["Anti Air Barrage"],
 		"unitTypes": ["Anti Air"]
 	},
@@ -138,6 +138,184 @@
 		"uniques": ["[+130]% Strength <vs [Anti Air] units>"],
 		"unitTypes": ["Missile"]
 	},
+
+
+	//Air Fighter
+	{
+		"name": "Dogfighting",
+		"uniques": ["[+30]% Strength when performing Air Sweep"],
+		"unitTypes": ["Air Fighter","Air Interceptor"]
+	},
+	{
+		"name": "Rapid Interception",
+		"uniques": ["[+30]% Damage when intercepting"],
+		"unitTypes": ["Air Fighter","Air Interceptor"]
+	},
+	{
+		"name": "Strafe",
+		"uniques": ["[+25]% Strength <vs [non-air] units>"],
+		"prerequisites": ["Dogfighting", "Rapid Interception"],
+		"unitTypes": ["Air Fighter","Air Interceptor"]
+	},
+	{
+		"name": "Experienced Fighter Pilot",
+		"uniques": ["[+25]% Strength <vs [Aircraft] units>"],
+		"prerequisites": ["Dogfighting", "Rapid Interception"],
+		"unitTypes": ["Air Fighter","Air Interceptor"]
+	},
+	{
+		"name": "Sortie",
+		"uniques": ["[1] extra interceptions may be made per turn"],
+		"prerequisites": ["Experienced Fighter Pilot"],
+		"unitTypes": ["Air Fighter","Air Interceptor"]
+	},
+	{
+		"name": "Fast Resupply",
+		"uniques": ["Unit will heal every turn, even if it performs an action"],
+		"prerequisites": ["Strafe"],
+		"unitTypes": ["Air Fighter","Air Interceptor"]
+	},
+	{
+		"name": "Ace Fighter Squadron",
+		"uniques": ["[+25]% Damage when intercepting", "[+25]% Strength when performing Air Sweep", "[+2] Range"],
+		"prerequisites": ["Sortie", "Fast Resupply"],
+		"unitTypes": ["Air Fighter","Air Interceptor"]
+	},
+
+
+	//Air Close Air Support
+	{
+		"name": "Torpedo Bomber",
+		"uniques": ["[+20]% Strength <vs [Water] units>"],
+		"unitTypes": ["Air CAS"]
+	},
+	{
+		"name": "Cockpit Armor",
+		"uniques": ["Damage taken from interception reduced by [30]%"],
+		"unitTypes": ["Air CAS"]
+	},
+	{
+		"name": "Tank Buster",
+		"uniques": ["[+50]% Strength <vs [Armored] units>"],
+		"prerequisites": ["Torpedo Bomber", "Cockpit Armor"],
+		"unitTypes": ["Air CAS"]
+	},
+	{
+		"name": "SEAD",
+		"uniques": ["[+33]% Strength <vs [Anti Air] units>"],
+		"prerequisites": ["Cockpit Armor"],
+		"unitTypes": ["Air CAS"]
+	},
+	{
+		"name": "Precision Bombing",
+		"uniques": ["[+20]% Strength <vs [Land] units>"],
+		"prerequisites": ["Torpedo Bomber", "Cockpit Armor"],
+		"unitTypes": ["Air CAS"]
+	},
+	{
+		"name": "Experienced Ground Crew",
+		"uniques": ["Unit will heal every turn, even if it performs an action"],
+		"prerequisites": ["Tank Buster", "Precision Bombing", "SEAD"],
+		"unitTypes": ["Air CAS"]
+	},
+	{
+		"name": "Bunker Buster",
+		"uniques": ["[+25]% Strength <vs cities>"],
+		"prerequisites": ["Tank Buster", "Precision Bombing", "SEAD"],
+		"unitTypes": ["Air CAS"]
+	},
+	{
+		"name": "Ace Bomber Squadron",
+		"uniques": ["[1] additional attacks per turn", "[+2] Range"],
+		"prerequisites": ["Experienced Ground Crew", "Bunker Buster"],
+		"unitTypes": ["Air CAS"]
+	},
+
+
+	//Air Bomber
+	{
+		"name": "Carpet Bombing",
+		"uniques": ["[+50]% Strength <vs cities>", "[+20]% Strength <vs [Land] units>"],
+		"unitTypes": ["Air Bomber"]
+	},
+	{
+		"name": "Evasive Maneuver",
+		"uniques": ["Damage taken from interception reduced by [30]%"],
+		"unitTypes": ["Air Bomber"]
+	},
+	{
+		"name": "Naval Patrol Aircraft",
+		"uniques": ["[+25]% Strength <vs [Water] units>"],
+		"prerequisites": ["Carpet Bombing", "Evasive Maneuver"],
+		"unitTypes": ["Air Bomber"]
+	},
+	{
+		"name": "Heavy Gunship",
+		"uniques": ["[+25]% Strength <vs [Land] units>"],
+		"prerequisites": ["Carpet Bombing", "Evasive Maneuver"],
+		"unitTypes": ["Air Bomber"]
+	},
+	{
+		"name": "Tactical Maintenance",
+		"uniques": ["Unit will heal every turn, even if it performs an action"],
+		"prerequisites": ["Heavy Gunship", "Naval Patrol Aircraft"],
+		"unitTypes": ["Air Bomber"]
+	},
+	{
+		"name": "Long Range Mission",
+		"uniques": ["[+2] Range"],
+		"prerequisites": ["Heavy Gunship", "Naval Patrol Aircraft"],
+		"unitTypes": ["Air Bomber"]
+	},
+	{
+		"name": "Stratofortress",
+		"uniques": ["[+2] Range", "[+30]% Strength"],
+		"prerequisites": ["Tactical Maintenance", "Long Range Mission"],
+		"unitTypes": ["Air Bomber"]
+	},
+
+	//Air Helicopter
+	{
+		"name": "Rocket Bombardment",
+		"uniques": ["[+20]% Strength <vs [Land] units>"],
+		"unitTypes": ["Air Helicopter"]
+	},
+	{
+		"name": "Armor Piercing Rounds",
+		"uniques": ["[+33]% Strength <vs [Armored] units>"],
+		"unitTypes": ["Air Helicopter"]
+	},
+	{
+		"name": "Reinforced Frame",
+		"uniques": ["[+20]% Strength <when defending>"],
+		"prerequisites": ["Armor Piercing Rounds", "Rocket Bombardment"],
+		"unitTypes": ["Air Helicopter"]
+	},
+	{
+		"name": "Anti Tank Missile",
+		"uniques": ["[+33]% Strength <vs [Armored] units>"],
+		"prerequisites": ["Armor Piercing Rounds", "Rocket Bombardment"],
+		"unitTypes": ["Air Helicopter"]
+	},
+	{
+		"name": "Air to Air Weapon",
+		"uniques": ["[+20]% Strength <vs [Air] units> <when defending>", "[+20]% Strength <vs [Air Helicopter] units>"],
+		"prerequisites": ["Reinforced Frame", "Anti Tank Missile"],
+		"unitTypes": ["Air Helicopter"]
+	},
+	{
+		"name": "NOE Maneuver",
+		"uniques": ["[+33]% Strength <vs [Anti Air] units>"],
+		"prerequisites": ["Reinforced Frame", "Anti Tank Missile"],
+		"unitTypes": ["Air Helicopter"]
+	},
+	{
+		"name": "Hunter Killer",
+		"uniques": ["[+20]% Strength <vs [Wounded] units>", "[+20]% Strength <when attacking>"],
+		"prerequisites": ["Air to Air Weapon", "NOE Maneuver"],
+		"unitTypes": ["Air Helicopter"]
+	},
+
 
 	//Air Drone
 	{

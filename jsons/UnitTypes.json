@@ -146,12 +146,17 @@
         "movementType": "Air"
     },
     {
-        "name": "Air Bomber",
-        "uniques": ["Aircraft", "[-20]% Strength <vs [Air] units>"],
+        "name": "Air Interceptor",
+        "uniques": ["Aircraft", "[+4] Sight", "Can see over obstacles", "Can perform Air Sweep"],
         "movementType": "Air"
     },
     {
-        "name": "Air Close Air Support",
+        "name": "Air Bomber",
+        "uniques": ["Aircraft"],
+        "movementType": "Air"
+    },
+    {
+        "name": "Air CAS",
         "uniques": ["Aircraft", "Can perform Air Sweep"],
         "movementType": "Air"
     },
@@ -178,7 +183,7 @@
     {
         "name": "Air Helicopter",
         "movementType": "Land",
-        "uniques": ["Can pass through impassable tiles"]
+        "uniques": ["Aircraft", "Can pass through impassable tiles"]
     },
     {
         "name": "Air Satellite",

@@ -2273,10 +2273,10 @@
 		"attackSound": "tankshot"
 	},
 
-	//air superiority
+	//air superiority & interceptors
 	{
 		"name": "Triplane",
-		"unitType": "Fighter",
+		"unitType": "Air Fighter",
 		"movement": 1,
 		"strength": 35,
 		"rangedStrength": 35,
@@ -2287,12 +2287,12 @@
 		"requiredResource": "Oil",
 		"upgradesTo": "Fighter",
 		"obsoleteTech": "Radar",
-		"uniques": ["[40]% chance to intercept air attacks", "[+100]% Strength <vs [Bomber] units>", "[+100]% Strength <vs [Helicopter] units>"],
+		"uniques": ["Can perform Air Sweep", "[40]% chance to intercept air attacks", "[+50]% Strength <vs [Air CAS] units>", "[+50]% Strength <vs [Air Bomber] units>", "[+100]% Strength <vs [Air Helicopter] units>"],
 		"attackSound": "machinegun"
 	},
 	{
 		"name": "Fighter",
-		"unitType": "Fighter",
+		"unitType": "Air Fighter",
 		"movement": 1,
 		"strength": 45,
 		"rangedStrength": 45,
@@ -2303,12 +2303,12 @@
 		"requiredResource": "Oil",
 		"upgradesTo": "Jet Fighter",
 		"obsoleteTech": "Lasers",
-		"uniques": ["[65]% chance to intercept air attacks", "[+100]% Strength <vs [Bomber] units>", "[+150]% Strength <vs [Atomic Bomber] units>", "[+150]% Strength <vs [Helicopter] units>"],
+		"uniques": ["Can perform Air Sweep", "[65]% chance to intercept air attacks", "[+100]% Strength <vs [Air CAS] units>", "[+50]% Strength <vs [Air Bomber] units>", "[+75]% Strength <vs [Atomic Bomber] units>", "[+150]% Strength <vs [Air Helicopter] units>"],
 		"attackSound": "machinegun"
 	},
 	{
 		"name": "Zero",
-		"unitType": "Fighter",
+		"unitType": "Air Fighter",
 		"replaces": "Fighter",
 		"uniqueTo": "Japan",
 		"movement": 1,
@@ -2321,13 +2321,13 @@
 		"upgradesTo": "Jet Fighter",
 		"obsoleteTech": "Lasers",
 		"requiredResource": "Oil",
-		"uniques": ["[70]% chance to intercept air attacks", "[+150]% Strength <vs [Air Bomber] units>","[+150]% Strength <vs [Atomic Bomber] units>","[+150]% Strength <vs [Helicopter] units>"],
+		"uniques": ["Can perform Air Sweep", "[70]% chance to intercept air attacks", "[+100]% Strength <vs [Air CAS] units>", "[+75]% Strength <vs [Air Bomber] units>", "[+75]% Strength <vs [Atomic Bomber] units>", "[+150]% Strength <vs [Air Helicopter] units>"],
 		"promotions": ["[Zero] ability"],
 		"attackSound": "machinegun"
 	},
 	{
 		"name": "Fokker D XXI",
-		"unitType": "Fighter",
+		"unitType": "Air Fighter",
 		"replaces": "Fighter",
 		"uniqueTo": "The Netherlands",
 		"movement": 1,
@@ -2340,12 +2340,28 @@
 		"upgradesTo": "Jet Fighter",
 		"obsoleteTech": "Lasers",
 		"requiredResource": "Oil",
-		"uniques": ["[65]% chance to intercept air attacks", "[+100]% Strength <vs [Bomber] units>", "[+150]% Strength <vs [Atomic Bomber] units>", "[+150]% Strength <vs [Helicopter] units>","[This Unit] gains the [Air Repair] promotion <during a Golden Age>"],
+		"uniques": ["Can perform Air Sweep", "[65]% chance to intercept air attacks", "[+100]% Strength <vs [Air CAS] units>", "[+50]% Strength <vs [Air Bomber] units>", "[+75]% Strength <vs [Atomic Bomber] units>", "[+150]% Strength <vs [Air Helicopter] units>", "[This Unit] gains the [Air Repair] promotion <during a Golden Age>"],
+		"attackSound": "machinegun"
+	},
+	{
+		"name": "Interceptor",
+		"unitType": "Air Interceptor",
+		"movement": 1,
+		"strength": 40,
+		"rangedStrength": 40,
+		"range": 8,
+		"interceptRange": 10,
+		"cost": 375,
+		"requiredTech": "Combined Arms",
+		"requiredResource": "Oil",
+		"upgradesTo": "Jet Interceptor",
+		"obsoleteTech": "Lasers",
+		"uniques": ["Can perform Air Sweep", "[65]% chance to intercept air attacks", "[+50]% Strength <vs [Air CAS] units>", "[+100]% Strength <vs [Air Bomber] units>", "[+150]% Strength <vs [Atomic Bomber] units>"],
 		"attackSound": "machinegun"
 	},
 	{
 		"name": "Jet Fighter",
-		"unitType": "Fighter",
+		"unitType": "Air Fighter",
 		"movement": 1,
 		"strength": 75,
 		"rangedStrength": 75,
@@ -2354,7 +2370,21 @@
 		"cost": 425,
 		"requiredTech": "Lasers",
 		"requiredResource": "Oil",
-		"uniques": ["[80]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>","[+150]% Strength <vs [Atomic Bomber] units>","[+150]% Strength <vs [Helicopter] units>"],
+		"uniques": ["Can perform Air Sweep", "[80]% chance to intercept air attacks", "[+100]% Strength <vs [Air CAS] units>", "[+75]% Strength <vs [Air Bomber] units>","[+75]% Strength <vs [Atomic Bomber] units>","[+150]% Strength <vs [Air Helicopter] units>"],
+		"attackSound": "jetgun"
+	},
+	{
+		"name": "Jet Interceptor",
+		"unitType": "Air Interceptor",
+		"movement": 1,
+		"strength": 65,
+		"rangedStrength": 65,
+		"range": 18,
+		"interceptRange": 18,
+		"cost": 425,
+		"requiredTech": "Lasers",
+		"requiredResource": "Oil",
+		"uniques": ["Can perform Air Sweep", "[80]% chance to intercept air attacks", "[+50]% Strength <vs [Air CAS] units>", "[+150]% Strength <vs [Air Bomber] units>","[+150]% Strength <vs [Atomic Bomber] units>"],
 		"attackSound": "jetgun"
 	},
 
@@ -2373,10 +2403,10 @@
 		"attackSound": "jetgun"
 	},
 
-	//boomer
+	//boomer & CAS
 	{
 		"name": "Great War Bomber",
-		"unitType": "Bomber",
+		"unitType": "Air Bomber",
 		"movement": 1,
 		"strength": 50,
 		"rangedStrength": 50,
@@ -2390,7 +2420,7 @@
 	},
 	{
 		"name": "Bomber",
-		"unitType": "Bomber",
+		"unitType": "Air Bomber",
 		"movement": 1,
 		"strength": 65,
 		"rangedStrength": 65,
@@ -2400,11 +2430,12 @@
 		"upgradesTo": "Jet Bomber",
 		"obsoleteTech": "Lasers",
 		"requiredResource": "Oil",
+		"uniques": ["[+25]% Strength <vs cities>"],
 		"attackSound": "bombing"
 	},
 	{
 		"name": "B17",
-		"unitType": "Bomber",
+		"unitType": "Air Bomber",
 		"replaces": "Bomber",
 		"uniqueTo": "America",
 		"movement": 1,
@@ -2418,11 +2449,27 @@
 		"upgradesTo": "Jet Bomber",
 		"obsoleteTech": "Lasers",
 		"requiredResource": "Oil",
+		"uniques": ["[+25]% Strength <vs cities>", "Cannot be carried by [Aircraft Carrier] units"],
+		"attackSound": "bombing"
+	},
+	{
+		"name": "Fighter Bomber",
+		"unitType": "Air CAS",
+		"movement": 1,
+		"strength": 45,
+		"rangedStrength": 45,
+		"range": 8,
+		"cost": 375,
+		"requiredTech": "Combined Arms",
+		"upgradesTo": "Jet Striker",
+		"obsoleteTech": "Lasers",
+		"requiredResource": "Oil",
+		"uniques": ["[+50]% Strength <vs [Armored] units>","[+150]% Strength <vs [Air Helicopter] units>"],
 		"attackSound": "bombing"
 	},
 	{
 		"name": "Jet Bomber",
-		"unitType": "Bomber",
+		"unitType": "Air Bomber",
 		"movement": 1,
 		"strength": 85,
 		"rangedStrength": 85,
@@ -2431,26 +2478,40 @@
 		"requiredTech": "Lasers",
 		"upgradesTo": "Stealth Bomber",
 		"requiredResource": "Oil",
+		"uniques": ["[+25]% Strength <vs cities>", "Cannot be carried by [Aircraft Carrier] units"],
+		"attackSound": "bombing"
+	},
+	{
+		"name": "Jet Striker",
+		"unitType": "Air CAS",
+		"movement": 1,
+		"strength": 75,
+		"rangedStrength": 75,
+		"range": 10,
+		"cost": 425,
+		"requiredTech": "Lasers",
+		"requiredResource": "Oil",
+		"uniques": ["[+50]% Strength <vs [Armored] units>","[+150]% Strength <vs [Air Helicopter] units>"],
 		"attackSound": "bombing"
 	},
 	{
 		"name": "Stealth Bomber",
-		"unitType": "Bomber",
+		"unitType": "Air Bomber",
 		"movement": 2,
 		"strength": 85,
 		"rangedStrength": 85,
 		"range": 20,
 		"cost": 425,
 		"requiredTech": "Stealth",
-		"uniques": ["Damage taken from interception reduced by [100]%", "Cannot be carried by [Naval Carrier] units", "[+4] Sight", "Can see over obstacles", "Consumes [1] [Oil]", "Consumes [1] [Aluminum]"],
+		"uniques": ["Damage taken from interception reduced by [100]%", "Cannot be carried by [Aircraft Carrier] units", "[+4] Sight", "Can see over obstacles", "Consumes [1] [Oil]", "Consumes [1] [Aluminum]"],
 		"attackSound": "bombing"
 	},
 
 	//heli
 	{
 		"name": "Zeppelin",
-		"unitType": "Helicopter",
-		"movement": 3,
+		"unitType": "Air Helicopter",
+		"movement": 2,
 		"strength": 50,
 		"rangedStrength": 50,
 		"range": 1,
@@ -2465,7 +2526,7 @@
 	},
 	{
 		"name": "Helicopter Gunship",
-		"unitType": "Helicopter",
+		"unitType": "Air Helicopter",
 		"movement": 6,
 		"strength": 60,
 		"rangedStrength": 65,
@@ -2812,7 +2873,7 @@
 		"uniques": ["Never appears as a Barbarian unit","[+50]% Strength <vs cities>"],
 		"requiredTech": "Navigation",
 		"obsoleteTech": "Combustion",
-		"upgradesTo": "Monitor",
+		"upgradesTo": "Pre-Dreadnought",
 		"hurryCostModifier": 20,
 		"attackSound": "cannon"
 	},
@@ -2829,7 +2890,7 @@
 		"uniques": ["Never appears as a Barbarian unit", "Double movement in [Coast]", "Can undertake a trade mission with City-State, giving a large sum of gold and [10] Influence"],
 		"requiredTech": "Navigation",
 		"obsoleteTech": "Combustion",
-		"upgradesTo": "Monitor",
+		"upgradesTo": "Pre-Dreadnought",
 		"hurryCostModifier": 20,
 		"attackSound": "cannon"
 	},
@@ -2846,12 +2907,12 @@
 		"uniques": ["[+1] Sight","[+50]% Strength <vs cities>"],
 		"requiredTech": "Navigation",
 		"obsoleteTech": "Combustion",
-		"upgradesTo": "Monitor",
+		"upgradesTo": "Pre-Dreadnought",
 		"hurryCostModifier": 20,
 		"attackSound": "cannon"
 	},
 	{
-		"name": "Monitor",
+		"name": "Pre-Dreadnought",
 		"unitType": "Ranged Water",
 		"movement": 3,
 		"strength": 35,
