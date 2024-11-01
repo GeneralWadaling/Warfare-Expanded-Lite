@@ -278,7 +278,7 @@
 	{
 		"name": "Fire and Maneuver",
 		"prerequisites": ["Accuracy III", "Barrage III"],
-		"uniques": ["May withdraw before melee ([40]%)", "Can move after attacking"],
+		"uniques": ["Withdraws before melee combat <with [40]% chance>", "Can move after attacking"],
 		"unitTypes": ["Archery Light","Ranged Gunpowder Light"],
         "column": 4,
         "row": 30

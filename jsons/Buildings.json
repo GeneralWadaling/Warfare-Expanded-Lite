@@ -80,7 +80,7 @@
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"requiredBuilding": "Courthouse",
-		"uniques": ["[+33]% Natural religion spread [in this city]","Hidden when religion is disabled"],
+		"uniques": ["[+33]% Natural religion spread [in this city]","Only available <when religion is enabled>"],
 		"requiredTech": "Theology"
 	}
 ]
