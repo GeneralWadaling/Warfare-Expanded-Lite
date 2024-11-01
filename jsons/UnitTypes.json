@@ -10,6 +10,7 @@
 
     //infantry
 
+/*
     {
         "name": "Infantry",
 	"uniques": ["[+15]% Strength <vs [Anti Cavalry] units>"],
@@ -33,14 +34,30 @@
         "name": "Paratrooper",
         "movementType": "Land"
     },
+*/
     {
         "name": "Militia",
 	"uniques": ["[+50]% to Flank Attack bonuses", "[+50]% Strength when stacked with [Civilian]"],
         "movementType": "Land"
     },
+    {
+        "name": "Sword Anti Cavalry",
+	"uniques": ["Sword"],
+        "movementType": "Land"
+    },
+    {
+        "name": "Gunpowder Anti Cavalry",
+	"uniques": ["Gunpowder"],
+        "movementType": "Land"
+    },
+    {
+        "name": "Anti Armor",
+	"uniques": ["Gunpowder"],
+        "movementType": "Land"
+    },
 
     //ranged
-
+/*
     {
         "name": "Ranged Heavy",
 	"uniques": ["[-20]% Strength <vs [Infantry] units>"],
@@ -50,9 +67,26 @@
         "name": "Ranged Support",
         "movementType": "Land"
     },
+*/
+    {
+        "name": "Archery Light",
+	"uniques": ["Archery"],
+        "movementType": "Land"
+    },
+    {
+        "name": "Ranged Gunpowder Light",
+	"uniques": ["Ranged Gunpowder"],
+        "movementType": "Land"
+    },
+    {
+        "name": "Ranged Gunpowder Emplacement",
+	"uniques": ["Ranged Gunpowder"],
+        "movementType": "Land"
+    },
 
     //siege
 
+/*
     {
         "name": "Siege Melee",
         "movementType": "Land"
@@ -72,9 +106,21 @@
 	"uniques": ["[-1] Sight", "[-50]% XP gained from combat", "Only available <if [Manhattan Project] is constructed>", "[+100]% maintenance costs"],
         "movementType": "Land"
     },
+*/
+    {
+        "name": "Siege Sword",
+	"uniques": ["Sword"],
+        "movementType": "Land"
+    },
+    {
+        "name": "Siege Gunpowder",
+	"uniques": ["Gunpowder"],
+        "movementType": "Land"
+    },
 
     //cav
 
+/*
     {
         "name": "Heavy Cavalry",
         "movementType": "Land"
@@ -90,6 +136,22 @@
     },
     {
         "name": "Counter Cavalry",
+        "movementType": "Land"
+    },
+*/
+    {
+        "name": "Archery Mounted",
+	"uniques": ["Archery", "Mounted"],
+        "movementType": "Land"
+    },
+    {
+        "name": "Ranged Gunpowder Mounted",
+	"uniques": ["Ranged Gunpowder", "Mounted"],
+        "movementType": "Land"
+    },
+    {
+        "name": "Ranged Gunpowder Armored",
+	"uniques": ["Ranged Gunpowder", "Armored"],
         "movementType": "Land"
     },
 
@@ -108,6 +170,7 @@
 
     //naval
 
+/*
     {
         "name": "Naval Melee",
 	"uniques": ["[+50]% Strength <vs [Naval Raider] units>"],
@@ -137,9 +200,11 @@
         "uniques": ["Can enter ice tiles", "Invisible to non-adjacent units", "Can see invisible [Naval Submarine] units", "Can see invisible [Naval Raider] units"],
         "movementType": "Water"
     },
+*/
 
     //aircraft
 
+/*
     {
         "name": "Air Fighter",
         "uniques": ["Aircraft", "[+4] Sight", "Can see over obstacles", "Can perform Air Sweep"],
@@ -161,11 +226,6 @@
         "movementType": "Air"
     },
     {
-        "name": "Air Drone",
-        "uniques": ["Aircraft", "Can see over obstacles", "[+2] Sight"],
-        "movementType": "Air"
-    },
-    {
         "name": "Air Atomic Bomber",
         "uniques": ["Aircraft", "Self-destructs when attacking"],
         "movementType": "Air"
@@ -176,21 +236,36 @@
         "uniques": ["Self-destructs when attacking"]
     },
     {
-        "name": "Nuke Missile",
+        "name": "Air Satellite",
         "movementType": "Air",
-        "uniques": ["Self-destructs when attacking"]
+        "uniques": ["Cannot be intercepted"]
     },
+*/
     {
         "name": "Air Helicopter",
         "movementType": "Land",
         "uniques": ["Aircraft", "Can pass through impassable tiles"]
     },
     {
-        "name": "Air Satellite",
-        "movementType": "Air",
-        "uniques": ["Cannot be intercepted"]
+        "name": "Air Drone",
+        "uniques": ["Aircraft", "Can see over obstacles", "[+2] Sight"],
+        "movementType": "Air"
     },
-
+    {
+        "name": "Nuke Missile",
+        "movementType": "Air",
+        "uniques": ["Self-destructs when attacking"]
+    },
+    {
+        "name": "Interceptor",
+        "uniques": ["Aircraft", "[+4] Sight", "Can see over obstacles", "Can perform Air Sweep"],
+        "movementType": "Air"
+    },
+    {
+        "name": "CAS",
+        "uniques": ["Aircraft"],
+        "movementType": "Air"
+    },
 
 
     //vanilla items

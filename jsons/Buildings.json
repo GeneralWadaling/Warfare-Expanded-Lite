@@ -75,7 +75,7 @@
 		"requiredTech": "Refrigeration"
 	},
 	{
-		"name": "Missionary Mission",
+		"name": "Foreign Mission",
 		"uniqueTo": "Spain",
 		"hurryCostModifier": 25,
 		"maintenance": 1,

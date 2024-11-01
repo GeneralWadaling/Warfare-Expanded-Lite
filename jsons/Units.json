@@ -537,7 +537,7 @@
 	//anticav
 	{
 		"name": "Spearman",
-		"unitType": "Sword",
+		"unitType": "Sword Anti Cavalry",
 		"movement": 2,
 		"strength": 9,
 		"cost": 56,
@@ -549,7 +549,7 @@
 	},
 	{
 		"name": "Pictish Warrior",
-		"unitType": "Sword",
+		"unitType": "Sword Anti Cavalry",
 		"replaces": "Spearman",
 		"uniqueTo": "Celts",
 		"movement": 2,
@@ -564,7 +564,7 @@
 	},
 	{
 		"name": "Marauder",
-		"unitType": "Sword",
+		"unitType": "Sword Anti Cavalry",
 		"replaces": "Spearman",
 		"uniqueTo": "Barbarians",
 		"movement": 2,
@@ -578,7 +578,7 @@
 	},
 	{
 		"name": "Heavy Infantry",
-		"unitType": "Sword",
+		"unitType": "Sword Anti Cavalry",
 		"movement": 2,
 		"strength": 12,
 		"cost": 70,
@@ -590,7 +590,7 @@
 	},
 	{
 		"name": "Hoplite",
-		"unitType": "Sword",
+		"unitType": "Sword Anti Cavalry",
 		"replaces": "Heavy Infantry",
 		"uniqueTo": "Greece",
 		"movement": 2,
@@ -604,7 +604,7 @@
 	},
 	{
 		"name": "Persian Immortal",
-		"unitType": "Sword",
+		"unitType": "Sword Anti Cavalry",
 		"replaces": "Heavy Infantry",
 		"uniqueTo": "Persia",
 		"movement": 2,
@@ -619,7 +619,7 @@
 	},
 	{
 		"name": "Sabum Kibittum",
-		"unitType": "Sword",
+		"unitType": "Sword Anti Cavalry",
 		"replaces": "Heavy Infantry",
 		"uniqueTo": "Babylon",
 		"movement": 3,
@@ -633,7 +633,7 @@
 	},
 	{
 		"name": "Pikeman",
-		"unitType": "Sword",
+		"unitType": "Sword Anti Cavalry",
 		"movement": 2,
 		"strength": 16,
 		"cost": 90,
@@ -645,7 +645,7 @@
 	},
 	{
 		"name": "Landsknecht",
-		"unitType": "Sword",
+		"unitType": "Sword Anti Cavalry",
 		"replaces": "Pikeman",
 		"uniqueTo": "Germany",
 		"movement": 2,
@@ -660,7 +660,7 @@
 	},
 	{
 		"name": "Pike and Shot",
-		"unitType": "Gunpowder",
+		"unitType": "Gunpowder Anti Cavalry",
 		"movement": 2,
 		"strength": 20,
 		"cost": 160,
@@ -672,7 +672,7 @@
 	},
 	{
 		"name": "Tercio",
-		"unitType": "Gunpowder",
+		"unitType": "Gunpowder Anti Cavalry",
 		"replaces": "Pike and Shot",
 		"uniqueTo": "Spain",
 		"movement": 2,
@@ -686,7 +686,7 @@
 	},
 	{
 		"name": "Line Infantry",
-		"unitType": "Gunpowder",
+		"unitType": "Gunpowder Anti Cavalry",
 		"movement": 2,
 		"strength": 34,
 		"cost": 225,
@@ -698,7 +698,7 @@
 	},
 	{
 		"name": "Garde Imperiale",
-		"unitType": "Gunpowder",
+		"unitType": "Gunpowder Anti Cavalry",
 		"replaces": "Line Infantry",
 		"uniqueTo": "France",
 		"movement": 2,
@@ -713,7 +713,7 @@
 	},
 	{
 		"name": "Anti-Tank Gun",
-		"unitType": "Gunpowder",
+		"unitType": "Anti Armor",
 		"movement": 2,
 		"strength": 40,
 		"cost": 300,
@@ -725,7 +725,7 @@
 	},
 	{
 		"name": "Bazooka",
-		"unitType": "Gunpowder",
+		"unitType": "Anti Armor",
 		"movement": 2,
 		"strength": 60,
 		"cost": 375,
@@ -736,7 +736,7 @@
 	},
 	{
 		"name": "Modern AT Missile",
-		"unitType": "Gunpowder",
+		"unitType": "Anti Armor",
 		"movement": 2,
 		"strength": 70,
 		"cost": 425,
@@ -748,19 +748,20 @@
 	//rangedA
 	{
 		"name": "Stoneslinger",
-		"unitType": "Archery",
+		"unitType": "Archery Light",
 		"movement": 2,
 		"strength": 6,
 		"rangedStrength": 6,
 		"range": 1,
 		"cost": 40,
+		"uniques": ["[-20]% Strength <vs [Mounted] units> <when defending>","[-20]% Strength <vs [Armored] units> <when defending>"],
 		"obsoleteTech": "Construction",
 		"upgradesTo": "Javelineer",
 		"attackSound": "arrow"
 	},
 	{
 		"name": "Slinger",
-		"unitType": "Archery",
+		"unitType": "Archery Light",
 		"uniqueTo": "Inca",
 		"replaces": "Stoneslinger",
 		"movement": 2,
@@ -768,6 +769,8 @@
 		"rangedStrength": 7,
 		"range": 1,
 		"cost": 40,
+		"uniques": ["[-20]% Strength <vs [Mounted] units> <when defending>","[-20]% Strength <vs [Armored] units> <when defending>"],
+		"obsoleteTech": "Construction"
 		"obsoleteTech": "Construction",
 		"upgradesTo": "Javelineer",
 		"promotions": ["Slinger Withdraw"],
@@ -775,12 +778,14 @@
 	},
 	{
 		"name": "Javelineer",
-		"unitType": "Archery",
+		"unitType": "Archery Light",
 		"movement": 2,
 		"strength": 8,
 		"rangedStrength": 9,
 		"range": 1,
 		"cost": 75,
+		"uniques": ["[-20]% Strength <vs [Mounted] units> <when defending>","[-20]% Strength <vs [Armored] units> <when defending>"],
+		"obsoleteTech": "Construction"
 		"requiredTech": "Construction",
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Skirmisher",
@@ -788,12 +793,14 @@
 	},
 	{
 		"name": "Skirmisher",
-		"unitType": "Archery",
+		"unitType": "Archery Light",
 		"movement": 2,
-		"strength": 16,
+		"strength": 12,
 		"rangedStrength": 16,
 		"range": 1,
 		"cost": 120,
+		"uniques": ["[-20]% Strength <vs [Mounted] units> <when defending>","[-20]% Strength <vs [Armored] units> <when defending>"],
+		"obsoleteTech": "Construction"
 		"requiredTech": "Civil Service",
 		"upgradesTo": "Arquebusier",
 		"obsoleteTech": "Chemistry",
@@ -801,25 +808,48 @@
 	},
 	{
 		"name": "Arquebusier",
-		"unitType": "Ranged Gunpowder",
+		"unitType": "Ranged Gunpowder Light",
 		"movement": 2,
-		"strength": 19,
-		"rangedStrength": 19,
+		"strength": 18,
+		"rangedStrength": 20,
 		"range": 1,
 		"cost": 185,
+		"uniques": ["[-20]% Strength <vs [Mounted] units> <when defending>","[-20]% Strength <vs [Armored] units> <when defending>"],
+		"obsoleteTech": "Construction"
 		"requiredTech": "Gunpowder",
+		//"upgradesTo": "Napoleonic Light Infantry",
 		"upgradesTo": "Rifleman",
-		"obsoleteTech": "Industrialization",
+		"obsoleteTech": "Rifling",
 		"attackSound": "arrow"
 	},
+/*
+	{
+		"name": "Napoleonic Light Infantry",
+		"unitType": "Ranged Gunpowder Light",
+		"movement": 2,
+		"strength": 28,
+		"rangedStrength": 30,
+		"range": 1,
+		"cost": 225,
+		"uniques": ["[-20]% Strength <vs [Mounted] units> <when defending>","[-20]% Strength <vs [Armored] units> <when defending>"],
+		"obsoleteTech": "Construction"
+		"requiredTech": "Rifling",
+		"upgradesTo": "Great War Infantry",
+		"obsoleteTech": "Replaceable Parts",
+		"attackSound": "arrow"
+	},
+*/
+
+	//rangedE
 	{
 		"name": "Gatling Gun",
-		"unitType": "Ranged Gunpowder",
+		"unitType": "Ranged Gunpowder Emplacement",
 		"range": 1,
 		"movement": 2,
-		"strength": 30,
-		"rangedStrength": 30,
-		"cost": 225,
+		"strength": 40,
+		"rangedStrength": 40,
+		"cost": 275,
+		"uniques": ["Must set up to ranged attack","[-15]% Strength <vs [Ranged] units>"],
 		"requiredTech": "Industrialization",
 		"upgradesTo": "Machine Gun",
 		"obsoleteTech": "Ballistics",
@@ -827,27 +857,28 @@
 	},
 	{
 		"name": "Gatling Elephant",
-		"unitType": "Ranged Gunpowder",
-		"replaces": "Gatling Gun",
+		"unitType": "Ranged Gunpowder Emplacement",
 		"uniqueTo": "Siam",
 		"range": 1,
 		"movement": 2,
-		"strength": 35,
-		"rangedStrength": 35,
-		"cost": 225,
+		"strength": 40,
+		"rangedStrength": 40,
+		"cost": 275,
 		"requiredTech": "Industrialization",
 		"upgradesTo": "Machine Gun",
+		"uniques": ["Must set up to ranged attack","[-15]% Strength <vs [Ranged] units>","Elephant","Mounted","[-10]% Strength for enemy [Sword] units in adjacent [Land] tiles","[-10]% Strength for enemy [Mounted] units in adjacent [Land] tiles"],
 		"obsoleteTech": "Ballistics",
 		"attackSound": "machinegun"
 	},
 	{
 		"name": "Machine Gun",
-		"unitType": "Ranged Gunpowder",
+		"unitType": "Ranged Gunpowder Emplacement",
 		"range": 1,
 		"movement": 2,
 		"strength": 60,
 		"rangedStrength": 60,
 		"cost": 350,
+		"uniques": ["Must set up to ranged attack","[-15]% Strength <vs [Ranged] units>"],
 		"requiredTech": "Ballistics",
 		"obsoleteTech": "Computers",
 		"upgradesTo": "Heavy Weapons",
@@ -856,12 +887,13 @@
 	},
 	{
 		"name": "Heavy Weapons",
-		"unitType": "Ranged Gunpowder",
+		"unitType": "Ranged Gunpowder Emplacement",
 		"range": 1,
 		"movement": 2,
 		"strength": 70,
 		"rangedStrength": 70,
 		"cost": 375,
+		"uniques": ["Must set up to ranged attack","[-15]% Strength <vs [Ranged] units>"],
 		"requiredTech": "Rocketry",
 		"obsoleteTech": "Telecommunications",
 		"upgradesTo": "Modern Heavy Weapons",
@@ -869,12 +901,13 @@
 	},
 	{
 		"name": "Modern Heavy Weapons",
-		"unitType": "Ranged Gunpowder",
+		"unitType": "Ranged Gunpowder Emplacement",
 		"movement": 2,
-		"strength": 80,
+		"strength": 90,
 		"rangedStrength": 90,
 		"range": 1,
 		"cost": 425,
+		"uniques": ["Must set up to ranged attack","[-15]% Strength <vs [Ranged] units>"],
 		"requiredTech": "Lasers",
 		"attackSound": "missile"
 	},
@@ -1271,7 +1304,7 @@
 	//siegeA
 	{
 		"name": "Siege Ram",
-		"unitType": "Sword", 
+		"unitType": "Siege Sword", 
 		"movement": 2,
 		"strength": 14,
 		"cost": 75,
@@ -1284,7 +1317,7 @@
 	},
 	{
 		"name": "Battering Ram",
-		"unitType": "Sword",
+		"unitType": "Siege Sword",
 		"uniqueTo": "The Huns",
 		"replaces": "Siege Ram",
 		"movement": 2,
@@ -1299,7 +1332,7 @@
 	},
 	{
 		"name": "Medieval Siege Tower",
-		"unitType": "Sword", 
+		"unitType": "Siege Gunpowder", 
 		"movement": 2,
 		"strength": 20,
 		"cost": 120,
@@ -1311,7 +1344,7 @@
 	},
 	{
 		"name": "Grenadier",
-		"unitType": "Gunpowder",
+		"unitType": "Siege Gunpowder",
 		"movement": 2,
 		"strength": 25,
 		"cost": 200,
@@ -1323,7 +1356,7 @@
 	},
 	{
 		"name": "Demolition Sapper",
-		"unitType": "Gunpowder",
+		"unitType": "Siege Gunpowder",
 		"movement": 2,
 		"strength": 30,
 		"cost": 225,
@@ -1335,7 +1368,7 @@
 	},
 	{
 		"name": "Flamethrower",
-		"unitType": "Gunpowder",
+		"unitType": "Siege Gunpowder",
 		"movement": 2,
 		"strength": 45,
 		"cost": 225,
@@ -1347,7 +1380,7 @@
 	},
 	{
 		"name": "Commando",
-		"unitType": "Gunpowder",
+		"unitType": "Siege Gunpowder",
 		"movement": 2,
 		"strength": 65,
 		"cost": 400,
@@ -1359,7 +1392,7 @@
 	},
 	{
 		"name": "Modern Commando",
-		"unitType": "Gunpowder",
+		"unitType": "Siege Gunpowder",
 		"movement": 2,
 		"strength": 70,
 		"cost": 425,
@@ -1469,7 +1502,7 @@
 		"requiredTech": "Chemistry",
 		"upgradesTo": "Artillery",
 		"obsoleteTech": "Dynamite",
-		"uniques": ["[+75]% Strength <vs cities> <when attacking>","No defensive terrain bonus","[+33]% Strength <vs [Melee] units>", "Can move after attacking"],
+		"uniques": ["[+75]% Strength <vs cities> <when attacking>","No defensive terrain bonus","[+33]% Strength <vs [Melee] units>", "Can move after attacking","Elephant","Mounted","[-10]% Strength for enemy [Sword] units in adjacent [Land] tiles","[-10]% Strength for enemy [Mounted] units in adjacent [Land] tiles"],
 		"attackSound": "cannon"
 	},
 	{
@@ -1786,7 +1819,7 @@
 		"obsoleteTech": "Chivalry",
 		"promotions": ["Great Generals II"],
 		"uniques": ["Can move after attacking", "No defensive terrain bonus",
-			"[-10]% Strength for enemy [Military] units in adjacent [All] tiles","[+10]% Strength <when attacking>"],
+			"Elephant","[-10]% Strength for enemy [Military] units in adjacent [All] tiles","[+10]% Strength <when attacking>"],
 		"hurryCostModifier": 20,
 		"attackSound": "elephant"
 	},
@@ -1853,7 +1886,6 @@
 	{
 		"name": "Naresuan's Elephant",
 		"unitType": "Mounted",
-		"replaces": "Knight",
 		"uniqueTo": "Siam",
 		"movement": 2,
 		"strength": 29,
@@ -1861,7 +1893,7 @@
 		"requiredTech": "Chivalry",
 		"obsoleteTech": "Metallurgy",
 		"upgradesTo": "Cuirasser",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","[+50]% Strength <vs [Mounted] units>","[+10]% Strength <when attacking>", "[-33]% Strength <vs cities> <when attacking>"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[+50]% Strength <vs [Mounted] units>","[+10]% Strength <when attacking>", "[-33]% Strength <vs cities> <when attacking>","Elephant","[-10]% Strength for enemy [Sword] units in adjacent [Land] tiles","[-10]% Strength for enemy [Mounted] units in adjacent [Land] tiles"],
 		"attackSound": "elephant"
 	},
 	{
@@ -1994,7 +2026,7 @@
 	//ranged cav
 	{
 		"name": "Chariot Archer",
-		"unitType": "Archery",
+		"unitType": "Archery Mounted",
 		"movement": 4,
 		"strength": 6,
 		"rangedStrength": 10,
@@ -2008,7 +2040,7 @@
 	},
 	{
 		"name": "War Chariot",
-		"unitType": "Archery",
+		"unitType": "Archery Mounted",
 		"uniqueTo": "Egypt",
 		"replaces": "Chariot Archer",
 		"movement": 5,
@@ -2023,7 +2055,7 @@
 	},
 	{
 		"name": "War Elephant",
-		"unitType": "Archery",
+		"unitType": "Archery Mounted",
 		"uniqueTo": "India",
 		"replaces": "Chariot Archer",
 		"movement": 2,
@@ -2033,12 +2065,12 @@
 		"requiredTech": "Trapping",
 		"upgradesTo": "Bow Rider",
 		"obsoleteTech": "Chivalry",
-		"uniques": ["No defensive terrain bonus", "[-15]% Strength <vs [Infantry] units>"],
+		"uniques": ["No defensive terrain bonus", "[-15]% Strength <vs [Infantry] units>","Elephant","[-10]% Strength for enemy [Sword] units in adjacent [Land] tiles","[-10]% Strength for enemy [Mounted] units in adjacent [Land] tiles"],
 		"attackSound": "elephant"
 	},
 	{
 		"name": "Horse Archer",
-		"unitType": "Archery",
+		"unitType": "Archery Mounted",
 		"uniqueTo": "The Huns",
 		"replaces": "Chariot Archer",
 		"movement": 4,
@@ -2055,7 +2087,7 @@
 	},
 	{
 		"name": "Bow Rider",
-		"unitType": "Archery",
+		"unitType": "Archery Mounted",
 		"movement": 5,
 		"strength": 8,
 		"rangedStrength": 12,
@@ -2069,7 +2101,7 @@
 	},
 	{
 		"name": "Heavy Horse Archer",
-		"unitType": "Archery",
+		"unitType": "Archery Mounted",
 		"movement": 5,
 		"strength": 13,
 		"rangedStrength": 17,
@@ -2083,24 +2115,23 @@
 	},
 	{
 		"name": "Camel Archer",
-		"unitType": "Archery",
-		"replaces": "Heavy Horse Archer",
+		"unitType": "Archery Mounted",
 		"uniqueTo": "Arabia",
 		"movement": 4,
-		"strength": 15,
-		"rangedStrength": 21,
+		"strength": 13,
+		"rangedStrength": 17,
 		"cost": 145,
 		"requiredTech": "Chivalry",
 		"requiredResource": "Horses",
 		"upgradesTo": "Horse Artillery",
 		"obsoleteTech": "Metallurgy",
-		"uniques": ["No defensive terrain bonus", "[-15]% Strength <vs [Infantry] units>"],
+		"uniques": ["Camel", "No defensive terrain bonus", "[-15]% Strength <vs [Infantry] units>", "[-20]% Strength for enemy [{non-[Camel]} {Mounted}] units in adjacent [Land] tiles"],
 		"attackSound": "arrow"
 		//Camel Archer should have no penalty attacking cities
 	},
 	{
 		"name": "Keshik",
-		"unitType": "Archery",
+		"unitType": "Archery Mounted",
 		"replaces": "Heavy Horse Archer",
 		"uniqueTo": "Mongolia",
 		"range": 2,
@@ -2119,7 +2150,7 @@
 	},
 	{
 		"name": "Horse Artillery",
-		"unitType": "Ranged Gunpowder",
+		"unitType": "Ranged Gunpowder Mounted",
 		"movement": 4,
 		"strength": 19,
 		"rangedStrength": 22,
@@ -2134,7 +2165,7 @@
 	},
 	{
 		"name": "Self Propelled Gun",
-		"unitType": "Ranged Gunpowder",
+		"unitType": "Ranged Gunpowder Armored",
 		"movement": 4,
 		"strength": 38,
 		"rangedStrength": 60,
@@ -2147,7 +2178,7 @@
 	},
 	{
 		"name": "Modern SPG",
-		"unitType": "Ranged Gunpowder",
+		"unitType": "Ranged Gunpowder Armored",
 		"movement": 5,
 		"strength": 60,
 		"rangedStrength": 85,
@@ -2197,7 +2228,7 @@
 		"requiredTech": "Metallurgy",
 		"requiredResource": "Horses",
 		"uniques": ["No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>","Never appears as a Barbarian unit", "[+50]% Strength <vs [Mounted] units>"],
-		"upgradesTo": "Anti-Tank Gun",
+		"upgradesTo": "Cavalry",
 		"obsoleteTech": "Combined Arms",
 		"attackSound": "horse"
 	},
@@ -2213,7 +2244,7 @@
 		"requiredResource": "Horses",
 		"uniques": ["No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "[+50]% Strength <vs [Mounted] units>"],
 		"promotions": ["[Khillaychuki Cavalry] ability"],
-		"upgradesTo": "Tank Destroyer",
+		"upgradesTo": "Cavalry",
 		"obsoleteTech": "Combined Arms",
 		"attackSound": "horse"
 	},
@@ -2228,7 +2259,7 @@
 		"requiredTech": "Metallurgy",
 		"requiredResource": "Horses",
 		"uniques": ["[-33]% Strength <vs cities> <when attacking>", "[+50]% Strength <vs [Mounted] units>","Ignores Zone of Control"],
-		"upgradesTo": "Tank Destroyer",
+		"upgradesTo": "Cavalry",
 		"obsoleteTech": "Combined Arms",
 		"attackSound": "horse"
 	},
@@ -2245,7 +2276,7 @@
 		"uniques": ["No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>",
 			"[+1] Sight", "[+50]% Strength <vs [Mounted] units>"],
 		"promotions": ["[Sipahi] ability"],
-		"upgradesTo": "Tank Destroyer",
+		"upgradesTo": "Cavalry",
 		"obsoleteTech": "Combined Arms",
 		"attackSound": "horse"
 	},
@@ -2276,7 +2307,7 @@
 	//air superiority & interceptors
 	{
 		"name": "Triplane",
-		"unitType": "Air Fighter",
+		"unitType": "Fighter",
 		"movement": 1,
 		"strength": 35,
 		"rangedStrength": 35,
@@ -2287,12 +2318,12 @@
 		"requiredResource": "Oil",
 		"upgradesTo": "Fighter",
 		"obsoleteTech": "Radar",
-		"uniques": ["Can perform Air Sweep", "[40]% chance to intercept air attacks", "[+50]% Strength <vs [Air CAS] units>", "[+50]% Strength <vs [Air Bomber] units>", "[+100]% Strength <vs [Air Helicopter] units>"],
+		"uniques": ["Can perform Air Sweep", "[40]% chance to intercept air attacks", "[+50]% Strength <vs [CAS] units>", "[+50]% Strength <vs [Bomber] units>", "[+100]% Strength <vs [Air Helicopter] units>"],
 		"attackSound": "machinegun"
 	},
 	{
 		"name": "Fighter",
-		"unitType": "Air Fighter",
+		"unitType": "Fighter",
 		"movement": 1,
 		"strength": 45,
 		"rangedStrength": 45,
@@ -2303,12 +2334,12 @@
 		"requiredResource": "Oil",
 		"upgradesTo": "Jet Fighter",
 		"obsoleteTech": "Lasers",
-		"uniques": ["Can perform Air Sweep", "[65]% chance to intercept air attacks", "[+100]% Strength <vs [Air CAS] units>", "[+50]% Strength <vs [Air Bomber] units>", "[+75]% Strength <vs [Atomic Bomber] units>", "[+150]% Strength <vs [Air Helicopter] units>"],
+		"uniques": ["Can perform Air Sweep", "[65]% chance to intercept air attacks", "[+100]% Strength <vs [CAS] units>", "[+50]% Strength <vs [Bomber] units>", "[+75]% Strength <vs [Atomic Bomber] units>", "[+150]% Strength <vs [Air Helicopter] units>"],
 		"attackSound": "machinegun"
 	},
 	{
 		"name": "Zero",
-		"unitType": "Air Fighter",
+		"unitType": "Fighter",
 		"replaces": "Fighter",
 		"uniqueTo": "Japan",
 		"movement": 1,
@@ -2321,13 +2352,13 @@
 		"upgradesTo": "Jet Fighter",
 		"obsoleteTech": "Lasers",
 		"requiredResource": "Oil",
-		"uniques": ["Can perform Air Sweep", "[70]% chance to intercept air attacks", "[+100]% Strength <vs [Air CAS] units>", "[+75]% Strength <vs [Air Bomber] units>", "[+75]% Strength <vs [Atomic Bomber] units>", "[+150]% Strength <vs [Air Helicopter] units>"],
+		"uniques": ["Can perform Air Sweep", "[70]% chance to intercept air attacks", "[+100]% Strength <vs [CAS] units>", "[+75]% Strength <vs [Bomber] units>", "[+75]% Strength <vs [Atomic Bomber] units>", "[+150]% Strength <vs [Air Helicopter] units>"],
 		"promotions": ["[Zero] ability"],
 		"attackSound": "machinegun"
 	},
 	{
 		"name": "Fokker D XXI",
-		"unitType": "Air Fighter",
+		"unitType": "Fighter",
 		"replaces": "Fighter",
 		"uniqueTo": "The Netherlands",
 		"movement": 1,
@@ -2340,12 +2371,12 @@
 		"upgradesTo": "Jet Fighter",
 		"obsoleteTech": "Lasers",
 		"requiredResource": "Oil",
-		"uniques": ["Can perform Air Sweep", "[65]% chance to intercept air attacks", "[+100]% Strength <vs [Air CAS] units>", "[+50]% Strength <vs [Air Bomber] units>", "[+75]% Strength <vs [Atomic Bomber] units>", "[+150]% Strength <vs [Air Helicopter] units>", "[This Unit] gains the [Air Repair] promotion <during a Golden Age>"],
+		"uniques": ["Can perform Air Sweep", "[65]% chance to intercept air attacks", "[+100]% Strength <vs [CAS] units>", "[+50]% Strength <vs [Bomber] units>", "[+75]% Strength <vs [Atomic Bomber] units>", "[+150]% Strength <vs [Air Helicopter] units>", "[This Unit] gains the [Air Repair] promotion <during a Golden Age>"],
 		"attackSound": "machinegun"
 	},
 	{
 		"name": "Interceptor",
-		"unitType": "Air Interceptor",
+		"unitType": "Interceptor",
 		"movement": 1,
 		"strength": 40,
 		"rangedStrength": 40,
@@ -2356,12 +2387,12 @@
 		"requiredResource": "Oil",
 		"upgradesTo": "Jet Interceptor",
 		"obsoleteTech": "Lasers",
-		"uniques": ["Can perform Air Sweep", "[65]% chance to intercept air attacks", "[+50]% Strength <vs [Air CAS] units>", "[+100]% Strength <vs [Air Bomber] units>", "[+150]% Strength <vs [Atomic Bomber] units>"],
+		"uniques": ["Can perform Air Sweep", "[65]% chance to intercept air attacks", "[+50]% Strength <vs [CAS] units>", "[+100]% Strength <vs [Bomber] units>", "[+150]% Strength <vs [Atomic Bomber] units>"],
 		"attackSound": "machinegun"
 	},
 	{
 		"name": "Jet Fighter",
-		"unitType": "Air Fighter",
+		"unitType": "Fighter",
 		"movement": 1,
 		"strength": 75,
 		"rangedStrength": 75,
@@ -2370,12 +2401,12 @@
 		"cost": 425,
 		"requiredTech": "Lasers",
 		"requiredResource": "Oil",
-		"uniques": ["Can perform Air Sweep", "[80]% chance to intercept air attacks", "[+100]% Strength <vs [Air CAS] units>", "[+75]% Strength <vs [Air Bomber] units>","[+75]% Strength <vs [Atomic Bomber] units>","[+150]% Strength <vs [Air Helicopter] units>"],
+		"uniques": ["Can perform Air Sweep", "[80]% chance to intercept air attacks", "[+100]% Strength <vs [CAS] units>", "[+75]% Strength <vs [Bomber] units>","[+75]% Strength <vs [Atomic Bomber] units>","[+150]% Strength <vs [Air Helicopter] units>"],
 		"attackSound": "jetgun"
 	},
 	{
 		"name": "Jet Interceptor",
-		"unitType": "Air Interceptor",
+		"unitType": "Interceptor",
 		"movement": 1,
 		"strength": 65,
 		"rangedStrength": 65,
@@ -2384,7 +2415,7 @@
 		"cost": 425,
 		"requiredTech": "Lasers",
 		"requiredResource": "Oil",
-		"uniques": ["Can perform Air Sweep", "[80]% chance to intercept air attacks", "[+50]% Strength <vs [Air CAS] units>", "[+150]% Strength <vs [Air Bomber] units>","[+150]% Strength <vs [Atomic Bomber] units>"],
+		"uniques": ["Can perform Air Sweep", "[80]% chance to intercept air attacks", "[+50]% Strength <vs [CAS] units>", "[+150]% Strength <vs [Bomber] units>","[+150]% Strength <vs [Atomic Bomber] units>"],
 		"attackSound": "jetgun"
 	},
 
@@ -2406,7 +2437,7 @@
 	//boomer & CAS
 	{
 		"name": "Great War Bomber",
-		"unitType": "Air Bomber",
+		"unitType": "Bomber",
 		"movement": 1,
 		"strength": 50,
 		"rangedStrength": 50,
@@ -2420,7 +2451,7 @@
 	},
 	{
 		"name": "Bomber",
-		"unitType": "Air Bomber",
+		"unitType": "Bomber",
 		"movement": 1,
 		"strength": 65,
 		"rangedStrength": 65,
@@ -2435,7 +2466,7 @@
 	},
 	{
 		"name": "B17",
-		"unitType": "Air Bomber",
+		"unitType": "Bomber",
 		"replaces": "Bomber",
 		"uniqueTo": "America",
 		"movement": 1,
@@ -2454,7 +2485,7 @@
 	},
 	{
 		"name": "Fighter Bomber",
-		"unitType": "Air CAS",
+		"unitType": "CAS",
 		"movement": 1,
 		"strength": 45,
 		"rangedStrength": 45,
@@ -2469,7 +2500,7 @@
 	},
 	{
 		"name": "Jet Bomber",
-		"unitType": "Air Bomber",
+		"unitType": "Bomber",
 		"movement": 1,
 		"strength": 85,
 		"rangedStrength": 85,
@@ -2483,7 +2514,7 @@
 	},
 	{
 		"name": "Jet Striker",
-		"unitType": "Air CAS",
+		"unitType": "CAS",
 		"movement": 1,
 		"strength": 75,
 		"rangedStrength": 75,
@@ -2496,7 +2527,7 @@
 	},
 	{
 		"name": "Stealth Bomber",
-		"unitType": "Air Bomber",
+		"unitType": "Bomber",
 		"movement": 2,
 		"strength": 85,
 		"rangedStrength": 85,
