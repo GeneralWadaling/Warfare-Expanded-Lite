@@ -154,6 +154,11 @@
 	"uniques": ["Ranged Gunpowder", "Armored"],
         "movementType": "Land"
     },
+    {
+        "name": "GDR",
+	"uniques": ["Armored"],
+        "movementType": "Land"
+    },
 
     //specialist
 

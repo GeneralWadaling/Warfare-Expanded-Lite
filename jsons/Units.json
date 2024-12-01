@@ -1272,7 +1272,7 @@
 		"requiredTech": "Replaceable Parts",
 		"obsoleteTech": "Pharmaceuticals",
 		"promotions": ["Amphibious"],
-		"uniques": ["Defense bonus when embarked"],
+		"uniques": ["[+100]% Strength <when defending> <when [Embarked]>"],
 		"upgradesTo": "Marine",
 		"attackSound": "shot"
 	},
@@ -1286,7 +1286,7 @@
 		"upgradesTo": "Modern Marine",
 		"obsoleteTech": "Mobile Tactics",
 		"promotions": ["Amphibious"],
-		"uniques": ["[+1] Sight <when [Embarked]>", "Defense bonus when embarked"],
+		"uniques": ["[+1] Sight <when [Embarked]>", "[+100]% Strength <when defending> <when [Embarked]>"],
 		"attackSound": "shot"
 	},
 	{
@@ -1297,7 +1297,7 @@
 		"cost": 450,
 		"requiredTech": "Mobile Tactics",
 		"promotions": ["Amphibious"],
-		"uniques": ["[+1] Sight <when [Embarked]>", "Defense bonus when embarked"],
+		"uniques": ["[+1] Sight <when [Embarked]>", "[+100]% Strength <when defending> <when [Embarked]>"],
 		"attackSound": "machinegun"
 	},
 
@@ -1710,7 +1710,7 @@
 		"cost": 225,
 		"requiredTech": "Military Science",
 		"requiredResource": "Horses",
-		"upgradesTo": "Armored Car",
+		"upgradesTo": "Great War Cavalry",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit", "Ignores Zone of Control"],
 		"attackSound": "horse"
 	},
@@ -1724,9 +1724,21 @@
 		"cost": 225,
 		"requiredTech": "Military Science",
 		"requiredResource": "Horses",
-		"upgradesTo": "Armored Car",
+		"upgradesTo": "Great War Cavalry",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Ignores Zone of Control"],
 		"promotions": ["[Cossack] ability"],
+		"attackSound": "horse"
+	},
+	{
+		"name": "Great War Cavalry",
+		"unitType": "Mounted",
+		"movement": 5,
+		"strength": 45,
+		"cost": 305,
+		"requiredTech": "Pharmaceuticals",
+		"requiredResource": "Horses",
+		"upgradesTo": "Armored Car",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit", "Ignores Zone of Control"],
 		"attackSound": "horse"
 	},
 	{
@@ -2014,12 +2026,12 @@
 	},
 	{
 		"name": "Giant Death Robot",
-		"unitType": "Armored",
+		"unitType": "GDR",
 		"movement": 5,
 		"strength": 150,
 		"cost": 550,
 		"requiredTech": "Nuclear Fusion",
-		"uniques": ["Can move after attacking", "No defensive terrain bonus", "Never appears as a Barbarian unit", "Consumes [1] [Uranium]", "Consumes [1] [Aluminum]", "[+15]% Strength <vs [Infantry] units> <when attacking>"],
+		"uniques": ["Can move after attacking", "No defensive terrain bonus", "Never appears as a Barbarian unit", "Consumes [1] [Uranium]", "Consumes [1] [Aluminum]", "[+15]% Strength <vs [Infantry] units> <when attacking>", "Can carry [0] [Guided Missile] units <hidden from users>"],
 		"attackSound": "gdrAttack"
 	},
 
@@ -2995,7 +3007,7 @@
 	{
 		"name": "Arsenal Ship",
 		"unitType": "Ranged Water",
-		"movement": 7,
+		"movement": 5,
 		"strength": 80,
 		"rangedStrength": 100,
 		"range": 3,
@@ -3066,26 +3078,38 @@
 	{
 		"name": "Submarine",
 		"unitType": "Submarine",
-		"movement": 5,
+		"movement": 2,
 		"strength": 35,
 		"rangedStrength": 60,
 		"cost": 325,
 		"requiredTech": "Refrigeration",
-		"upgradesTo": "Nuclear Submarine",
-		"uniques": ["[+75]% Strength <when attacking>", "Can only attack [Water] tiles", "Never appears as a Barbarian unit"],
+		"upgradesTo": "Modern Attack Submarine",
+		"uniques": ["Double movement in [Ocean]", "[+75]% Strength <when attacking>", "Can only attack [Water] tiles", "Never appears as a Barbarian unit"],
+		"attackSound": "torpedo"
+	},
+	{
+		"name": "Modern Attack Submarine",
+		"unitType": "Submarine",
+		"movement": 3,
+		"strength": 50,
+		"rangedStrength": 85,
+		"cost": 325,
+		"requiredTech": "Telecommunications",
+		"uniques": ["Double movement in [Ocean]", "[+75]% Strength <when attacking>", "Can only attack [Water] tiles", "Never appears as a Barbarian unit", "Can carry [1] [Guided Missile] units"],
 		"attackSound": "torpedo"
 	},
 	{
 		"name": "Nuclear Submarine",
 		"unitType": "Submarine",
-		"movement": 6,
+		"movement": 3,
 		"strength": 50,
 		"range": 3,
 		"rangedStrength": 85,
 		"cost": 425,
 		"requiredTech": "Telecommunications",
-		"uniques": ["[+75]% Strength <when attacking>", "Can only attack [Water] tiles", "[+1] Sight", "Can carry [2] [Ballistic] units", "Never appears as a Barbarian unit"],
-		"attackSound": "torpedo"
+		"uniques": ["Consumes [1] [Uranium]","Double movement in [Ocean]","[+75]% Strength <when attacking>", "[+1] Sight", "Can carry [4] [Ballistic] units", "Must set up to ranged attack", "Never appears as a Barbarian unit"],
+		"promotions": ["Indirect Fire"],
+		"attackSound": "missile"
 	},
 
 	//navy carriers

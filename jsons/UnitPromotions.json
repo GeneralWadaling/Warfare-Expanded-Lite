@@ -3,7 +3,7 @@
 	{
 		"name": "Heal Instantly",
 		"uniques": ["[This Unit] heals [50] HP", "Doing so will consume this opportunity to choose a Promotion"],
-		"unitTypes": ["Sword","Gunpowder","Mounted","Scout","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine","Anti Air","Archery Mounted","Ranged Gunpowder","Ranged Gunpowder Mounted","Ranged Gunpowder Armored","Archery Light","Ranged Gunpowder Light","Ranged Gunpowder Emplacement","Sword Anti Cavalry","Gunpowder Anti Cavalry","Anti Armor"],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Scout","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine","Anti Air","Archery Mounted","Ranged Gunpowder","Ranged Gunpowder Mounted","Ranged Gunpowder Armored","Archery Light","Ranged Gunpowder Light","Ranged Gunpowder Emplacement","Sword Anti Cavalry","Gunpowder Anti Cavalry","Anti Armor","GDR"],
         	"column": 1,
         	"row": 0
 	},
@@ -814,9 +814,16 @@
         "row": 25
 	},
 	{
+		"name": "Anti-Submarine Warfare",
+		"uniques": ["[+33]% Strength <vs [Submarine] units>","Can see invisible [Water] units"],
+		"unitTypes": ["Air Helicopter"],
+        "column": 1,
+        "row": 39
+	},
+	{
 		"name": "Reinforced Frame",
 		"uniques": ["[+20]% Strength <when defending>"],
-		"prerequisites": ["Armor Piercing Rounds", "Rocket Bombardment"],
+		"prerequisites": ["Armor Piercing Rounds", "Rocket Bombardment","Anti-Submarine Warfare"],
 		"unitTypes": ["Air Helicopter"],
         "column": 2,
         "row": 24
@@ -830,9 +837,17 @@
         "row": 25
 	},
 	{
+		"name": "Anti Ship Missile",
+		"uniques": ["[+33]% Strength <vs [Water] units>"],
+		"prerequisites": ["Anti-Submarine Warfare"],
+		"unitTypes": ["Air Helicopter"],
+        "column": 2,
+        "row": 39
+	},
+	{
 		"name": "Air to Air Weapon",
 		"uniques": ["[+20]% Strength <vs [Air] units> <when defending>", "[+20]% Strength <vs [Air Helicopter] units>"],
-		"prerequisites": ["Reinforced Frame", "Anti Tank Missile"],
+		"prerequisites": ["Reinforced Frame", "Anti Tank Missile","Anti Ship Missile"],
 		"unitTypes": ["Air Helicopter"],
         "column": 3,
         "row": 24
@@ -840,7 +855,7 @@
 	{
 		"name": "NOE Maneuver",
 		"uniques": ["[+33]% Strength <vs [Anti Air] units>"],
-		"prerequisites": ["Reinforced Frame", "Anti Tank Missile"],
+		"prerequisites": ["Reinforced Frame", "Anti Tank Missile","Anti Ship Missile"],
 		"unitTypes": ["Air Helicopter"],
         "column": 3,
         "row": 25
@@ -906,6 +921,46 @@
 
 
 
+	//GDR
+	{
+		"name": "Adaptive Armor",
+		"uniques": ["[+30]% Strength <when defending>"],
+		"unitTypes": ["GDR"],
+        	"column": 1,
+        	"row": 40
+	},
+	{
+		"name": "Jet-Chute",
+		"uniques": ["May Paradrop up to [7] tiles from inside friendly territory"],
+		"unitTypes": ["GDR"],
+        	"column": 1,
+        	"row": 41
+	},
+	{
+		"name": "Self-Repair System",
+		"uniques": ["Unit will heal every turn, even if it performs an action"],
+		"unitTypes": ["GDR"],
+        	"column": 1,
+        	"row": 42
+	},
+	{
+		"name": "VLS Module",
+		"uniques": ["[+25]% Strength <when attacking>", "Can carry [1] extra [Missile] units"],
+		"unitTypes": ["GDR"],
+        	"column": 1,
+        	"row": 43
+	},
+	{
+		"name": "TacCom Core",
+		"uniques": ["[+15]% Strength bonus for [Military] units within [1] tiles"],
+		"unitTypes": ["GDR"],
+        	"column": 1,
+        	"row": 44
+	},
+
+
+
+
 	// Uniques that should be kept on upgrades
 	{
 		"name": "Morale", // Heroic Epic
@@ -965,7 +1020,7 @@
 	},
 	{
 		"name": "[Conquistador] ability",
-		"uniques": ["Defense bonus when embarked"]
+		"uniques": ["[+100]% Strength <when defending> <when [Embarked]>"]
 	},
 	{
 		"name": "[Janissary] ability",
