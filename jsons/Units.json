@@ -770,7 +770,6 @@
 		"range": 1,
 		"cost": 40,
 		"uniques": ["[-20]% Strength <vs [Mounted] units> <when defending>","[-20]% Strength <vs [Armored] units> <when defending>"],
-		"obsoleteTech": "Construction"
 		"obsoleteTech": "Construction",
 		"upgradesTo": "Javelineer",
 		"promotions": ["Slinger Withdraw"],
@@ -785,7 +784,6 @@
 		"range": 1,
 		"cost": 75,
 		"uniques": ["[-20]% Strength <vs [Mounted] units> <when defending>","[-20]% Strength <vs [Armored] units> <when defending>"],
-		"obsoleteTech": "Construction"
 		"requiredTech": "Construction",
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Skirmisher",
@@ -800,7 +798,6 @@
 		"range": 1,
 		"cost": 120,
 		"uniques": ["[-20]% Strength <vs [Mounted] units> <when defending>","[-20]% Strength <vs [Armored] units> <when defending>"],
-		"obsoleteTech": "Construction"
 		"requiredTech": "Civil Service",
 		"upgradesTo": "Arquebusier",
 		"obsoleteTech": "Chemistry",
@@ -815,16 +812,14 @@
 		"range": 1,
 		"cost": 185,
 		"uniques": ["[-20]% Strength <vs [Mounted] units> <when defending>","[-20]% Strength <vs [Armored] units> <when defending>"],
-		"obsoleteTech": "Construction"
 		"requiredTech": "Gunpowder",
-		//"upgradesTo": "Napoleonic Light Infantry",
-		"upgradesTo": "Rifleman",
+		"upgradesTo": "Napoleonic Skirmisher",
+		//"upgradesTo": "Rifleman",
 		"obsoleteTech": "Rifling",
-		"attackSound": "arrow"
+		"attackSound": "shot"
 	},
-/*
 	{
-		"name": "Napoleonic Light Infantry",
+		"name": "Napoleonic Skirmisher",
 		"unitType": "Ranged Gunpowder Light",
 		"movement": 2,
 		"strength": 28,
@@ -832,13 +827,51 @@
 		"range": 1,
 		"cost": 225,
 		"uniques": ["[-20]% Strength <vs [Mounted] units> <when defending>","[-20]% Strength <vs [Armored] units> <when defending>"],
-		"obsoleteTech": "Construction"
 		"requiredTech": "Rifling",
-		"upgradesTo": "Great War Infantry",
+		"upgradesTo": "Great War Sharpshooter",
 		"obsoleteTech": "Replaceable Parts",
-		"attackSound": "arrow"
+		"attackSound": "shot"
 	},
-*/
+	{
+		"name": "Great War Sharpshooter",
+		"unitType": "Ranged Gunpowder Light",
+		"movement": 2,
+		"strength": 40,
+		"rangedStrength": 45,
+		"range": 1,
+		"cost": 225,
+		"uniques": ["[-20]% Strength <vs [Mounted] units> <when defending>","[-20]% Strength <vs [Armored] units> <when defending>"],
+		"requiredTech": "Replaceable Parts",
+		"upgradesTo": "Light Infantry",
+		"obsoleteTech": "Pharmaceuticals",
+		"attackSound": "shot"
+	},
+	{
+		"name": "Light Infantry",
+		"unitType": "Ranged Gunpowder Light",
+		"movement": 2,
+		"strength": 59,
+		"rangedStrength": 64,
+		"range": 1,
+		"cost": 225,
+		"uniques": ["[-20]% Strength <vs [Mounted] units> <when defending>","[-20]% Strength <vs [Armored] units> <when defending>"],
+		"requiredTech": "Pharmaceuticals",
+		"upgradesTo": "Modern Light Infantry",
+		"obsoleteTech": "Telecommunications",
+		"attackSound": "shot"
+	},
+	{
+		"name": "Modern Light Infantry",
+		"unitType": "Ranged Gunpowder Light",
+		"movement": 2,
+		"strength": 67,
+		"rangedStrength": 73,
+		"range": 1,
+		"cost": 225,
+		"uniques": ["[-20]% Strength <vs [Mounted] units> <when defending>","[-20]% Strength <vs [Armored] units> <when defending>"],
+		"requiredTech": "Telecommunications",
+		"attackSound": "shot"
+	},
 
 	//rangedE
 	{
@@ -849,7 +882,7 @@
 		"strength": 40,
 		"rangedStrength": 40,
 		"cost": 275,
-		"uniques": ["Must set up to ranged attack","[-15]% Strength <vs [Ranged] units>"],
+		"uniques": ["Must set up to ranged attack","[-10]% Strength <vs [Ranged] units>"],
 		"requiredTech": "Industrialization",
 		"upgradesTo": "Machine Gun",
 		"obsoleteTech": "Ballistics",
@@ -866,7 +899,7 @@
 		"cost": 275,
 		"requiredTech": "Industrialization",
 		"upgradesTo": "Machine Gun",
-		"uniques": ["Must set up to ranged attack","[-15]% Strength <vs [Ranged] units>","Elephant","Mounted","[-10]% Strength for enemy [Sword] units in adjacent [Land] tiles","[-10]% Strength for enemy [Mounted] units in adjacent [Land] tiles"],
+		"uniques": ["Must set up to ranged attack","[-10]% Strength <vs [Ranged] units>","Elephant","Mounted","[-10]% Strength for enemy [Sword] units in adjacent [Land] tiles","[-10]% Strength for enemy [Mounted] units in adjacent [Land] tiles"],
 		"obsoleteTech": "Ballistics",
 		"attackSound": "machinegun"
 	},
@@ -878,9 +911,9 @@
 		"strength": 60,
 		"rangedStrength": 60,
 		"cost": 350,
-		"uniques": ["Must set up to ranged attack","[-15]% Strength <vs [Ranged] units>"],
+		"uniques": ["Must set up to ranged attack","[-10]% Strength <vs [Ranged] units>"],
 		"requiredTech": "Ballistics",
-		"obsoleteTech": "Computers",
+		"obsoleteTech": "Rocketry",
 		"upgradesTo": "Heavy Weapons",
 		"attackSound": "machinegun"
 		// Upgrades to Bazooka in BNW
@@ -893,9 +926,9 @@
 		"strength": 70,
 		"rangedStrength": 70,
 		"cost": 375,
-		"uniques": ["Must set up to ranged attack","[-15]% Strength <vs [Ranged] units>"],
+		"uniques": ["Must set up to ranged attack","[-10]% Strength <vs [Ranged] units>"],
 		"requiredTech": "Rocketry",
-		"obsoleteTech": "Telecommunications",
+		"obsoleteTech": "Lasers",
 		"upgradesTo": "Modern Heavy Weapons",
 		"attackSound": "machinegun"
 	},
@@ -907,7 +940,7 @@
 		"rangedStrength": 90,
 		"range": 1,
 		"cost": 425,
-		"uniques": ["Must set up to ranged attack","[-15]% Strength <vs [Ranged] units>"],
+		"uniques": ["Must set up to ranged attack","[-10]% Strength <vs [Ranged] units>"],
 		"requiredTech": "Lasers",
 		"attackSound": "missile"
 	},
@@ -1918,7 +1951,7 @@
 		"cost": 200,
 		"requiredTech": "Metallurgy",
 		"obsoleteTech": "Military Science",
-		"upgradesTo": "Landship",
+		"upgradesTo": "Great War Cavalry",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit","[+10]% Strength <when attacking>", "Consumes [1] [Horses]", "Consumes [1] [Iron]"],
 		"attackSound": "horse"
 	},
@@ -1933,7 +1966,7 @@
 		"requiredTech": "Metallurgy",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>","[+10]% Strength <when attacking>", "Consumes [1] [Horses]", "Consumes [1] [Iron]"],
 		"promotions": ["[Hakkapeliitta] ability"],
-		"upgradesTo": "Landship",
+		"upgradesTo": "Great War Cavalry",
 		"obsoleteTech": "Military Science",
 		"attackSound": "horse"
 	},
@@ -1947,7 +1980,7 @@
 		"cost": 350,
 		"requiredTech": "Metallurgy",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>","Consumes [1] [Horses]", "Consumes [1] [Iron]","Can transform to [Qing Banner Cavalry (Ranged)]"],
-		"upgradesTo": "Landship",
+		"upgradesTo": "Great War Cavalry",
 		"obsoleteTech": "Combustion",
 		"attackSound": "horse"
 	},
@@ -1962,7 +1995,7 @@
 		"cost": 350,
 		"requiredTech": "Metallurgy",
 		"uniques": ["Unbuildable","Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>","Consumes [1] [Horses]", "Consumes [1] [Iron]","Can transform to [Qing Banner Cavalry]"],
-		"upgradesTo": "Landship",
+		"upgradesTo": "Great War Cavalry",
 		"obsoleteTech": "Combustion",
 		"attackSound": "arrow"
 	},
@@ -2968,7 +3001,7 @@
 		"requiredTech": "Steam Power",
 		"requiredResource": "Coal",
 		"upgradesTo": "Battleship",
-		"obsoleteTech": "Combustion",
+		"obsoleteTech": "Electronics",
 		"promotions": ["Indirect Fire"],
 		"uniques": ["Double movement in [Coast]", "Never appears as a Barbarian unit","[+50]% Strength <vs cities>"],
 		"attackSound": "shipguns"
