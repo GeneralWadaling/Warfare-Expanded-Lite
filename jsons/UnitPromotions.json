@@ -467,7 +467,7 @@
 	},
 	{
 		"name": "March",
-		"prerequisites": ["Accuracy II","Barrage II","Shock III","Drill III"],
+		"prerequisites": ["Accuracy II","Barrage II","Shock II","Drill II"],
 		"uniques": ["Unit will heal every turn, even if it performs an action"],
 		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Siege","Mounted","Siege Gunpowder","Siege Sword","Archery Light","Ranged Gunpowder Light","Ranged Gunpowder Emplacement","Sword Anti Cavalry","Gunpowder Anti Cavalry","Anti Armor"],
         "column": 3,
@@ -815,7 +815,7 @@
 	},
 	{
 		"name": "Anti-Submarine Warfare",
-		"uniques": ["[+33]% Strength <vs [Submarine] units>","Can see invisible [Water] units"],
+		"uniques": ["[+33]% Strength <vs [Submarine] units>","Can see invisible [Submarine] units"],
 		"unitTypes": ["Air Helicopter"],
         "column": 1,
         "row": 39

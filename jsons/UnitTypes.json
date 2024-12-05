@@ -249,7 +249,7 @@
     {
         "name": "Air Helicopter",
         "movementType": "Land",
-        "uniques": ["Aircraft", "Can pass through impassable tiles"]
+        "uniques": ["Aircraft", "Helicopter", "Can pass through impassable tiles"]
     },
     {
         "name": "Air Drone",
