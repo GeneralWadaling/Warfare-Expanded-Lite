@@ -2597,7 +2597,9 @@
 		"requiredTech": "Flight",
 		"requiredResource": "Aluminum",
 		"uniques": ["[+30]% Strength <vs [Armored] units>","No defensive terrain bonus", "Can move after attacking",
-			"All tiles cost 1 movement", "Ignores Zone of Control", "Unable to capture cities", "Never appears as a Barbarian unit", "May travel on Water tiles without embarking", "[This Unit] takes [20] damage <upon ending a turn in a [Ocean] tile>"],
+			"All tiles cost 1 movement", "Ignores Zone of Control", "Unable to capture cities", "Never appears as a Barbarian unit", "May travel on Water tiles without embarking", "[This Unit] takes [20] damage <upon ending a turn in a [Ocean] tile>",
+		"[-1] Movement <in [Ocean] tiles>"
+		],
 		"upgradesTo": "Helicopter Gunship",
 		"obsoleteTech": "Computers",
 		"attackSound": "bombing"
@@ -2613,6 +2615,7 @@
 		"requiredResource": "Aluminum",
 		"uniques": ["[+30]% Strength <vs [Armored] units>","No defensive terrain bonus", "Can move after attacking",
 			"All tiles cost 1 movement", "Ignores Zone of Control", "Unable to capture cities", "Never appears as a Barbarian unit", "May travel on Water tiles without embarking", "[This Unit] takes [15] damage <upon ending a turn in a [Ocean] tile>",
+		"[-3] Movement <in [Ocean] tiles>"
 		],
 		"attackSound": "missile"
 	},
