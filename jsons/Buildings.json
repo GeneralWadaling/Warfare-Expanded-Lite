@@ -82,5 +82,40 @@
 		"requiredBuilding": "Courthouse",
 		"uniques": ["[+33]% Natural religion spread [in this city]","Only available <when religion is enabled>"],
 		"requiredTech": "Theology"
+	},
+
+	{
+		"name": "Military Research Bureau",
+		"cost": 125,
+		"science": 4,
+		"isNationalWonder": true,
+		"requiredTech": "Scientific Theory",
+		"uniques": ["Destroyed when the city is captured", "Cost increases by [30] per owned city", "Provides [2] [Secret Project]"]
+	},
+	{
+		"name": "Skunkworks",
+		"isWonder": true,
+		"science": 6,
+		"production": 6,
+		"isNationalWonder": true,
+		"requiredTech": "Computers",
+		"uniques": ["Provides [3] [Secret Project]"]
+	},
+	{
+		"name": "Cloning Facility",
+		"cost": 1000,
+		"food": -6,
+		"science": 4,
+		"isNationalWonder": true,
+		"requiredTech": "Pharmaceuticals",
+		"uniques": ["[+200]% Production when constructing [Infantry] units [in this city]", "Destroyed when the city is captured", "Consumes [1] [Secret Project]", "Will not be displayed in Civilopedia", "Only available <with [Secret Project]>"]
+	},
+	{
+		"name": "Iron Curtain",
+		"cost": 2000,
+		"isNationalWonder": true,
+		"requiredTech": "Particle Physics",
+		"cityHealth": 200,
+		"uniques": ["Population loss from nuclear attacks [-100]% [in this city]", "Consumes [1] [Secret Project]", "Will not be displayed in Civilopedia", "Only available <with [Secret Project]>", "All newly-trained [Armored] units [in this city] receive the [Iron Curtain Force Field] promotion"]
 	}
 ]
