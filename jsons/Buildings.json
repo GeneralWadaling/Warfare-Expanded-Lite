@@ -106,14 +106,14 @@
 		"cost": 1000,
 		"food": -6,
 		"science": 4,
-		"isNationalWonder": true,
+		"isWonder": true,
 		"requiredTech": "Pharmaceuticals",
 		"uniques": ["[+200]% Production when constructing [Infantry] units [in this city]", "Destroyed when the city is captured", "Consumes [1] [Secret Project]", "Will not be displayed in Civilopedia", "Only available <with [Secret Project]>"]
 	},
 	{
 		"name": "Iron Curtain",
 		"cost": 2000,
-		"isNationalWonder": true,
+		"isWonder": true,
 		"requiredTech": "Particle Physics",
 		"cityHealth": 200,
 		"uniques": ["Population loss from nuclear attacks [-100]% [in this city]", "Consumes [1] [Secret Project]", "Will not be displayed in Civilopedia", "Only available <with [Secret Project]>", "All newly-trained [Armored] units [in this city] receive the [Iron Curtain Force Field] promotion"]
