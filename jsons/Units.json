@@ -3223,4 +3223,53 @@
 			"Blast radius [4]", "Consumes [3] [Uranium]", "Consumes [1] [Secret Project]", "Will not be displayed in Civilopedia", "Only available <with [Secret Project]>"],
 		"attackSound": "nuke"
 	},
+	{
+		"name": "Carrier Submarine",
+		"unitType": "Aircraft Carrier",
+		"movement": 3,
+		"strength": 40,
+		"cost": 325,
+		"requiredTech": "Electronics",
+		"uniques": ["Submarine", "Consumes [2] [Oil]", "Consumes [1] [Secret Project]" ,"Double movement in [Ocean]", "Cannot attack", "Can carry [1] [Aircraft] units", "Never appears as a Barbarian unit", "Will not be displayed in Civilopedia"],
+	},
+	{
+		"name": "HeliCarrier",
+		"unitType": "HeliCarrier",
+		"movement": 3,
+		"strength": 65,
+		"cost": 325,
+		"requiredTech": "Nuclear Fusion",
+		"uniques": ["Consumes [1] [Uranium]", "Consumes [2] [Aluminum]", "Consumes [1] [Secret Project]", "Cannot attack", "Can carry [2] [Aircraft] units", "Never appears as a Barbarian unit", "Will not be displayed in Civilopedia", "All tiles cost 1 movement", "Ignores Zone of Control", "Unable to capture cities", "Never appears as a Barbarian unit", "May travel on Water tiles without embarking", "[This Unit] takes [5] damage <upon ending a turn in a [Ocean] tile>"
+		],
+	},
+
+	// barbarians
+/*
+
+*/
+	{
+		"name": "Barbarian Warlord",
+		"uniqueTo": "Barbarians",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 20,
+		"cost": 150,
+		"requiredTech": "Horseback Riding",
+		"obsoleteTech": "Military Science",
+		"uniques": ["Limited to [1] per Civilization","Can move after attacking","No defensive terrain bonus","[+33]% Strength <vs cities>","[+10]% Strength <when attacking>", "[+20]% Strength bonus for [Military] units within [3] tiles", "Uncapturable", "Ignores Zone of Control","No movement cost to pillage"],
+		"attackSound": "horse"
+	},
+	{
+		"name": "Dirty Nuke Truck",
+		"uniqueTo": "Barbarians",
+		"unitType": "Siege Nuke",
+		"movement": 3,
+		"strength": 45,
+		"rangedStrength": 45,
+		"range": 1,
+		"cost": 400,
+		"requiredTech": "Nuclear Fission",
+		"uniques": ["Limited to [1] per Civilization","No defensive terrain bonus", "Nuclear weapon of Strength [1]", "Blast radius [1]", "Consumes [1] [Uranium]", "Self-destructs when attacking"],
+		"attackSound": "artillery"
+	},
 ]
