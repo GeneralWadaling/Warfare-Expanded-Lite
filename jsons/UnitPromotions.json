@@ -391,7 +391,10 @@
 	{
 		"name": "Amphibious",
 		"prerequisites": ["Shock I", "Drill I"],
-		"uniques": ["Eliminates combat penalty for attacking over a river", "Eliminates combat penalty for attacking across a coast"],
+		"uniques": ["Eliminates combat penalty for attacking over a river", "Eliminates combat penalty for attacking across a coast",
+	"Comment [Removes damage penalty when ending turn in coast and ocean]"
+	"[This Unit] heals [5] HP <upon ending a turn in a [Coast] tile> <before discovering [Navigation]> <hidden from users>",
+	"[This Unit] heals [5] HP <upon ending a turn in a [Ocean] tile> <before discovering [Radar]> <hidden from users>"],
 		"unitTypes": ["Sword","Gunpowder","Siege Gunpowder","Sword Anti Cavalry","Gunpowder Anti Cavalry","Anti Armor"],
         "column": 1,
         "row": 6

@@ -13,7 +13,10 @@
 /*
     {
         "name": "Infantry",
-	"uniques": ["[+15]% Strength <vs [Anti Cavalry] units>"],
+	"uniques": ["[+15]% Strength <vs [Anti Cavalry] units>",
+	"[This Unit] takes [5] damage <upon ending a turn in a [Coast] tile> <before discovering [Navigation]>",
+	"[This Unit] takes [5] damage <upon ending a turn in a [Ocean] tile> <before discovering [Radar]>"
+	],
         "movementType": "Land"
     },
     {
@@ -23,6 +26,10 @@
     },
     {
         "name": "Anti Cavalry",
+	"uniques": [
+	"[This Unit] takes [5] damage <upon ending a turn in a [Coast] tile> <before discovering [Navigation]>",
+	"[This Unit] takes [5] damage <upon ending a turn in a [Ocean] tile> <before discovering [Radar]>"
+	],
         "movementType": "Land"
     },
     {
@@ -37,22 +44,31 @@
 */
     {
         "name": "Militia",
-	"uniques": ["[+50]% to Flank Attack bonuses", "[+50]% Strength when stacked with [Civilian]"],
+	"uniques": ["[+50]% to Flank Attack bonuses", "[+50]% Strength when stacked with [Civilian]",
+	"[This Unit] takes [5] damage <upon ending a turn in a [Coast] tile> <before discovering [Navigation]>",
+	"[This Unit] takes [5] damage <upon ending a turn in a [Ocean] tile> <before discovering [Radar]>"
+	],
         "movementType": "Land"
     },
     {
         "name": "Sword Anti Cavalry",
-	"uniques": ["Sword"],
+	"uniques": ["Sword",
+	"[This Unit] takes [5] damage <upon ending a turn in a [Coast] tile> <before discovering [Navigation]>",
+	"[This Unit] takes [5] damage <upon ending a turn in a [Ocean] tile> <before discovering [Radar]>"],
         "movementType": "Land"
     },
     {
         "name": "Gunpowder Anti Cavalry",
-	"uniques": ["Gunpowder"],
+	"uniques": ["Gunpowder",
+	"[This Unit] takes [5] damage <upon ending a turn in a [Coast] tile> <before discovering [Navigation]>",
+	"[This Unit] takes [5] damage <upon ending a turn in a [Ocean] tile> <before discovering [Radar]>"],
         "movementType": "Land"
     },
     {
         "name": "Anti Armor",
-	"uniques": ["Gunpowder"],
+	"uniques": ["Gunpowder",
+	"[This Unit] takes [5] damage <upon ending a turn in a [Coast] tile> <before discovering [Navigation]>",
+	"[This Unit] takes [5] damage <upon ending a turn in a [Ocean] tile> <before discovering [Radar]>"],
         "movementType": "Land"
     },
 
@@ -60,27 +76,39 @@
 /*
     {
         "name": "Ranged Heavy",
-	"uniques": ["[-20]% Strength <vs [Infantry] units>"],
+	"uniques": ["[-20]% Strength <vs [Infantry] units>",
+	"[This Unit] takes [5] damage <upon ending a turn in a [Coast] tile> <before discovering [Navigation]>",
+	"[This Unit] takes [5] damage <upon ending a turn in a [Ocean] tile> <before discovering [Radar]>"],
         "movementType": "Land"
     },
     {
         "name": "Ranged Support",
+	"uniques": [
+	"[This Unit] takes [5] damage <upon ending a turn in a [Coast] tile> <before discovering [Navigation]>",
+	"[This Unit] takes [5] damage <upon ending a turn in a [Ocean] tile> <before discovering [Radar]>"
+	],
         "movementType": "Land"
     },
 */
     {
         "name": "Archery Light",
-	"uniques": ["Archery"],
+	"uniques": ["Archery",
+	"[This Unit] takes [5] damage <upon ending a turn in a [Coast] tile> <before discovering [Navigation]>",
+	"[This Unit] takes [5] damage <upon ending a turn in a [Ocean] tile> <before discovering [Radar]>"],
         "movementType": "Land"
     },
     {
         "name": "Ranged Gunpowder Light",
-	"uniques": ["Ranged Gunpowder"],
+	"uniques": ["Ranged Gunpowder",
+	"[This Unit] takes [5] damage <upon ending a turn in a [Coast] tile> <before discovering [Navigation]>",
+	"[This Unit] takes [5] damage <upon ending a turn in a [Ocean] tile> <before discovering [Radar]>"],
         "movementType": "Land"
     },
     {
         "name": "Ranged Gunpowder Emplacement",
-	"uniques": ["Ranged Gunpowder"],
+	"uniques": ["Ranged Gunpowder",
+	"[This Unit] takes [5] damage <upon ending a turn in a [Coast] tile> <before discovering [Navigation]>",
+	"[This Unit] takes [5] damage <upon ending a turn in a [Ocean] tile> <before discovering [Radar]>"],
         "movementType": "Land"
     },
 
@@ -89,32 +117,46 @@
 /*
     {
         "name": "Siege Melee",
+	"uniques": [
+	"[This Unit] takes [5] damage <upon ending a turn in a [Coast] tile> <before discovering [Navigation]>",
+	"[This Unit] takes [5] damage <upon ending a turn in a [Ocean] tile> <before discovering [Radar]>"
+	],
         "movementType": "Land"
     },
     {
         "name": "Siege Ranged",
-	"uniques": ["[-1] Sight"],
+	"uniques": ["[-1] Sight",
+	"[This Unit] takes [5] damage <upon ending a turn in a [Coast] tile> <before discovering [Navigation]>",
+	"[This Unit] takes [5] damage <upon ending a turn in a [Ocean] tile> <before discovering [Radar]>"],
         "movementType": "Land"
     },
     {
         "name": "Siege Carrier",
-	"uniques": ["[-1] Sight"],
+	"uniques": ["[-1] Sight",
+	"[This Unit] takes [5] damage <upon ending a turn in a [Coast] tile> <before discovering [Navigation]>",
+	"[This Unit] takes [5] damage <upon ending a turn in a [Ocean] tile> <before discovering [Radar]>"],
         "movementType": "Land"
     },
 */
     {
         "name": "Siege Nuke",
-	"uniques": ["[-1] Sight", "[-50]% XP gained from combat", "Only available <if [Manhattan Project] is constructed>", "[+100]% maintenance costs"],
+	"uniques": ["[-1] Sight", "[-50]% XP gained from combat", "Only available <if [Manhattan Project] is constructed>", "[+100]% maintenance costs",
+	"[This Unit] takes [5] damage <upon ending a turn in a [Coast] tile> <before discovering [Navigation]>",
+	"[This Unit] takes [5] damage <upon ending a turn in a [Ocean] tile> <before discovering [Radar]>"],
         "movementType": "Land"
     },
     {
         "name": "Siege Sword",
-	"uniques": ["Sword"],
+	"uniques": ["Sword",
+	"[This Unit] takes [5] damage <upon ending a turn in a [Coast] tile> <before discovering [Navigation]>",
+	"[This Unit] takes [5] damage <upon ending a turn in a [Ocean] tile> <before discovering [Radar]>"],
         "movementType": "Land"
     },
     {
         "name": "Siege Gunpowder",
-	"uniques": ["Gunpowder"],
+	"uniques": ["Gunpowder",
+	"[This Unit] takes [5] damage <upon ending a turn in a [Coast] tile> <before discovering [Navigation]>",
+	"[This Unit] takes [5] damage <upon ending a turn in a [Ocean] tile> <before discovering [Radar]>"],
         "movementType": "Land"
     },
 
@@ -123,40 +165,62 @@
 /*
     {
         "name": "Heavy Cavalry",
+	"uniques": [
+	"[This Unit] takes [5] damage <upon ending a turn in a [Coast] tile> <before discovering [Navigation]>",
+	"[This Unit] takes [5] damage <upon ending a turn in a [Ocean] tile> <before discovering [Radar]>"
+	],
         "movementType": "Land"
     },
     {
         "name": "Light Cavalry",
+	"uniques": [
+	"[This Unit] takes [5] damage <upon ending a turn in a [Coast] tile> <before discovering [Navigation]>",
+	"[This Unit] takes [5] damage <upon ending a turn in a [Ocean] tile> <before discovering [Radar]>"
+	],
         "movementType": "Land"
     },
     {
         "name": "Ranged Cavalry",
-	"uniques": ["[-20]% Strength <vs [Infantry] units>"],
+	"uniques": ["[-20]% Strength <vs [Infantry] units>",
+	"[This Unit] takes [5] damage <upon ending a turn in a [Coast] tile> <before discovering [Navigation]>",
+	"[This Unit] takes [5] damage <upon ending a turn in a [Ocean] tile> <before discovering [Radar]>"],
         "movementType": "Land"
     },
     {
         "name": "Counter Cavalry",
+	"uniques": [
+	"[This Unit] takes [5] damage <upon ending a turn in a [Coast] tile> <before discovering [Navigation]>",
+	"[This Unit] takes [5] damage <upon ending a turn in a [Ocean] tile> <before discovering [Radar]>"
+	],
         "movementType": "Land"
     },
 */
     {
         "name": "Archery Mounted",
-	"uniques": ["Archery", "Mounted"],
+	"uniques": ["Archery", "Mounted",
+	"[This Unit] takes [5] damage <upon ending a turn in a [Coast] tile> <before discovering [Navigation]>",
+	"[This Unit] takes [5] damage <upon ending a turn in a [Ocean] tile> <before discovering [Radar]>"],
         "movementType": "Land"
     },
     {
         "name": "Ranged Gunpowder Mounted",
-	"uniques": ["Ranged Gunpowder", "Mounted"],
+	"uniques": ["Ranged Gunpowder", "Mounted",
+	"[This Unit] takes [5] damage <upon ending a turn in a [Coast] tile> <before discovering [Navigation]>",
+	"[This Unit] takes [5] damage <upon ending a turn in a [Ocean] tile> <before discovering [Radar]>"],
         "movementType": "Land"
     },
     {
         "name": "Ranged Gunpowder Armored",
-	"uniques": ["Ranged Gunpowder", "Armored"],
+	"uniques": ["Ranged Gunpowder", "Armored",
+	"[This Unit] takes [5] damage <upon ending a turn in a [Coast] tile> <before discovering [Navigation]>",
+	"[This Unit] takes [5] damage <upon ending a turn in a [Ocean] tile> <before discovering [Radar]>"],
         "movementType": "Land"
     },
     {
         "name": "GDR",
-	"uniques": ["Armored"],
+	"uniques": ["Armored",
+	"[This Unit] takes [5] damage <upon ending a turn in a [Coast] tile> <before discovering [Navigation]>",
+	"[This Unit] takes [5] damage <upon ending a turn in a [Ocean] tile> <before discovering [Radar]>"],
         "movementType": "Land"
     },
 
@@ -164,12 +228,16 @@
 
     {
         "name": "Anti Air",
-	"uniques": ["[+60]% Strength <vs [Aircraft] units>", "[+100]% Strength <vs [Helicopter] units>", "Cannot intercept [Ballistic] units"],
+	"uniques": ["[+60]% Strength <vs [Aircraft] units>", "[+100]% Strength <vs [Helicopter] units>", "Cannot intercept [Ballistic] units",
+	"[This Unit] takes [5] damage <upon ending a turn in a [Coast] tile> <before discovering [Navigation]>",
+	"[This Unit] takes [5] damage <upon ending a turn in a [Ocean] tile> <before discovering [Radar]>"],
         "movementType": "Land"
     },
     {
         "name": "Missile Defense",
-	"uniques": ["Cannot intercept [non-[Ballistic]] units", "[+5000]% Strength <vs [Ballistic] units>"],
+	"uniques": ["Cannot intercept [non-[Ballistic]] units", "[+5000]% Strength <vs [Ballistic] units>",
+	"[This Unit] takes [5] damage <upon ending a turn in a [Coast] tile> <before discovering [Navigation]>",
+	"[This Unit] takes [5] damage <upon ending a turn in a [Ocean] tile> <before discovering [Radar]>"],
         "movementType": "Land"
     },
 
@@ -272,39 +340,78 @@
         "movementType": "Air"
     },
 
+    //helicarrier
+    {
+        "name": "HeliCarrier",
+        "movementType": "Land",
+        "uniques": ["Can pass through impassable tiles"]
+    },
+
 
     //vanilla items
 
     {
         "name": "Sword",
+	"uniques": [
+	"[This Unit] takes [5] damage <upon ending a turn in a [Coast] tile> <before discovering [Navigation]>",
+	"[This Unit] takes [5] damage <upon ending a turn in a [Ocean] tile> <before discovering [Radar]>"
+	],
         "movementType": "Land"
     },
     {
         "name": "Gunpowder",
+	"uniques": [
+	"[This Unit] takes [5] damage <upon ending a turn in a [Coast] tile> <before discovering [Navigation]>",
+	"[This Unit] takes [5] damage <upon ending a turn in a [Ocean] tile> <before discovering [Radar]>"
+	],
         "movementType": "Land"
     },
     {
         "name": "Archery",
+	"uniques": [
+	"[This Unit] takes [5] damage <upon ending a turn in a [Coast] tile> <before discovering [Navigation]>",
+	"[This Unit] takes [5] damage <upon ending a turn in a [Ocean] tile> <before discovering [Radar]>"
+	],
         "movementType": "Land"
     },
     {
         "name": "Ranged Gunpowder",
+	"uniques": [
+	"[This Unit] takes [5] damage <upon ending a turn in a [Coast] tile> <before discovering [Navigation]>",
+	"[This Unit] takes [5] damage <upon ending a turn in a [Ocean] tile> <before discovering [Radar]>"
+	],
         "movementType": "Land"
     },
     {
         "name": "Scout",
+	"uniques": [
+	"[This Unit] takes [5] damage <upon ending a turn in a [Coast] tile> <before discovering [Navigation]>",
+	"[This Unit] takes [5] damage <upon ending a turn in a [Ocean] tile> <before discovering [Radar]>"
+	],
         "movementType": "Land"
     },
     {
         "name": "Mounted",
+	"uniques": [
+	"[This Unit] takes [5] damage <upon ending a turn in a [Coast] tile> <before discovering [Navigation]>",
+	"[This Unit] takes [5] damage <upon ending a turn in a [Ocean] tile> <before discovering [Radar]>"
+	],
         "movementType": "Land"
     },
     {
         "name": "Armored",
+	"uniques": [
+	"[This Unit] takes [5] damage <upon ending a turn in a [Coast] tile> <before discovering [Navigation]>",
+	"[This Unit] takes [5] damage <upon ending a turn in a [Ocean] tile> <before discovering [Radar]>"
+	],
         "movementType": "Land"
     },
     {
         "name": "Siege",
+	"uniques": [
+	"[This Unit] takes [5] damage <upon ending a turn in a [Coast] tile> <before discovering [Navigation]>",
+	"[This Unit] takes [5] damage <upon ending a turn in a [Ocean] tile> <before discovering [Radar]>"
+	],
         "movementType": "Land"
     },
     {
@@ -347,11 +454,6 @@
     },
     {
         "name": "Helicopter",
-        "movementType": "Land",
-        "uniques": ["Can pass through impassable tiles"]
-    },
-    {
-        "name": "HeliCarrier",
         "movementType": "Land",
         "uniques": ["Can pass through impassable tiles"]
     },
