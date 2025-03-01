@@ -3230,7 +3230,7 @@
 		"strength": 40,
 		"cost": 325,
 		"requiredTech": "Electronics",
-		"uniques": ["Submarine", "Consumes [2] [Oil]", "Consumes [1] [Secret Project]" ,"Double movement in [Ocean]", "Cannot attack", "Can carry [1] [Aircraft] units", "Never appears as a Barbarian unit", "Will not be displayed in Civilopedia"],
+		"uniques": ["Submarine", "Consumes [2] [Oil]", "Consumes [1] [Secret Project]" ,"Double movement in [Ocean]", "Cannot attack", "Can carry [1] [Aircraft] units", "Never appears as a Barbarian unit", "Will not be displayed in Civilopedia", "Can enter ice tiles", "Invisible to non-adjacent units", "Can see invisible [Submarine] units"],
 	},
 	{
 		"name": "HeliCarrier",
@@ -3244,9 +3244,6 @@
 	},
 
 	// barbarians
-/*
-
-*/
 	{
 		"name": "Barbarian Warlord",
 		"uniqueTo": "Barbarians",
