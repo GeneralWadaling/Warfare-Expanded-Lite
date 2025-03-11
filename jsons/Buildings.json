@@ -52,7 +52,7 @@
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"requiredBuilding": "Barracks",
-		"uniques": ["New [Military] units start with [15] Experience [in this city]","New [{Melee} {non-[Armored]}] units start with [5] Experience [in this city]", "Destroyed when the city is captured"],
+		"uniques": ["New [Military] units start with [15] XP [in this city]","New [{Melee} {non-[Armored]}] units start with [5] XP [in this city]", "Destroyed when the city is captured"],
 		"requiredTech": "Steel"
 	},
 	{

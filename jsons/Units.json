@@ -3220,7 +3220,7 @@
 		"cost": 1500,
 		"requiredTech": "Nuclear Fusion",
 		"uniques": ["Nuclear weapon of Strength [2]", "Only available <if [Manhattan Project] is constructed>",
-			"Blast radius [4]", "Consumes [3] [Uranium]", "Consumes [1] [Secret Project]", "Will not be displayed in Civilopedia", "Only available <with [Secret Project]>"],
+			"Blast radius [4]", "Consumes [3] [Uranium]", "Consumes [1] [Secret Project]", "Will not be displayed in Civilopedia", "Only available <with [Secret Project]>", "Ballistic"],
 		"attackSound": "nuke"
 	},
 	{
