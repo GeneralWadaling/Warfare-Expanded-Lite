@@ -1,0 +1,22 @@
+[
+	{
+		"name": "Trench",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Snow","Forest","Jungle"],
+		"turnsToBuild": 2,
+		"techRequired": "Military Science",
+		"uniques": ["Can be built outside your borders", "Gives a defensive bonus of [25]%"],
+	}
+	{
+		"name": "Airfield",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Tundra","Snow"],
+		"turnsToBuild": 5,
+		"techRequired": "Radar",
+		"uniques": ["Can be built outside your borders"],
+		"civilopediaText": [
+			{
+				"text": "Requires a Airfield Ground Unit on the tile to allow it to be loaded with new air units."
+			},
+            		{"text": "Airfield Ground Unit", "link":"Units/Airfield Ground Unit"},
+		]
+	}
+]

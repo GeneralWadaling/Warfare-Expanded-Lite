@@ -1,0 +1,120 @@
+[
+	{
+		"name": "Circus Maximus",
+		"cost": 125,
+		"happiness": 5,
+		"specialistSlots": {"Entertainer": 2},
+		"culture": 1,
+		"isNationalWonder": true,
+		"uniques": ["Only available <if [Colosseum] is constructed in all [non-[Puppeted]] cities>", "Cost increases by [30] per owned city"],
+		"requiredTech": "Horseback Riding"
+	},
+	{
+		"name": "Terracotta Army",
+		"isWonder": true,
+		"greatPersonPoints": {"Great Artist": 1},
+		"requiredTech": "Construction",
+		"uniques": ["[2] free [Spearman] units appear", "[2] free [Composite Bowman] units appear"]
+		"quote": "'Regard your soldiers as your children, and they will follow you into the deepest valleys; look on them as your own beloved sons, and they will stand by you even unto death.' - Sun Tzu"
+	},
+	{
+		"name": "Cothon",
+		"uniqueTo": "Carthage",
+		"replaces": "Harbor",
+		"cost": 120,
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"uniques": ["[+15]% Production when constructing [Water] units [in this city]","[+1 Production] from [Water resource] tiles [in this city] <after discovering [Compass]>",
+			"Connects trade routes over water","Must be next to [Coast]"],
+		"requiredTech": "Optics"
+	},
+	{
+		"name": "Arsenal",
+		"cost": 300,
+		"cityStrength": 9,
+		"cityHealth": 25,
+		"hurryCostModifier": 25,
+		"requiredBuilding": "Castle",
+		"requiredTech": "Metallurgy",
+		"uniques": ["Destroyed when the city is captured",
+			"Comment [2 free Milita units appear depending on the current era]" 
+			"[2] free [Militiaman] units appear <during the [Renaissance era]> <hidden from users>",
+			"[2] free [Volunteers] units appear <during the [Industrial era]> <hidden from users>",
+			"[2] free [Draftee] units appear <during the [Modern era]> <hidden from users>",
+			"[2] free [Conscripts] units appear <during the [Atomic era]> <hidden from users>",
+			"[2] free [Irregulars] units appear <during the [Information era]> <hidden from users>",
+			]
+	},
+	{
+		"name": "Dojo",
+		"uniqueTo": "Japan",
+		"replaces": "Armory",
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"requiredBuilding": "Barracks",
+		"uniques": ["New [Military] units start with [15] XP [in this city]","New [{Melee} {non-[Armored]}] units start with [5] XP [in this city]", "Destroyed when the city is captured"],
+		"requiredTech": "Steel"
+	},
+	{
+		"name": "Theatre",
+                "cost": 150
+		"happiness": 3,
+		"hurryCostModifier": 10,
+		"specialistSlots": {"Entertainer": 1},
+		"maintenance": 2,
+		"requiredBuilding": "Colosseum",
+		"requiredTech": "Printing Press"
+	},
+	{
+		"name": "Stadium",
+                "cost": 150
+		"happiness": 4,
+		"specialistSlots": {"Entertainer": 1},
+		"requiredBuilding": "Theatre",
+		"maintenance": 2,
+		"requiredTech": "Refrigeration"
+	},
+	{
+		"name": "Foreign Mission",
+		"uniqueTo": "Spain",
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"requiredBuilding": "Courthouse",
+		"uniques": ["[+33]% Natural religion spread [in this city]","Only available <when religion is enabled>"],
+		"requiredTech": "Theology"
+	},
+
+	{
+		"name": "Military Research Bureau",
+		"cost": 125,
+		"science": 4,
+		"isNationalWonder": true,
+		"requiredTech": "Scientific Theory",
+		"uniques": ["Destroyed when the city is captured", "Cost increases by [30] per owned city", "Provides [2] [Secret Project]"]
+	},
+	{
+		"name": "Skunkworks",
+		"isWonder": true,
+		"science": 6,
+		"production": 6,
+		"requiredTech": "Computers",
+		"uniques": ["Provides [3] [Secret Project]"]
+	},
+	{
+		"name": "Cloning Facility",
+		"cost": 1000,
+		"food": -6,
+		"science": 4,
+		"isWonder": true,
+		"requiredTech": "Pharmaceuticals",
+		"uniques": ["[+200]% Production when constructing [Infantry] units [in this city]", "Destroyed when the city is captured", "Consumes [1] [Secret Project]", "Will not be displayed in Civilopedia", "Only available <with [Secret Project]>"]
+	},
+	{
+		"name": "Iron Curtain",
+		"cost": 2000,
+		"isWonder": true,
+		"requiredTech": "Particle Physics",
+		"cityHealth": 200,
+		"uniques": ["Population loss from nuclear attacks [-100]% [in this city]", "Consumes [1] [Secret Project]", "Will not be displayed in Civilopedia", "Only available <with [Secret Project]>", "All newly-trained [Armored] units [in this city] receive the [Iron Curtain Force Field] promotion"]
+	}
+]
