@@ -1179,7 +1179,7 @@
 		"rangedStrength": 60,
 		"range": 1,
 		"cost": 300,
-		"uniques": ["Can see over obstacles", "[+1] Sight <when [Embarked]>", "May Paradrop up to [7] tiles from inside friendly territory", "Can move after attacking", "Never appears as a Barbarian unit"],
+		"uniques": ["Can see over obstacles", "[+1] Sight <when [Embarked]>", "May Paradrop to [Land] tiles up to [7] tiles away <in [{Friendly} {Land}] tiles>", "Can move after attacking", "Never appears as a Barbarian unit"],
 		"promotions": ["Ignore terrain cost"],
 		"requiredTech": "Radar",
 		"attackSound": "machinegun"
@@ -1644,7 +1644,7 @@
 		"strength": 65,
 		"cost": 375,
 		"requiredTech": "Radar",
-		"uniques": ["May Paradrop up to [5] tiles from inside friendly territory", "Never appears as a Barbarian unit"],
+		"uniques": ["May Paradrop to [Land] tiles up to [5] tiles away <in [{Friendly} {Land}] tiles>", "Never appears as a Barbarian unit"],
 		"attackSound": "shot",
 		"upgradesTo": "Modern Paratrooper"
 	},
@@ -1655,7 +1655,7 @@
 		"strength": 70,
 		"cost": 450,
 		"requiredTech": "Mobile Tactics",
-		"uniques": ["May Paradrop up to [10] tiles from inside friendly territory", "Ignores terrain cost", "Never appears as a Barbarian unit"],
+		"uniques": ["May Paradrop to [Land] tiles up to [10] tiles away <in [{Friendly} {Land}] tiles>", "Ignores terrain cost", "Never appears as a Barbarian unit"],
 		"attackSound": "shot",
 	},
 

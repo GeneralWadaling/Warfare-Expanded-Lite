@@ -934,7 +934,7 @@
 	},
 	{
 		"name": "Jet-Chute",
-		"uniques": ["May Paradrop up to [7] tiles from inside friendly territory"],
+		"uniques": ["May Paradrop to [Land] tiles up to [7] tiles away <in [{Friendly} {Land}] tiles>"],
 		"unitTypes": ["GDR"],
         	"column": 1,
         	"row": 41
@@ -1126,7 +1126,7 @@
 	},
 	{
 		"name": "[Hakkapeliitta] ability",
-		"uniques": ["Transfer Movement to [Great General]", "[+15]% Strength when stacked with [Great General]"]
+		"uniques": ["Transfer Movement to [Great General]", "[15]% Strength <when stacked with a [Great General] unit>"]
 	},
 	{
 		"name": "[B17] ability",

@@ -44,7 +44,7 @@
 */
     {
         "name": "Militia",
-	"uniques": ["[+50]% to Flank Attack bonuses", "[+50]% Strength when stacked with [Civilian]",
+	"uniques": ["[+50]% to Flank Attack bonuses", "[50]% Strength <when stacked with a [Civilian] unit>",
 	"[This Unit] takes [5] damage <upon ending a turn in a [Coast] tile> <before discovering [Navigation]>",
 	"[This Unit] takes [5] damage <upon ending a turn in a [Ocean] tile> <before discovering [Radar]>"
 	],
